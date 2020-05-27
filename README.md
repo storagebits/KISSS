@@ -1,1 +1,1 @@
-# KISSS-Keepv It Simple Slide Scanner
+# KISSS Keep It Simple Slide Scanner
