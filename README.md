@@ -14,11 +14,11 @@ wget https://raw.githubusercontent.com/gonzalo/gphoto2-updater/master/gphoto2-up
 
 Post processing Test
 
-pi@raspberrypi:~/Desktop/KISSS_Capture/001 $ time mogrify -flop *.jpg
+pi@raspberrypi:/Desktop/KISSS_Capture/001 $ time mogrify -flop *.jpg
 real	4m39,927s
 user	2m10,517s
 sys	1m6,904s
-pi@raspberrypi:~/Desktop/KISSS_Capture/001 $ time mogrify -rotate 180 *.jpg
+pi@raspberrypi:/Desktop/KISSS_Capture/001 $ time mogrify -rotate 180 *.jpg
 real	4m30,877s
 user	2m13,308s
 sys	1m8,788s
