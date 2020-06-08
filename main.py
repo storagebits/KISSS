@@ -16,24 +16,23 @@ def setup():
 def loop():
       
       raw_input("Calibrate your camera and press Enter when you're ready to start the scanner...")
-      print("Slide #1")
-      os.system('gphoto2 --capture-image-and-download --filename=/home/pi/Desktop/KISSS_Capture/001/DSC_000_1.jpg')
+      #print("Slide #1")
+      #os.system('gphoto2 --capture-image-and-download --filename=/home/pi/Desktop/KISSS_Capture/000/DSC_001_1.jpg')
 
-      #while True:
       for x in range(1, 51):
             
-            #print 'relay off...'
+            #print 'Set relay off...'
             GPIO.output(RelayPin, GPIO.HIGH)
-            print("relay off 2sec")
+            #print("relay off 2sec")
             time.sleep(2)
 
             # take picture here
             print("Slide #%d" % (x))
-            filename = 'DSC_000_%d.jpg'%(x,)
+            filename = 'DSC_001_%d.jpg'%(x,)
             os.system('gphoto2 --capture-image-and-download --filename=/home/pi/Desktop/KISSS_Capture/001/'+filename)
 
             GPIO.output(RelayPin, GPIO.LOW)
-            print("relay on , 1sec")
+            #print("relay on , 1sec")
             time.sleep(1)
 
 def destroy():
