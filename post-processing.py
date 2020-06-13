@@ -26,6 +26,7 @@ degrees = 90
 # Push to nextcloud
 clouding = 1
 
+j = 0
 
 ################################################ FUNCTIONS ################################################
 
@@ -135,9 +136,26 @@ def detect_bottom_y_mid(treeshold, myimg, left, right):
     return bottom
 
 def cropper(img_source, dst_folder, img, lx, rx, ty, by):
+    # TODO : factorise here pls
     crop_img=img[ty:by, lx:rx]
-    print("debug final write: "+dst_folder+"/"+img_source)
+
+    if mirroring == 1:
+        print("Flipping...")
+        crop_img=cv.flip(crop_img, 1) # mirror
+
+    if rotating == 1:
+        print("Rotating...")
+        crop_img=cv.rotate(crop_img, cv.ROTATE_180)
+
+    # Write final image 
     cv.imwrite(dst_folder+'/'+img_source,crop_img)
+
+    # Push to nexcloud
+    if clouding == 1:
+        print("Clouding...")
+        if j == 1: # first image let's create folder
+            os.system("./cloudmanager.sh mkdir Photos/DIAPOS/"+boxnbr)
+            os.system("./cloudmanager.sh send "+dst_folder+"/"+img_source+" Photos/DIAPOS/"+boxnbr+"/")
 
 def getImages():
     f = []
@@ -173,13 +191,13 @@ if __name__ == '__main__':     # Program start from here
                 quit()
 
       # cropping
-      print("Cropping...")
       treeshold = 55
       images = getImages()
 
       j=1
       for i in images:
           print(str(j)+"/"+str(len(images))+"  picture : "+i)
+          print("Cropping...")
           myimg = cv.imread(i)
           left_x = detect_left_x_mid(treeshold, myimg)
           right_x = detect_right_x_mid(treeshold, myimg)
@@ -187,15 +205,3 @@ if __name__ == '__main__':     # Program start from here
           bottom_y = detect_bottom_y_mid(treeshold, myimg, left_x, right_x)
           cropper(i.split("/")[-1], destFolder, myimg, left_x, right_x,top_y, bottom_y)
           j+=1
-      
-      # mirroring all 
-      #print("Mirroring...")
-      #os.system('time mogrify -flop '+destFolder+'/*')
-     
-      # rotating all
-      #print("Rotating...")
-      #os.system('time mogrify -rotate 180 '+destFolder+'/*')
-
-      # push to the cloud
-      #for i in `ls /home/pi/Desktop/KISSS_Capture/002/cropped/`; do echo $i; ./cloudmanager.sh send /home/pi/Desktop/KISSS_Capture/002/cropped/$i Photos/DIAPOS/002/$i; done
-
