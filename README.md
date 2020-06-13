@@ -1,7 +1,7 @@
 # KISSS - Keep It Simple Slide Scanner
 
 
-
+![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/intro.jpg?raw=true)
 
 
 gphoto2 Install 
