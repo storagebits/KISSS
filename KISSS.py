@@ -1,18 +1,20 @@
 #!/usr/bin/env python
 
+################################################ LIBRARIES ################################################
 import RPi.GPIO as GPIO
 import time
 import os
 import subprocess
 import sys
 
+################################################ VARIABLES ################################################
 # Folder where folders and pictures will be created
 baseFolder = "/home/pi/Desktop/KISSS_Capture/"
 
 # Raspberry pin where you plugged the relay which manage projector remote
 relayPin = 17    # pin17
  
-
+################################################ FUNCTIONS ################################################
 def setup():
 
       GPIO.setmode(GPIO.BCM)     
@@ -44,10 +46,7 @@ def destroy():
       GPIO.cleanup()                    
 
 
-# Kill the gphoto process that starts
-# whenever we turn on the camera or
-# reboot the raspberry pi
-
+# Kill the gphoto process that starts whenever we turn on the camera or reboot the raspberry pi
 def killGphoto2Process():
     p = subprocess.Popen(['ps', '-A'], stdout=subprocess.PIPE)
     out, err = p.communicate()
@@ -66,9 +65,10 @@ def yes_or_no(question):
     if reply[0] == 'n':
         return False
     else:
-        return yes_or_no("Uhhhh... please enter ")
+        return yes_or_no("Wrong key...")
 
 
+################################################ MAIN ################################################
 if __name__ == '__main__':     # Program start from here
 
       # Welcome

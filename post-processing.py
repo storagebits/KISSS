@@ -1,9 +1,33 @@
 #!/usr/bin/env python3
 
+################################################ LIBRARIES ################################################
 import cv2 as cv
 import numpy as np
+import os
 from os import walk
+import sys
 
+################################################ VARIABLES ################################################
+# Folder where folders and pictures will be created
+baseFolder = "/home/pi/Desktop/KISSS_Capture/"
+
+# Cropping
+cropping = 1
+treeshold = 55
+
+# Mirroring
+mirroring = 1
+HorizOrVert = "H"  # can be H or V 
+
+# Rotating
+rotating = 1
+degrees = 90
+
+# Push to nextcloud
+clouding = 1
+
+
+################################################ FUNCTIONS ################################################
 
 def detect_left_x_mid(treeshold, myimg):
     left = 0
@@ -19,9 +43,7 @@ def detect_left_x_mid(treeshold, myimg):
                 break
             if i <= left :
                 left = i
-                    #print(str(i)+","+str(j)+"/"+str(h)+" - "+str(color)+" - "+str(avg)+ " - left : "+str(left))
                 break
-    #print("middle h left "+str(left))
     for i in range(left, 0, -1):
         a = False
         for j in range(0, h):
@@ -34,26 +56,21 @@ def detect_left_x_mid(treeshold, myimg):
                     break
         if a == False:
             break
-    #print(left)
     return left
 def detect_right_x_mid(treeshold, myimg):
     right = 0
     h,w,c = myimg.shape
     mid_h = int(h/2)
-    # Detecting first photo pixel from the middle to avoid the circle light
     for i in range(w-1, -1, -1):
         color = myimg[(mid_h,i)]
         avg = np.mean(myimg[(mid_h,i)])
         if avg >= treeshold :
             if right == 0 :
                 right = i
-                #print(str(i)+","+str(mid_h)+"/"+str(h)+" - "+str(color)+" - "+str(avg)+ " - right : "+str(right))
                 break
             if i >= right :
                 right = i
-                #print(str(i)+","+str(mid_h)+"/"+str(h)+" - "+str(color)+" - "+str(avg)+ " - right : "+str(right))
                 break
-    #print("middle h right "+str(right))
     for i in range(right, w):
         a = False
         for j in range(0, h):
@@ -66,7 +83,6 @@ def detect_right_x_mid(treeshold, myimg):
                     break
         if a == False:
             break
-    #print(right)
 
     return right
 def detect_top_y_mid(treeshold, myimg, left, right):
@@ -78,9 +94,7 @@ def detect_top_y_mid(treeshold, myimg, left, right):
         avg = np.mean(myimg[(i,mid_w)])
         if avg >= treeshold :
             top = i
-            #print(str(i)+","+str(mid_h)+"/"+str(h)+" - "+str(color)+" - "+str(avg)+ " - right : "+str(right))
             break
-    #print("middle w top "+str(top))
     for i in range(top, -1, -1):
         a = False
         for j in range(left, right+1):
@@ -93,7 +107,6 @@ def detect_top_y_mid(treeshold, myimg, left, right):
                     break
         if a == False:
             break
-    #print(top)
     return top
 def detect_bottom_y_mid(treeshold, myimg, left, right):
     bottom = 0
@@ -105,9 +118,7 @@ def detect_bottom_y_mid(treeshold, myimg, left, right):
         avg = np.mean(myimg[(i,mid_w)])
         if avg >= treeshold :
             bottom = i
-            #print(str(i)+","+str(mid_h)+"/"+str(h)+" - "+str(color)+" - "+str(avg)+ " - right : "+str(right))
             break
-    #print("middle w bottom "+str(bottom))
 
     for i in range(bottom, h):
         a = False
@@ -121,37 +132,70 @@ def detect_bottom_y_mid(treeshold, myimg, left, right):
                     break
         if a == False:
             break
-    #print(bottom)
     return bottom
 
-
-def cropper(img_source, img, lx, rx, ty, by):
+def cropper(img_source, dst_folder, img, lx, rx, ty, by):
     crop_img=img[ty:by, lx:rx]
-    cv.imwrite("/home/pi/Desktop/KISSS_Capture/002/cropped/"+img_source,crop_img)
+    print("debug final write: "+dst_folder+"/"+img_source)
+    cv.imwrite(dst_folder+'/'+img_source,crop_img)
 
 def getImages():
     f = []
-    for (dirpath, dirnames, filenames) in walk("/home/pi/Desktop/KISSS_Capture/002/"):
+    for (dirpath, dirnames, filenames) in walk(sourceFolder):
         for file in sorted(filenames) :
-            f.append("/home/pi/Desktop/KISSS_Capture/002/"+file)
-        #f.extend(filenames)
+            f.append(sourceFolder+"/"+file)
         break
     return f
 
 
-#images = ["DSC_001_7.jpg","DSC_002_3.jpg","DSC_002_4.jpg","DSC_002_6.jpg","DSC_002_19.jpg"]
-print("Cropping")
-treeshold = 55
-images = getImages()
+################################################ MAIN ################################################
+if __name__ == '__main__':     # Program start from here
 
-j=1
-for i in images:
-    print(str(j)+"/"+str(len(images))+"  picture : "+i)
-    myimg = cv.imread(i)
-    left_x = detect_left_x_mid(treeshold, myimg)
-    right_x = detect_right_x_mid(treeshold, myimg)
-    top_y = detect_top_y_mid(treeshold, myimg, left_x, right_x)
-    bottom_y = detect_bottom_y_mid(treeshold, myimg, left_x, right_x)
-    print(i.split("/")[6])
-    cropper(i.split("/")[6], myimg, left_x, right_x,top_y, bottom_y)
-    j+=1
+      # Argument
+      if len(sys.argv) != 2:
+            print("Missing box number parameter")
+            quit()
+
+      boxnbr = str(sys.argv[1])
+
+      sourceFolder = baseFolder+'/'+boxnbr+'/'
+      destFolder = baseFolder+'/'+boxnbr+'/processed/'
+
+      # Check if folders already exists
+      if not os.path.exists(sourceFolder):
+            print(sourceFolder+" doesn't exists !")
+            quit()
+      else:
+            if not os.path.exists(destFolder):
+                os.makedirs(destFolder)
+            else:
+                print(destFolder+" already exists !")
+                quit()
+
+      # cropping
+      print("Cropping...")
+      treeshold = 55
+      images = getImages()
+
+      j=1
+      for i in images:
+          print(str(j)+"/"+str(len(images))+"  picture : "+i)
+          myimg = cv.imread(i)
+          left_x = detect_left_x_mid(treeshold, myimg)
+          right_x = detect_right_x_mid(treeshold, myimg)
+          top_y = detect_top_y_mid(treeshold, myimg, left_x, right_x)
+          bottom_y = detect_bottom_y_mid(treeshold, myimg, left_x, right_x)
+          cropper(i.split("/")[-1], destFolder, myimg, left_x, right_x,top_y, bottom_y)
+          j+=1
+      
+      # mirroring all 
+      #print("Mirroring...")
+      #os.system('time mogrify -flop '+destFolder+'/*')
+     
+      # rotating all
+      #print("Rotating...")
+      #os.system('time mogrify -rotate 180 '+destFolder+'/*')
+
+      # push to the cloud
+      #for i in `ls /home/pi/Desktop/KISSS_Capture/002/cropped/`; do echo $i; ./cloudmanager.sh send /home/pi/Desktop/KISSS_Capture/002/cropped/$i Photos/DIAPOS/002/$i; done
+
