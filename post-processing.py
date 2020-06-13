@@ -132,7 +132,7 @@ def cropper(img_source, img, lx, rx, ty, by):
 def getImages():
     f = []
     for (dirpath, dirnames, filenames) in walk("/home/pi/Desktop/KISSS_Capture/002/"):
-        for file in filenames :
+        for file in sorted(filenames) :
             f.append("/home/pi/Desktop/KISSS_Capture/002/"+file)
         #f.extend(filenames)
         break
