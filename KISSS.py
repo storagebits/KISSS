@@ -7,6 +7,10 @@ import os
 import subprocess
 import sys
 import signal
+import board
+import digitalio
+import adafruit_character_lcd.character_lcd as character_lcd
+
 
 ################################################ VARIABLES ################################################
 # Folder where folders and pictures will be created
@@ -14,6 +18,20 @@ baseFolder = "/home/pi/Desktop/KISSS_Capture/"
 
 # Raspberry pin where you plugged the relay which manage projector remote
 relayPin = 17    # pin17
+
+# LCD configuration
+
+lcd_rs = digitalio.DigitalInOut(board.D25)
+lcd_en = digitalio.DigitalInOut(board.D24)
+lcd_d7 = digitalio.DigitalInOut(board.D22)
+lcd_d6 = digitalio.DigitalInOut(board.D27)
+lcd_d5 = digitalio.DigitalInOut(board.D5)
+lcd_d4 = digitalio.DigitalInOut(board.D6)
+lcd_backlight = digitalio.DigitalInOut(board.D13)
+
+lcd_columns = 16
+lcd_rows = 2
+
  
 ################################################ FUNCTIONS ################################################
 def setup():
@@ -24,6 +42,8 @@ def setup():
 
 def loop():
 
+      lcd.clear()
+      lcd.message = "Calibrate camera\nand press enter..."
       input("Calibrate your camera and press Enter when you're ready to start the scanner...")
 
       # Loop over a 50 sliders rack
@@ -34,6 +54,9 @@ def loop():
 
             # take picture here
             print("Slide #%d" % (x))
+            lcd.clear()
+            lcd.message = "Slide XXX"
+
             filename = 'DSC_'+boxnbr+'_%03d.JPG'%(x,)
             print("destination : "+destFolder+'/'+filename)
             os.system('gphoto2 --capture-image-and-download --filename='+destFolder+'/'+filename)
@@ -46,6 +69,14 @@ def destroy():
       GPIO.output(relayPin, GPIO.HIGH)
       GPIO.cleanup()                    
 
+def mquit():
+
+      print("Exiting ...")
+      lcd.clear()
+      lcd.message = "Exiting..."
+      time.sleep(1)
+      lcd.clear()
+      quit()
 
 # Kill the gphoto process that starts whenever we turn on the camera or reboot the raspberry pi
 def killGphoto2Process():
@@ -72,6 +103,9 @@ def yes_or_no(question):
 ################################################ MAIN ################################################
 if __name__ == '__main__':     # Program start from here
 
+      lcd = character_lcd.Character_LCD_Mono(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7, lcd_columns, lcd_rows)
+      lcd.message = "KISSS\nInitializing..."
+      
       # Welcome
       print("______________________________________")
       print("< KISSS - Keep It Simple Slide Scanner >")
@@ -86,7 +120,7 @@ if __name__ == '__main__':     # Program start from here
       # Argument
       if len(sys.argv) != 2:
             print("Missing box number parameter")
-            quit()
+            mquit()
 
       boxnbr = str(sys.argv[1])
 
@@ -96,8 +130,7 @@ if __name__ == '__main__':     # Program start from here
             os.makedirs(destFolder)
       else:
             if not yes_or_no(destFolder+" already exists !!! PHOTOS MAY BE OVERWRITTEN !!!\r\nAre you sure you want to continue with this directory ? "):
-                print("Exiting ...")
-                quit()
+                mquit()
 
       # kill gphoto instance to avoid "busy" locks 
       killGphoto2Process()
