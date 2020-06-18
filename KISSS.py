@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 ################################################ LIBRARIES ################################################
 import RPi.GPIO as GPIO
@@ -6,6 +6,7 @@ import time
 import os
 import subprocess
 import sys
+import signal
 
 ################################################ VARIABLES ################################################
 # Folder where folders and pictures will be created
@@ -23,7 +24,7 @@ def setup():
 
 def loop():
 
-      raw_input("Calibrate your camera and press Enter when you're ready to start the scanner...")
+      input("Calibrate your camera and press Enter when you're ready to start the scanner...")
 
       # Loop over a 50 sliders rack
       for x in range(1, 51):
@@ -34,7 +35,7 @@ def loop():
             # take picture here
             print("Slide #%d" % (x))
             filename = 'DSC_'+boxnbr+'_%03d.JPG'%(x,)
-            print "destination : "+destFolder+'/'+filename
+            print("destination : "+destFolder+'/'+filename)
             os.system('gphoto2 --capture-image-and-download --filename='+destFolder+'/'+filename)
 
             GPIO.output(relayPin, GPIO.LOW)
@@ -59,7 +60,7 @@ def killGphoto2Process():
             os.kill(pid, signal.SIGKILL)
 
 def yes_or_no(question):
-    reply = str(raw_input(question+' (y/n): ')).lower().strip()
+    reply = str(input(question+' (y/n): ')).lower().strip()
     if reply[0] == 'y':
         return True
     if reply[0] == 'n':
@@ -72,19 +73,19 @@ def yes_or_no(question):
 if __name__ == '__main__':     # Program start from here
 
       # Welcome
-      print "______________________________________"
-      print "< KISSS - Keep It Simple Slide Scanner >"
-      print "--------------------------------------"
-      print "\   ^__^"
-      print "\  (oo)\_______"
-      print "   (__)\       )\/\ "
-      print "       ||----w |"
-      print "       ||     ||"
-      print " "
+      print("______________________________________")
+      print("< KISSS - Keep It Simple Slide Scanner >")
+      print("--------------------------------------")
+      print("\   ^__^")
+      print("\  (oo)\_______")
+      print("   (__)\       )\/\ ")
+      print("       ||----w |")
+      print("       ||     ||")
+      print(" ")
 
       # Argument
       if len(sys.argv) != 2:
-            print "Missing box number parameter"
+            print("Missing box number parameter")
             quit()
 
       boxnbr = str(sys.argv[1])
@@ -95,7 +96,7 @@ if __name__ == '__main__':     # Program start from here
             os.makedirs(destFolder)
       else:
             if not yes_or_no(destFolder+" already exists !!! PHOTOS MAY BE OVERWRITTEN !!!\r\nAre you sure you want to continue with this directory ? "):
-                print "Exiting ..."
+                print("Exiting ...")
                 quit()
 
       # kill gphoto instance to avoid "busy" locks 

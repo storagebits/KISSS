@@ -12,19 +12,22 @@ import sys
 baseFolder = "/home/pi/Desktop/KISSS_Capture/"
 
 # Cropping
-cropping = 1
+cropping = 0
 treeshold = 55
 
 # Mirroring
-mirroring = 1
+mirroring = 0
 HorizOrVert = "H"  # can be H or V 
 
 # Rotating
-rotating = 1
+rotating = 0
 degrees = 90
 
+# Polishing
+polishing = 1
+
 # Push to nextcloud
-clouding = 1
+clouding = 0
 
 j = 0
 
@@ -147,6 +150,40 @@ def cropper(img_source, dst_folder, img, lx, rx, ty, by):
         print("Rotating...")
         crop_img=cv.rotate(crop_img, cv.ROTATE_180)
 
+    if polishing == 1:
+        print("Polishing...")
+        # 1st method
+        alow = crop_img.min()
+        ahigh = crop_img.max()
+        amax = 255
+        amin = 0
+
+        # calculate alpha, beta
+        alpha = ((amax - amin) / (ahigh - alow))
+        beta = amin - alow * alpha
+        # perform the operation g(x,y)= α * f(x,y)+ β
+        crop_img = cv.convertScaleAbs(crop_img, alpha=alpha, beta=beta)
+
+        
+        # 2nd method
+        # create new image with the same size and type as the original image
+        #new_img = np.zeros(crop_img.shape, crop_img.dtype)
+
+        # calculate stats
+        #alow = crop_img.min()
+        #ahigh = crop_img.max()
+        #amax = 255
+        #amin = 0
+
+        # access each pixel, and auto adjust
+        #for x in range(crop_img.shape[1]):
+            #for y in range(crop_img.shape[0]):
+                #a = crop_img[x, y]
+                #new_img[x, y] = amin + (a - alow) * ((amax - amin) / (ahigh - alow))
+    
+        #crop_img = new_img
+        
+
     # Write final image 
     cv.imwrite(dst_folder+'/'+img_source,crop_img)
 
@@ -155,7 +192,8 @@ def cropper(img_source, dst_folder, img, lx, rx, ty, by):
         print("Clouding...")
         if j == 1: # first image let's create folder
             os.system("./cloudmanager.sh mkdir Photos/DIAPOS/"+boxnbr)
-            os.system("./cloudmanager.sh send "+dst_folder+"/"+img_source+" Photos/DIAPOS/"+boxnbr+"/")
+            
+        os.system("./cloudmanager.sh send "+dst_folder+"/"+img_source+" Photos/DIAPOS/"+boxnbr+"/")
 
 def getImages():
     f = []
