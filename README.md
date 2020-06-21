@@ -20,15 +20,16 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
  - **Slide projector with wired remote**
 	 - Wired remote from those times are easily "hackable". They're just made of electrical contacts. I kept the original 5 DIN connector which go to the projector and plugged the other side to a relay instead of the remote.
 <p>
-<a href="https://github.com/storagebits/KISSS/blob/master/images/remote1.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/remote1.jpg?raw=true" align="left" width="200" ></a>
+<center><a href="https://github.com/storagebits/KISSS/blob/master/images/remote1.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/remote1.jpg?raw=true" align="left" width="200" ></a>
 
 <a href="https://github.com/storagebits/KISSS/blob/master/images/remote2.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/remote2.jpg?raw=true" align="left" width="200" ></a>
- </p>
+ 
  <br><br><br><br><br><br><br><br>
 
  
  - **DSLR photo camera with USB remote capabilities** (see Gphoto2 below)
- - 
+	 - I use a Canon 700d with a 70-300mm lens in macro mode. I put every settings in manual mode except ISO
+	 
  - **Raspberry Pi** 
 	 - I use a Raspberry 4 but all of them should work. Keep in mind that if you do some post processing operations, the more cpu/ram it has, faster it'll run.
 
@@ -75,7 +76,7 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
 ##  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzI4MDExMCwxMzE3MTQ3MTg0LDgyMT
+eyJoaXN0b3J5IjpbLTU2NDU4MDU2OSwxMzE3MTQ3MTg0LDgyMT
 A3OTgxOCwtMTE3Mjc4NzUwOSwtNTk2OTk2ODEsMTQ1NjgyODQy
 NSwtODI0MjYzNTkwLC00OTA5OTE0NzYsLTI1NzM4NDA3OCwtOT
 U2MDI0NDIwLC01MDIyODU3OCwtOTU5ODk1MzMxLC0xMzcyMzI5
