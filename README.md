@@ -3,11 +3,11 @@
 # About this project
 K.I.S.S.S. Keep It Simple Slide Scanner is an other DIY slide scanner project. Here you'll find informations about how I went into this scanning project. It is provided "as is". For sure you'll need to adapt it to match your own installation.
 
-It uses a simple projector lens trick which allows a DSLR to capture a slide by photographing it directly from the projector instead from the projected picture. 
+It uses a simple projector lens trick by adding a simple white XXX between the lens which illuminate the slide. It then allows a DSLR to capture a slide by photographing it directly from the projector instead from the projected picture. 
 
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/final.jpg?raw=true)
 
-It uses a Raspberry Pi which control the slide projector via a simple relay and a DSLR camera to capture the slides. Then it does some post processing operations and send it straight to the cloud ! 
+It uses a Raspberry Pi which control the slide projector via a simple relay and a DSLR camera to capture the slides. Then it does some post processing operations and send it straight to the cloud ! oh yeah
 
 My dad was doing a lot (LOT) of photographies, exclusively on slides. From the early 1960's up to 1990. Since 30 years, for many reasons, those slides and their memories are sleeping in a attic...  
 
@@ -35,13 +35,17 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 	 - I use a Raspberry 4 but all of them should work. Keep in mind that if you do some post processing operations, the more cpu/ram it has, faster it'll run !
 
  - **Relay module**
-	 - A simple relay module which is used to control the slide projector from the Raspberry Pi's GPIO
- <p><a href="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" align="left" width="200" ></a>
+	 - A simple relay module which is used to control the slide projector from the Raspberry Pi's GPIO.
+	 - <p><a href="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" align="left" width="200" ></a>
  </p>
  <br><br><br><br><br><br><br><br><br>
  
  - **Few Dupont wires**
- - 
+	 - Classics female to female Dupont wires to plug the Raspberry Pi GPIOs to the relay module.
+	 - <p><a href="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" align="left" width="200" ></a>
+ </p>
+ <br><br><br><br><br>
+
  - **A tripod**
 	 - Optional but very useful depending of your setup. 
  
@@ -58,22 +62,27 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 	- Python was the best choice for many reasons... Ease of use, tons of libraries to manage the Rasp , the post processing stuffs and the cloud interaction.
 
 - **OpenCV library**
-
+TODO
 - **Nextcloud**
+TODO
 
 # Circuit
+	TODO
 
 # How it works
 K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py and the post processing script called post-processing.py
 
- 1. Capture
-	 
-
-    KISS
-
- 2. Post processing
+ 1. Setup your hardware
+	TODO
+ 2. Capture
+	TODO
+ 3. Post processing
+	TODO
+ 4. Enjoy your memories in the cloud
+	TODO
 
 # Samples
+Here are some samples of my scans. More to come ...
 
 <a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-italy-old.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-italy-old.jpg?raw=true" align="left" width="200" ></a>
 <a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-lille.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-lille.jpg?raw=true" align="left" width="200" ></a>
@@ -83,10 +92,11 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODE5NzM3NiwxMDM5ODk2LDEzMTcxND
-cxODQsODIxMDc5ODE4LC0xMTcyNzg3NTA5LC01OTY5OTY4MSwx
-NDU2ODI4NDI1LC04MjQyNjM1OTAsLTQ5MDk5MTQ3NiwtMjU3Mz
-g0MDc4LC05NTYwMjQ0MjAsLTUwMjI4NTc4LC05NTk4OTUzMzEs
-LTEzNzIzMjkyMTgsMjA0Mjg3MTI0LDIxNjI2ODUyMiwtMTQ0MD
-k1ODc4MCwtNDAwNDA3OTgyLDEwNjUwNzg5OTVdfQ==
+eyJoaXN0b3J5IjpbLTIwMTgwMDM5NDMsMTk4MzM2NzEyNywtNj
+M4MTk3Mzc2LDEwMzk4OTYsMTMxNzE0NzE4NCw4MjEwNzk4MTgs
+LTExNzI3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0MjUsLTgyND
+I2MzU5MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLTk1NjAyNDQy
+MCwtNTAyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMyOTIxOCwyMD
+QyODcxMjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5
+ODJdfQ==
 -->
