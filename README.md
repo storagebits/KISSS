@@ -13,11 +13,11 @@ My dad was doing a lot (LOT) of photographies, exclusively on slides. From the e
 
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/slidestock.jpg?raw=true)
 
-My goal was to capture those 10'000 slides. First to keep those memories in a safe place and then to have an easy way to watch them. 
+My goal was to capture those 10'000 slides. First to keep those memories in a safe place and then to have an easy way to watch them. You understand now why I needed some automation to accomplish this task. It takes about 3 minutes to scan a 50 
 
 ## Hardware components
  - Slide projector with wired remote
-	 - Wired ha
+	 - Wired remote from those times are easily "hackable". They're just made of electrical contacts
  - DSLR photo camera with USB remote capabilities (see Gphoto2 below)
  - Raspberry Pi 
 	 - I use model 4 but all of them should work. Keep in mind that if you do some post processing operations, the more cpu/ram it has, faster it'll run.
@@ -50,7 +50,7 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 
 Happy scanning ! and have fun digging into your memories ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2NzQyNjY2LC00OTA5OTE0NzYsLTI1Nz
+eyJoaXN0b3J5IjpbODgzNzc5ODA0LC00OTA5OTE0NzYsLTI1Nz
 M4NDA3OCwtOTU2MDI0NDIwLC01MDIyODU3OCwtOTU5ODk1MzMx
 LC0xMzcyMzI5MjE4LDIwNDI4NzEyNCwyMTYyNjg1MjIsLTE0ND
 A5NTg3ODAsLTQwMDQwNzk4MiwxMDY1MDc4OTk1XX0=
