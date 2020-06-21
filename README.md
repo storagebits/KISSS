@@ -19,28 +19,29 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 ## Hardware components
  - **Slide projector with wired remote**
 	 - Wired remote from those times are easily "hackable". They're just made of electrical contacts. I kept the original 5 DIN connector which go to the projector and plugged the other side to a relay instead of the remote.
-<p>
+	
 <center><a href="https://github.com/storagebits/KISSS/blob/master/images/remote1.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/remote1.jpg?raw=true" align="left" width="200" ></a>
 
 <a href="https://github.com/storagebits/KISSS/blob/master/images/remote2.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/remote2.jpg?raw=true" align="left" width="200" ></a>
- 
+ </center>
  <br><br><br><br><br><br><br><br>
 
  
  - **DSLR photo camera with USB remote capabilities** (see Gphoto2 below)
-	 - I use a Canon 700d with a 70-300mm lens in macro mode. I put every settings in manual mode except ISO
+	 - I use a Canon 700d with a 70-300mm lens in macro mode. I put every settings in manual mode except ISO.
 	 
  - **Raspberry Pi** 
-	 - I use a Raspberry 4 but all of them should work. Keep in mind that if you do some post processing operations, the more cpu/ram it has, faster it'll run.
+	 - I use a Raspberry 4 but all of them should work. Keep in mind that if you do some post processing operations, the more cpu/ram it has, faster it'll run !
 
- - Relay module
+ - **Relay module**
  <p><a href="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" align="left" width="200" ></a>
  </p>
  <br><br><br><br><br><br><br><br>
  
- - Few Dupont wires
+ - **Few Dupont wires**
  - 
- - Tripod
+ - **A tripod**
+	 - Optional but very useful depending of your se
  
 ## Software components
  - **Raspbian** (now called Raspberry Pi OS)
@@ -76,10 +77,10 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
 ##  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDU4MDU2OSwxMzE3MTQ3MTg0LDgyMT
-A3OTgxOCwtMTE3Mjc4NzUwOSwtNTk2OTk2ODEsMTQ1NjgyODQy
-NSwtODI0MjYzNTkwLC00OTA5OTE0NzYsLTI1NzM4NDA3OCwtOT
-U2MDI0NDIwLC01MDIyODU3OCwtOTU5ODk1MzMxLC0xMzcyMzI5
-MjE4LDIwNDI4NzEyNCwyMTYyNjg1MjIsLTE0NDA5NTg3ODAsLT
-QwMDQwNzk4MiwxMDY1MDc4OTk1XX0=
+eyJoaXN0b3J5IjpbLTEzOTA3MjE2NDUsMTMxNzE0NzE4NCw4Mj
+EwNzk4MTgsLTExNzI3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0
+MjUsLTgyNDI2MzU5MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLT
+k1NjAyNDQyMCwtNTAyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMy
+OTIxOCwyMDQyODcxMjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC
+00MDA0MDc5ODIsMTA2NTA3ODk5NV19
 -->
