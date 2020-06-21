@@ -19,7 +19,7 @@ K.I.S.S.S. Keep It Simple Slide Scanner is an other DIY slide scanner project.
  - Raspbian (now called Raspberry Pi OS)
 	 - [https://www.raspberrypi.org/downloads/raspberry-pi-os/]
 - Gphoto 2
-	- 
+	- [**gPhoto2**](http://www.gphoto.org/proj/)  is a free, redistributable, ready to use set of digital camera software applications for Unix-like systems, written by a whole team of dedicated volunteers around the world. It supports more than  [2500 cameras](http://www.gphoto.org/proj/libgphoto2/support.php)
 	- Check if your DSLR is supported here : [http://www.gphoto.org/proj/libgphoto2/support.php](http://www.gphoto.org/proj/libgphoto2/support.php)
 	- 
 - Python 3
@@ -51,7 +51,7 @@ real	4m30,877s
 user	2m13,308s
 sys	1m8,788s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTUzMzY0NCwyMDQyODcxMjQsMjE2Mj
+eyJoaXN0b3J5IjpbMTgyNzIzNTY0NSwyMDQyODcxMjQsMjE2Mj
 Y4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5ODIsMTA2NTA3ODk5
 NV19
 -->
