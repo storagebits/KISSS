@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
 ################################################ LIBRARIES ################################################
 import RPi.GPIO as GPIO
@@ -9,7 +9,6 @@ import sys
 import signal
 import board
 import digitalio
-import adafruit_character_lcd.character_lcd as character_lcd
 
 
 ################################################ VARIABLES ################################################
@@ -19,18 +18,21 @@ baseFolder = "/home/pi/Desktop/KISSS_Capture/"
 # Raspberry pin where you plugged the relay which manage projector remote
 relayPin = 17    # pin17
 
-# LCD configuration
+# LCD pin configuration (optional)
+lcd = 1 # set to 0 if you don't have LCD
+if lcd:
+    import adafruit_character_lcd.character_lcd as character_lcd
 
-lcd_rs = digitalio.DigitalInOut(board.D25)
-lcd_en = digitalio.DigitalInOut(board.D24)
-lcd_d7 = digitalio.DigitalInOut(board.D22)
-lcd_d6 = digitalio.DigitalInOut(board.D27)
-lcd_d5 = digitalio.DigitalInOut(board.D5)
-lcd_d4 = digitalio.DigitalInOut(board.D6)
-lcd_backlight = digitalio.DigitalInOut(board.D13)
+    lcd_rs = digitalio.DigitalInOut(board.D25)
+    lcd_en = digitalio.DigitalInOut(board.D24)
+    lcd_d7 = digitalio.DigitalInOut(board.D22)
+    lcd_d6 = digitalio.DigitalInOut(board.D27)
+    lcd_d5 = digitalio.DigitalInOut(board.D5)
+    lcd_d4 = digitalio.DigitalInOut(board.D6)
+    lcd_backlight = digitalio.DigitalInOut(board.D13)
 
-lcd_columns = 16
-lcd_rows = 2
+    lcd_columns = 16
+    lcd_rows = 2
 
  
 ################################################ FUNCTIONS ################################################
@@ -42,8 +44,10 @@ def setup():
 
 def loop():
 
-      lcd.clear()
-      lcd.message = "Calibrate camera\nand press enter..."
+      if lcd:
+        lcd.clear()
+        lcd.message = "Calibrate camera\nand press enter..."
+
       input("Calibrate your camera and press Enter when you're ready to start the scanner...")
 
       # Loop over a 50 sliders rack
@@ -53,9 +57,11 @@ def loop():
             time.sleep(2)
 
             # take picture here
+            if lcd:
+                lcd.clear()
+                lcd.message = "Slide #"+str(x)
+
             print("Slide #%d" % (x))
-            lcd.clear()
-            lcd.message = "Slide XXX"
 
             filename = 'DSC_'+boxnbr+'_%03d.JPG'%(x,)
             print("destination : "+destFolder+'/'+filename)
@@ -72,10 +78,12 @@ def destroy():
 def mquit():
 
       print("Exiting ...")
-      lcd.clear()
-      lcd.message = "Exiting..."
-      time.sleep(1)
-      lcd.clear()
+      if lcd:
+        lcd.clear()
+        lcd.message = "Exiting..."
+        time.sleep(1)
+        lcd.clear()
+
       quit()
 
 # Kill the gphoto process that starts whenever we turn on the camera or reboot the raspberry pi
@@ -102,11 +110,12 @@ def yes_or_no(question):
 
 ################################################ MAIN ################################################
 if __name__ == '__main__':     # Program start from here
+        
+      if lcd:
+          lcd = character_lcd.Character_LCD_Mono(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7, lcd_columns, lcd_rows)
+          lcd.message = "KISSS\nInitializing..."
 
-      lcd = character_lcd.Character_LCD_Mono(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7, lcd_columns, lcd_rows)
-      lcd.message = "KISSS\nInitializing..."
-      
-      # Welcome
+      # Cow Welcome
       print("______________________________________")
       print("< KISSS - Keep It Simple Slide Scanner >")
       print("--------------------------------------")
@@ -132,7 +141,7 @@ if __name__ == '__main__':     # Program start from here
             if not yes_or_no(destFolder+" already exists !!! PHOTOS MAY BE OVERWRITTEN !!!\r\nAre you sure you want to continue with this directory ? "):
                 mquit()
 
-      # kill gphoto instance to avoid "busy" locks 
+      # Kill gphoto instance to avoid "busy" locks 
       killGphoto2Process()
 
       # Setup GPIO

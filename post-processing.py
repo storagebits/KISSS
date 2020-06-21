@@ -12,22 +12,22 @@ import sys
 baseFolder = "/home/pi/Desktop/KISSS_Capture/"
 
 # Cropping
-cropping = 0
+cropping = 1
 treeshold = 55
 
 # Mirroring
-mirroring = 0
+mirroring = 1
 HorizOrVert = "H"  # can be H or V 
 
 # Rotating
-rotating = 0
+rotating = 1
 degrees = 90
 
 # Polishing
-polishing = 1
+polishing = 0
 
 # Push to nextcloud
-clouding = 0
+clouding = 1
 
 j = 0
 
