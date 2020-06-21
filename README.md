@@ -12,14 +12,16 @@ K.I.S.S.S. Keep It Simple Slide Scanner is an other DIY slide scanner project.
  - DSLR photo camera
  - Raspberry Pi 4
  - Relay module
- - Small electrical wires dupont style
+ - Few Dupont wires
  - Tripod
  
 ## Software components
  - Raspbian (now called Raspberry Pi OS)
-	 - [https://www.raspberrypi.org/downloads/raspberry-pi-os/](https://www.raspberrypi.org/downloads/raspberry-pi-os/
-- Gphoto2
-- OpenCV2
+	 - [https://www.raspberrypi.org/downloads/raspberry-pi-os/]
+- Gphoto 2
+	- 
+- Python 3
+- OpenCV2 python library
 
 ## Circuit
 
@@ -47,6 +49,7 @@ real	4m30,877s
 user	2m13,308s
 sys	1m8,788s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Mjg3MTI0LDIxNjI2ODUyMiwtMTQ0MD
-k1ODc4MCwtNDAwNDA3OTgyLDEwNjUwNzg5OTVdfQ==
+eyJoaXN0b3J5IjpbMTgwOTM2Mzc3MiwyMDQyODcxMjQsMjE2Mj
+Y4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5ODIsMTA2NTA3ODk5
+NV19
 -->
