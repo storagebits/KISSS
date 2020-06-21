@@ -24,6 +24,7 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
  - DSLR photo camera with USB remote capabilities (see Gphoto2 below)
  - Raspberry Pi 
 	 - I use model 4 but all of them should work. Keep in mind that if you do some post processing operations, the more cpu/ram it has, faster it'll run.
+
  - Relay module
  	 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true)
  
@@ -59,9 +60,10 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 
 ##  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzI3ODc1MDksLTU5Njk5NjgxLDE0NT
-Y4Mjg0MjUsLTgyNDI2MzU5MCwtNDkwOTkxNDc2LC0yNTczODQw
-NzgsLTk1NjAyNDQyMCwtNTAyMjg1NzgsLTk1OTg5NTMzMSwtMT
-M3MjMyOTIxOCwyMDQyODcxMjQsMjE2MjY4NTIyLC0xNDQwOTU4
-NzgwLC00MDA0MDc5ODIsMTA2NTA3ODk5NV19
+eyJoaXN0b3J5IjpbMzk3MjcyMDU3LC0xMTcyNzg3NTA5LC01OT
+Y5OTY4MSwxNDU2ODI4NDI1LC04MjQyNjM1OTAsLTQ5MDk5MTQ3
+NiwtMjU3Mzg0MDc4LC05NTYwMjQ0MjAsLTUwMjI4NTc4LC05NT
+k4OTUzMzEsLTEzNzIzMjkyMTgsMjA0Mjg3MTI0LDIxNjI2ODUy
+MiwtMTQ0MDk1ODc4MCwtNDAwNDA3OTgyLDEwNjUwNzg5OTVdfQ
+==
 -->
