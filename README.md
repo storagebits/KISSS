@@ -24,6 +24,8 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 
 <a href="https://github.com/storagebits/KISSS/blob/master/images/remote2.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/remote2.jpg?raw=true" align="left" width="200" ></a>
  </p>
+ <br><br><br><br><br><br><br><br>
+
  
  - DSLR photo camera with USB remote capabilities (see Gphoto2 below)
  - Raspberry Pi 
@@ -69,10 +71,10 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
 ##  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzE0NzE4NCw4MjEwNzk4MTgsLTExNz
-I3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0MjUsLTgyNDI2MzU5
-MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLTk1NjAyNDQyMCwtNT
-AyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMyOTIxOCwyMDQyODcx
-MjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5ODIsMT
-A2NTA3ODk5NV19
+eyJoaXN0b3J5IjpbMTM3NTUxOTQxOCwxMzE3MTQ3MTg0LDgyMT
+A3OTgxOCwtMTE3Mjc4NzUwOSwtNTk2OTk2ODEsMTQ1NjgyODQy
+NSwtODI0MjYzNTkwLC00OTA5OTE0NzYsLTI1NzM4NDA3OCwtOT
+U2MDI0NDIwLC01MDIyODU3OCwtOTU5ODk1MzMxLC0xMzcyMzI5
+MjE4LDIwNDI4NzEyNCwyMTYyNjg1MjIsLTE0NDA5NTg3ODAsLT
+QwMDQwNzk4MiwxMDY1MDc4OTk1XX0=
 -->
