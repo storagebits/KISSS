@@ -19,10 +19,11 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 ## Hardware components
  - Slide projector with wired remote
 	 - Wired remote from those times are easily "hackable". They're just made of electrical contacts. I replaced it by a relay to manage slides progression.
-
+<p>
 <a href="https://github.com/storagebits/KISSS/blob/master/images/remote1.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/remote1.jpg?raw=true" align="left" width="200" ></a>
 
 <a href="https://github.com/storagebits/KISSS/blob/master/images/remote2.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/remote2.jpg?raw=true" align="left" width="200" ></a>
+ </p>
  
  - DSLR photo camera with USB remote capabilities (see Gphoto2 below)
  - Raspberry Pi 
@@ -68,10 +69,10 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
 ##  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDk1Mzg4NjksODIxMDc5ODE4LC0xMT
-cyNzg3NTA5LC01OTY5OTY4MSwxNDU2ODI4NDI1LC04MjQyNjM1
-OTAsLTQ5MDk5MTQ3NiwtMjU3Mzg0MDc4LC05NTYwMjQ0MjAsLT
-UwMjI4NTc4LC05NTk4OTUzMzEsLTEzNzIzMjkyMTgsMjA0Mjg3
-MTI0LDIxNjI2ODUyMiwtMTQ0MDk1ODc4MCwtNDAwNDA3OTgyLD
-EwNjUwNzg5OTVdfQ==
+eyJoaXN0b3J5IjpbMTMxNzE0NzE4NCw4MjEwNzk4MTgsLTExNz
+I3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0MjUsLTgyNDI2MzU5
+MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLTk1NjAyNDQyMCwtNT
+AyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMyOTIxOCwyMDQyODcx
+MjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5ODIsMT
+A2NTA3ODk5NV19
 -->
