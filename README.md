@@ -13,7 +13,7 @@ My dad was doing a lot (LOT) of photographies, exclusively on slides. From the e
 
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/slidestock.jpg?raw=true)
 
-You understand now why I needed some automations to accomplish this task :-)
+You now understand why I needed some automations to accomplish this task :-)
    
 My goal was to capture those 10'000 slides. First to keep all those memories in a safe place and also to have an easy and confortable way to watch them. With this DIY scanner It takes about 3 minutes to scan a 50 slides's rack. With some optimisations (like working exclusively in RAM) it could even take a single minute. 
 
@@ -82,10 +82,10 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3NjM0MjQ0LDEzMTcxNDcxODQsODIxMD
-c5ODE4LC0xMTcyNzg3NTA5LC01OTY5OTY4MSwxNDU2ODI4NDI1
-LC04MjQyNjM1OTAsLTQ5MDk5MTQ3NiwtMjU3Mzg0MDc4LC05NT
-YwMjQ0MjAsLTUwMjI4NTc4LC05NTk4OTUzMzEsLTEzNzIzMjky
-MTgsMjA0Mjg3MTI0LDIxNjI2ODUyMiwtMTQ0MDk1ODc4MCwtND
-AwNDA3OTgyLDEwNjUwNzg5OTVdfQ==
+eyJoaXN0b3J5IjpbMTAzOTg5NiwxMzE3MTQ3MTg0LDgyMTA3OT
+gxOCwtMTE3Mjc4NzUwOSwtNTk2OTk2ODEsMTQ1NjgyODQyNSwt
+ODI0MjYzNTkwLC00OTA5OTE0NzYsLTI1NzM4NDA3OCwtOTU2MD
+I0NDIwLC01MDIyODU3OCwtOTU5ODk1MzMxLC0xMzcyMzI5MjE4
+LDIwNDI4NzEyNCwyMTYyNjg1MjIsLTE0NDA5NTg3ODAsLTQwMD
+QwNzk4MiwxMDY1MDc4OTk1XX0=
 -->
