@@ -22,3 +22,6 @@ pi@raspberrypi:/Desktop/KISSS_Capture/001 $ time mogrify -rotate 180 *.jpg
 real	4m30,877s
 user	2m13,308s
 sys	1m8,788s
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTA2NTA3ODk5NV19
+-->
