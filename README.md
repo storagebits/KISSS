@@ -9,7 +9,7 @@ It uses a simple projector lens trick which allows a DSLR to capture a slide by 
 
 My dad was doing a lot (LOT) of photographies on slides from the early 1960's up to early 1990's. Since many years
 
-<center><a href="https://github.com/storagebits/KISSS/blob/master/images/slidestock.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/slidestock.jpg?raw=true" align="center" width="500" ></a></center>
+![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/slidestock.jpg?raw=true)
 
 My goal was to capture those 10'000 slides. First to keep those memories in a safe place and then to have an easy way to watch them. 
 
@@ -47,7 +47,7 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 
 Happy scanning ! and have fun digging into your memories ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTc3OTY5MiwtOTU2MDI0NDIwLC0yNT
+eyJoaXN0b3J5IjpbLTI1NzM4NDA3OCwtOTU2MDI0NDIwLC0yNT
 czODQwNzgsLTUwMjI4NTc4LC05NTk4OTUzMzEsLTEzNzIzMjky
 MTgsMjA0Mjg3MTI0LDIxNjI2ODUyMiwtMTQ0MDk1ODc4MCwtND
 AwNDA3OTgyLDEwNjUwNzg5OTVdfQ==
