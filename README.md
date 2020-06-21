@@ -41,7 +41,7 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
  - **Few Dupont wires**
  - 
  - **A tripod**
-	 - Optional but very useful depending of your se
+	 - Optional but very useful depending of your setup. 
  
 ## Software components
  - **Raspbian** (now called Raspberry Pi OS)
@@ -77,7 +77,7 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
 ##  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTA3MjE2NDUsMTMxNzE0NzE4NCw4Mj
+eyJoaXN0b3J5IjpbLTE1MDIzMTU5MTgsMTMxNzE0NzE4NCw4Mj
 EwNzk4MTgsLTExNzI3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0
 MjUsLTgyNDI2MzU5MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLT
 k1NjAyNDQyMCwtNTAyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMy
