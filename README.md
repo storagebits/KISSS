@@ -28,13 +28,13 @@ IMAGE STOCK
 - Gphoto 2
 	- [**gPhoto2**](http://www.gphoto.org/proj/)  is a free, redistributable, ready to use set of digital camera software applications for Unix-like systems, written by a whole team of dedicated volunteers around the world. It supports more than  [2500 cameras](http://www.gphoto.org/proj/libgphoto2/support.php)
 	- Check if your DSLR is supported here : [http://www.gphoto.org/proj/libgphoto2/support.php](http://www.gphoto.org/proj/libgphoto2/support.php)
-	- I suggest this automated installer : https://github.com/gonzalo/gphoto2-updater/  . This script allows to install last development and last stable releases of gphoto2 and libgphoto2 based on git repositories
+	- I suggest this automated installer for installation : https://github.com/gonzalo/gphoto2-updater/  . This script allows to install last development and last stable releases of gphoto2 and libgphoto2 based on git repositories
 - Python 3
 - OpenCV2 python library
 
 ## Circuit
 
-## Alpha
+## How it works
 
 ## Samples
 
@@ -58,7 +58,7 @@ real	4m30,877s
 user	2m13,308s
 sys	1m8,788s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MzkzMzMxOSwtMTM3MjMyOTIxOCwyMD
-QyODcxMjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5
-ODIsMTA2NTA3ODk5NV19
+eyJoaXN0b3J5IjpbNTgxMjAxNTcsLTEzNzIzMjkyMTgsMjA0Mj
+g3MTI0LDIxNjI2ODUyMiwtMTQ0MDk1ODc4MCwtNDAwNDA3OTgy
+LDEwNjUwNzg5OTVdfQ==
 -->
