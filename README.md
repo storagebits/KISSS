@@ -3,7 +3,7 @@
 # About this project
 K.I.S.S.S. Keep It Simple Slide Scanner is an other DIY slide scanner project. Here you'll find informations about how I went into this scanning project. It is provided "as is". For sure you'll need to adapt it to match your own installation.
 
-It uses a simple projector lens trick which allows a DSLR to capture a slide by photographing it directly from the projector instead from the projected picture. 
+It uses a simple projector lens trick by adding a simple white XXX between the lens which illuminate the slide. It then allows a DSLR to capture a slide by photographing it directly from the projector instead from the projected picture. 
 
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/final.jpg?raw=true)
 
@@ -62,8 +62,9 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 	- Python was the best choice for many reasons... Ease of use, tons of libraries to manage the Rasp , the post processing stuffs and the cloud interaction.
 
 - **OpenCV library**
-
+TODO
 - **Nextcloud**
+TODO
 
 # Circuit
 TODO
@@ -89,11 +90,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODg2MDM3MDIsMTk4MzM2NzEyNywtNj
-M4MTk3Mzc2LDEwMzk4OTYsMTMxNzE0NzE4NCw4MjEwNzk4MTgs
-LTExNzI3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0MjUsLTgyND
-I2MzU5MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLTk1NjAyNDQy
-MCwtNTAyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMyOTIxOCwyMD
-QyODcxMjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5
-ODJdfQ==
+eyJoaXN0b3J5IjpbMTg5MjM1MjE2NywxOTgzMzY3MTI3LC02Mz
+gxOTczNzYsMTAzOTg5NiwxMzE3MTQ3MTg0LDgyMTA3OTgxOCwt
+MTE3Mjc4NzUwOSwtNTk2OTk2ODEsMTQ1NjgyODQyNSwtODI0Mj
+YzNTkwLC00OTA5OTE0NzYsLTI1NzM4NDA3OCwtOTU2MDI0NDIw
+LC01MDIyODU3OCwtOTU5ODk1MzMxLC0xMzcyMzI5MjE4LDIwND
+I4NzEyNCwyMTYyNjg1MjIsLTE0NDA5NTg3ODAsLTQwMDQwNzk4
+Ml19
 -->
