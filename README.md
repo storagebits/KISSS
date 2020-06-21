@@ -25,6 +25,8 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
  - Raspberry Pi 
 	 - I use model 4 but all of them should work. Keep in mind that if you do some post processing operations, the more cpu/ram it has, faster it'll run.
  - Relay module
+ 	 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true)
+ 
  - Few Dupont wires
  - Tripod
  
@@ -57,9 +59,9 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 
 ##  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzMzM0NzY5LC01OTY5OTY4MSwxNDU2OD
-I4NDI1LC04MjQyNjM1OTAsLTQ5MDk5MTQ3NiwtMjU3Mzg0MDc4
-LC05NTYwMjQ0MjAsLTUwMjI4NTc4LC05NTk4OTUzMzEsLTEzNz
-IzMjkyMTgsMjA0Mjg3MTI0LDIxNjI2ODUyMiwtMTQ0MDk1ODc4
-MCwtNDAwNDA3OTgyLDEwNjUwNzg5OTVdfQ==
+eyJoaXN0b3J5IjpbLTExNzI3ODc1MDksLTU5Njk5NjgxLDE0NT
+Y4Mjg0MjUsLTgyNDI2MzU5MCwtNDkwOTkxNDc2LC0yNTczODQw
+NzgsLTk1NjAyNDQyMCwtNTAyMjg1NzgsLTk1OTg5NTMzMSwtMT
+M3MjMyOTIxOCwyMDQyODcxMjQsMjE2MjY4NTIyLC0xNDQwOTU4
+NzgwLC00MDA0MDc5ODIsMTA2NTA3ODk5NV19
 -->
