@@ -1,6 +1,6 @@
 # K.I.S.S.S. - Keep It Simple Slide Scanner
 
-## About this project
+# About this project
 K.I.S.S.S. Keep It Simple Slide Scanner is an other DIY slide scanner project. Here you'll find informations about how I went into this scanning project. It is provided "as is". For sure you'll need to adapt it to match your own installation.
 
 It uses a simple projector lens trick which allows a DSLR to capture a slide by photographing it directly from the projector instead from the projected picture. 
@@ -17,7 +17,7 @@ You understand now why I needed some automations to accomplish this task :-)
    
 My goal was to capture those 10'000 slides. First to keep all those memories in a safe place and also to have an easy and confortable way to watch them. With this DIY scanner It takes about 3 minutes to scan a 50 slides's rack. With some optimisations (like working exclusively in RAM) it could even take a single minute. 
 
-## Hardware components
+# Hardware components
  - **Slide projector with wired remote**
 	 - Wired remote from those times are easily "hackable". They're just made of electrical contacts. I kept the original 5 DIN connector which go to the projector and plugged the other side to a relay instead of the remote.
 	
@@ -37,14 +37,14 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
  - **Relay module**
  <p><a href="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" align="left" width="200" ></a>
  </p>
- <br><br><br><br><br><br><br><br>
+ <br><br><br><br><br><br><br><br><br><br><br><br>
  
  - **Few Dupont wires**
  - 
  - **A tripod**
 	 - Optional but very useful depending of your setup. 
  
-## Software components
+# Software components
  - **Raspbian** (now called Raspberry Pi OS)
 	 - Raspbian is a [Debian](https://en.wikipedia.org/wiki/Debian "Debian")-based [operating system](https://en.wikipedia.org/wiki/Operating_system "Operating system") for [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi "Raspberry Pi"). [https://www.raspberrypi.org/downloads/raspberry-pi-os/]
 
@@ -60,9 +60,9 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 
 - **Nextcloud**
 
-## Circuit
+# Circuit
 
-## How it works
+# How it works
 K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py and the post processing script called post-processing.py
 
  1. Capture
@@ -72,20 +72,20 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
  2. Post processing
 
-## Samples
+# Samples
 
 <a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-italy-old.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-italy-old.jpg?raw=true" align="left" width="200" ></a>
 <a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-lille.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-lille.jpg?raw=true" align="left" width="200" ></a>
 <a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-calais.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-calais.jpg?raw=true" align="left" width="200" ></a>
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
-##  Happy scanning ! and have fun digging into your memories !
+#  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQxOTE2NjMsMTMxNzE0NzE4NCw4Mj
-EwNzk4MTgsLTExNzI3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0
-MjUsLTgyNDI2MzU5MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLT
-k1NjAyNDQyMCwtNTAyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMy
-OTIxOCwyMDQyODcxMjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC
-00MDA0MDc5ODIsMTA2NTA3ODk5NV19
+eyJoaXN0b3J5IjpbNTQ3NjM0MjQ0LDEzMTcxNDcxODQsODIxMD
+c5ODE4LC0xMTcyNzg3NTA5LC01OTY5OTY4MSwxNDU2ODI4NDI1
+LC04MjQyNjM1OTAsLTQ5MDk5MTQ3NiwtMjU3Mzg0MDc4LC05NT
+YwMjQ0MjAsLTUwMjI4NTc4LC05NTk4OTUzMzEsLTEzNzIzMjky
+MTgsMjA0Mjg3MTI0LDIxNjI2ODUyMiwtMTQ0MDk1ODc4MCwtND
+AwNDA3OTgyLDEwNjUwNzg5OTVdfQ==
 -->
