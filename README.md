@@ -17,7 +17,9 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 
 ## Hardware components
  - Slide projector with wired remote
-	 - Wired remote from those times are easily "hackable". They're just made of electrical contacts
+	 - Wired remote from those times are easily "hackable". They're just made of electrical contacts. I replaced it by a relay to manage slides progression.
+	 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/slidestock.jpg?raw=true)
+ - 
  - DSLR photo camera with USB remote capabilities (see Gphoto2 below)
  - Raspberry Pi 
 	 - I use model 4 but all of them should work. Keep in mind that if you do some post processing operations, the more cpu/ram it has, faster it'll run.
@@ -54,9 +56,9 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 
 ##  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Njk5NjgxLDE0NTY4Mjg0MjUsLTgyND
-I2MzU5MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLTk1NjAyNDQy
-MCwtNTAyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMyOTIxOCwyMD
-QyODcxMjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5
-ODIsMTA2NTA3ODk5NV19
+eyJoaXN0b3J5IjpbLTYxMDQxMDA5MSwtNTk2OTk2ODEsMTQ1Nj
+gyODQyNSwtODI0MjYzNTkwLC00OTA5OTE0NzYsLTI1NzM4NDA3
+OCwtOTU2MDI0NDIwLC01MDIyODU3OCwtOTU5ODk1MzMxLC0xMz
+cyMzI5MjE4LDIwNDI4NzEyNCwyMTYyNjg1MjIsLTE0NDA5NTg3
+ODAsLTQwMDQwNzk4MiwxMDY1MDc4OTk1XX0=
 -->
