@@ -78,7 +78,7 @@ TODO
 TODO
  3. Post processing
 TODO
- 5. Enjoy your memories
+ 4. Enjoy your memories in the cloud
 TODO
 
 # Samples
@@ -92,7 +92,7 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MDIwMDYwMywxOTgzMzY3MTI3LC02Mz
+eyJoaXN0b3J5IjpbLTIyNDM2MjcwMywxOTgzMzY3MTI3LC02Mz
 gxOTczNzYsMTAzOTg5NiwxMzE3MTQ3MTg0LDgyMTA3OTgxOCwt
 MTE3Mjc4NzUwOSwtNTk2OTk2ODEsMTQ1NjgyODQyNSwtODI0Mj
 YzNTkwLC00OTA5OTE0NzYsLTI1NzM4NDA3OCwtOTU2MDI0NDIw
