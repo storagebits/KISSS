@@ -66,20 +66,20 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 - **Nextcloud**
 
 # Circuit
+TODO
 
 # How it works
 K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py and the post processing script called post-processing.py
 
  1. Setup your hardware
-
+TODO
  2. Capture
-	 
-
-    KISS
-
- 4. Post processing
+TODO
+ 3. Post processing
+TODO
 
 # Samples
+Here are some samples of my scans. More to come ...
 
 <a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-italy-old.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-italy-old.jpg?raw=true" align="left" width="200" ></a>
 <a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-lille.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-lille.jpg?raw=true" align="left" width="200" ></a>
@@ -89,11 +89,11 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTgyOTgxOSwxOTgzMzY3MTI3LC02Mz
-gxOTczNzYsMTAzOTg5NiwxMzE3MTQ3MTg0LDgyMTA3OTgxOCwt
-MTE3Mjc4NzUwOSwtNTk2OTk2ODEsMTQ1NjgyODQyNSwtODI0Mj
-YzNTkwLC00OTA5OTE0NzYsLTI1NzM4NDA3OCwtOTU2MDI0NDIw
-LC01MDIyODU3OCwtOTU5ODk1MzMxLC0xMzcyMzI5MjE4LDIwND
-I4NzEyNCwyMTYyNjg1MjIsLTE0NDA5NTg3ODAsLTQwMDQwNzk4
-Ml19
+eyJoaXN0b3J5IjpbLTE0ODg2MDM3MDIsMTk4MzM2NzEyNywtNj
+M4MTk3Mzc2LDEwMzk4OTYsMTMxNzE0NzE4NCw4MjEwNzk4MTgs
+LTExNzI3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0MjUsLTgyND
+I2MzU5MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLTk1NjAyNDQy
+MCwtNTAyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMyOTIxOCwyMD
+QyODcxMjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5
+ODJdfQ==
 -->
