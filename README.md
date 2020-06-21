@@ -5,6 +5,8 @@
 
 ## About this project
 K.I.S.S.S. Keep It Simple Slide Scanner is an other DIY slide scanner project. 
+
+My dad was doing a lot (LOT) 
  
 
 ## Hardware components
@@ -51,7 +53,7 @@ real	4m30,877s
 user	2m13,308s
 sys	1m8,788s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzIzMjkyMTgsMjA0Mjg3MTI0LDIxNj
-I2ODUyMiwtMTQ0MDk1ODc4MCwtNDAwNDA3OTgyLDEwNjUwNzg5
-OTVdfQ==
+eyJoaXN0b3J5IjpbMTY4MzM5NjQxLC0xMzcyMzI5MjE4LDIwND
+I4NzEyNCwyMTYyNjg1MjIsLTE0NDA5NTg3ODAsLTQwMDQwNzk4
+MiwxMDY1MDc4OTk1XX0=
 -->
