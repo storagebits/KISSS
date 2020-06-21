@@ -17,7 +17,7 @@ You understand now why I needed some automations to accomplish this task :-)
 My goal was to capture those 10'000 slides. First to keep all those memories in a safe place and also to have an easy way to watch them. With this DIY scanner It takes about 3 minutes to scan a 50 slides's rack. With some optimisations (like working exclusively in RAM) it could even take a single minute. 
 
 ## Hardware components
- - Slide projector with wired remote
+ - **Slide projector with wired remote**
 	 - Wired remote from those times are easily "hackable". They're just made of electrical contacts. I replaced it by a relay to manage slides progression.
 <p>
 <a href="https://github.com/storagebits/KISSS/blob/master/images/remote1.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/remote1.jpg?raw=true" align="left" width="200" ></a>
@@ -27,14 +27,17 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
  <br><br><br><br><br><br><br><br>
 
  
- - DSLR photo camera with USB remote capabilities (see Gphoto2 below)
- - Raspberry Pi 
-	 - I use model 4 but all of them should work. Keep in mind that if you do some post processing operations, the more cpu/ram it has, faster it'll run.
+ - **DSLR photo camera with USB remote capabilities** (see Gphoto2 below)
+ - **Raspberry Pi** 
+	 - I use a Raspberry 4 but all of them should work. Keep in mind that if you do some post processing operations, the more cpu/ram it has, faster it'll run.
 
  - Relay module
- 
+ <p><a href="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" align="left" width="200" ></a>
+ </p>
+ <br><br><br><br><br><br><br><br>
  
  - Few Dupont wires
+ - 
  - Tripod
  
 ## Software components
@@ -71,7 +74,7 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
 ##  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTUxOTQxOCwxMzE3MTQ3MTg0LDgyMT
+eyJoaXN0b3J5IjpbLTU4NzUzNjY3MiwxMzE3MTQ3MTg0LDgyMT
 A3OTgxOCwtMTE3Mjc4NzUwOSwtNTk2OTk2ODEsMTQ1NjgyODQy
 NSwtODI0MjYzNTkwLC00OTA5OTE0NzYsLTI1NzM4NDA3OCwtOT
 U2MDI0NDIwLC01MDIyODU3OCwtOTU5ODk1MzMxLC0xMzcyMzI5
