@@ -7,14 +7,14 @@ It uses a simple projector lens trick which allows a DSLR to capture a slide by 
 
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/final.jpg?raw=true)
 
-It uses a Raspberry Pi which control the slide projector via a simple relay and a DSLR camera to capture the slides. Then it does some post processing operations and send it to the cloud ! 
+It uses a Raspberry Pi which control the slide projector via a simple relay and a DSLR camera to capture the slides. Then it does some post processing operations and send it straight to the cloud ! 
 
 My dad was doing a lot (LOT) of photographies, exclusively on slides. From the early 1960's up to 1990. Since 30 years, for many reasons, those slides and their memories are sleeping in the attic...  
 
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/slidestock.jpg?raw=true)
 
-You understand now why I needed some automations to accomplish this task :-)   It takes about 3 minutes to scan a 50 slides's rack. With some optimisations (like working exclusively in RAM) it could even take a single minute.
-My goal was to capture those 10'000 slides. First to keep all those memories in a safe place and also to have an easy way to watch them. 
+You understand now why I needed some automations to accomplish this task :-)   
+My goal was to capture those 10'000 slides. First to keep all those memories in a safe place and also to have an easy way to watch them. With this DIY scanner It takes about 3 minutes to scan a 50 slides's rack. With some optimisations (like working exclusively in RAM) it could even take a single minute. 
 
 ## Hardware components
  - Slide projector with wired remote
@@ -68,10 +68,10 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
 ##  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Mjk2MDIxMSw4MjEwNzk4MTgsLTExNz
-I3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0MjUsLTgyNDI2MzU5
-MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLTk1NjAyNDQyMCwtNT
-AyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMyOTIxOCwyMDQyODcx
-MjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5ODIsMT
-A2NTA3ODk5NV19
+eyJoaXN0b3J5IjpbLTEyMDk1Mzg4NjksODIxMDc5ODE4LC0xMT
+cyNzg3NTA5LC01OTY5OTY4MSwxNDU2ODI4NDI1LC04MjQyNjM1
+OTAsLTQ5MDk5MTQ3NiwtMjU3Mzg0MDc4LC05NTYwMjQ0MjAsLT
+UwMjI4NTc4LC05NTk4OTUzMzEsLTEzNzIzMjkyMTgsMjA0Mjg3
+MTI0LDIxNjI2ODUyMiwtMTQ0MDk1ODc4MCwtNDAwNDA3OTgyLD
+EwNjUwNzg5OTVdfQ==
 -->
