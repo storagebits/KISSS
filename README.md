@@ -4,10 +4,14 @@
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/intro.jpg?raw=true)
 
 K.I.S.S.S. Keep It Simple Slide Scanner is an other DIY slide scanner project. 
-
  
-Har
+
+## Hardware components
+
+ - Slide projector with wired remote
  - Raspberry Pi
+ - Relay module
+ - 
 
 gphoto2 Install 
 
@@ -28,6 +32,6 @@ real	4m30,877s
 user	2m13,308s
 sys	1m8,788s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njg1NTU4NjcsMjE2MjY4NTIyLC0xND
-QwOTU4NzgwLC00MDA0MDc5ODIsMTA2NTA3ODk5NV19
+eyJoaXN0b3J5IjpbMjA0MDA4MTcxNCwyMTYyNjg1MjIsLTE0ND
+A5NTg3ODAsLTQwMDQwNzk4MiwxMDY1MDc4OTk1XX0=
 -->
