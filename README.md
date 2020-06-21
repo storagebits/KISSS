@@ -9,7 +9,7 @@ It uses a simple projector lens trick by adding a simple white XXX between the l
 
 It uses a Raspberry Pi which control the slide projector via a simple relay and a DSLR camera to capture the slides. Then it does some post processing operations and send it straight to the cloud ! oh yeah
 
-My dad was doing a lot (LOT) of photographies, exclusively on slides. From the early 1960's up to 1990. Since 30 years, for many reasons, those slides and their memories are sleeping in a attic...  
+My dad was doing a lot (LOT) of photographies, exclusively on slides. From the early 1960's up to 1990. During this time he did more than 10'000 Since 30 years, for many reasons, those slides and their memories are sleeping in a attic...  
 
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/slidestock.jpg?raw=true)
 
@@ -59,7 +59,7 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 - **Gphoto 2**
 	- [**gPhoto2**](http://www.gphoto.org/proj/)  is a free, redistributable, ready to use set of digital camera software applications for Unix-like systems, written by a whole team of dedicated volunteers around the world. It supports more than  [2500 cameras](http://www.gphoto.org/proj/libgphoto2/support.php)
 	- Check if your DSLR is supported here : [http://www.gphoto.org/proj/libgphoto2/support.php](http://www.gphoto.org/proj/libgphoto2/support.php)
-	- I suggest this automated installer to have the lastest  : https://github.com/gonzalo/gphoto2-updater/  . This script allows to install last development and last stable releases of gphoto2 and libgphoto2 based on git repositories
+	- I suggest this automated installer to have the lastest bits of this wonderful software : https://github.com/gonzalo/gphoto2-updater/  . This script allows to install last development and last stable releases of gphoto2 and libgphoto2 based on git repositories
 
 - **Python**
 	- Python was the best choice for many reasons... Ease of use, tons of libraries to manage the Rasp , the post processing stuffs and the cloud interaction.
@@ -77,11 +77,14 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
  1. Setup your hardware
 	TODO
- 2. Capture
+	
+ 3. Capture
 	TODO
- 3. Post processing
+	
+ 4. Post processing
 	TODO
- 4. Enjoy your memories in the cloud
+	
+ 5. Enjoy your memories in the cloud
 	TODO
 
 # Samples
@@ -95,11 +98,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjU1NjQ4MSwxMzc4MDkxOTAzLC0yMD
-E4MDAzOTQzLDE5ODMzNjcxMjcsLTYzODE5NzM3NiwxMDM5ODk2
-LDEzMTcxNDcxODQsODIxMDc5ODE4LC0xMTcyNzg3NTA5LC01OT
-Y5OTY4MSwxNDU2ODI4NDI1LC04MjQyNjM1OTAsLTQ5MDk5MTQ3
-NiwtMjU3Mzg0MDc4LC05NTYwMjQ0MjAsLTUwMjI4NTc4LC05NT
-k4OTUzMzEsLTEzNzIzMjkyMTgsMjA0Mjg3MTI0LDIxNjI2ODUy
-Ml19
+eyJoaXN0b3J5IjpbLTIxMjAzNzIzMDYsMTM3ODA5MTkwMywtMj
+AxODAwMzk0MywxOTgzMzY3MTI3LC02MzgxOTczNzYsMTAzOTg5
+NiwxMzE3MTQ3MTg0LDgyMTA3OTgxOCwtMTE3Mjc4NzUwOSwtNT
+k2OTk2ODEsMTQ1NjgyODQyNSwtODI0MjYzNTkwLC00OTA5OTE0
+NzYsLTI1NzM4NDA3OCwtOTU2MDI0NDIwLC01MDIyODU3OCwtOT
+U5ODk1MzMxLC0xMzcyMzI5MjE4LDIwNDI4NzEyNCwyMTYyNjg1
+MjJdfQ==
 -->
