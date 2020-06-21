@@ -35,7 +35,7 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 	 - I use a Raspberry 4 but all of them should work. Keep in mind that if you do some post processing operations, the more cpu/ram it has, faster it'll run !
 
  - **Relay module**
-	 - A simple relay module which is used to control the 
+	 - A simple relay module which is used to control the slide projector from the Raspberry Pi's GPIO
  <p><a href="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" align="left" width="200" ></a>
  </p>
  <br><br><br><br><br><br><br><br><br>
@@ -83,7 +83,7 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxODIyMzAxMCwxMDM5ODk2LDEzMTcxND
+eyJoaXN0b3J5IjpbLTYzODE5NzM3NiwxMDM5ODk2LDEzMTcxND
 cxODQsODIxMDc5ODE4LC0xMTcyNzg3NTA5LC01OTY5OTY4MSwx
 NDU2ODI4NDI1LC04MjQyNjM1OTAsLTQ5MDk5MTQ3NiwtMjU3Mz
 g0MDc4LC05NTYwMjQ0MjAsLTUwMjI4NTc4LC05NTk4OTUzMzEs
