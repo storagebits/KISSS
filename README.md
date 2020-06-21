@@ -13,7 +13,7 @@ My dad was doing a lot (LOT) of photographies, exclusively on slides. From the e
 
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/slidestock.jpg?raw=true)
 
-My goal was to capture those 10'000 slides. First to keep those memories in a safe place and then to have an easy way to watch them. You understand now why I needed some automations to accomplish this task. It takes about 3 minutes to scan a 50 slides's rack. With some optimisations (like working exclusively in RAM) it could take a single minute.
+You understand now why I needed some automations to accomplish this task :-) . It takes about 3 minutes to scan a 50 slides's rack. With some optimisations (like working exclusively in RAM) it could even take a single minute.
 
 ## Hardware components
  - Slide projector with wired remote
@@ -22,8 +22,6 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 <a href="https://github.com/storagebits/KISSS/blob/master/images/remote1.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/remote1.jpg?raw=true" align="left" width="200" ></a>
 
 <a href="https://github.com/storagebits/KISSS/blob/master/images/remote2.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/remote2.jpg?raw=true" align="left" width="200" ></a>
-
-
  
  - DSLR photo camera with USB remote capabilities (see Gphoto2 below)
  - Raspberry Pi 
@@ -69,7 +67,7 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
 ##  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTg5ODYwNiw4MjEwNzk4MTgsLTExNz
+eyJoaXN0b3J5IjpbMTM1MTY1MTQ5NSw4MjEwNzk4MTgsLTExNz
 I3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0MjUsLTgyNDI2MzU5
 MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLTk1NjAyNDQyMCwtNT
 AyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMyOTIxOCwyMDQyODcx
