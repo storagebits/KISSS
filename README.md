@@ -46,8 +46,13 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 ## Circuit
 
 ## How it works
-K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py and the post processing 
+K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py and the post processing script called post-processing.py
+
  1. Capture
+	 
+
+    KISS
+
  2. Post processing
 
 ## Samples
@@ -60,10 +65,10 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
 ##  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDYzODQ1MywtMTE3Mjc4NzUwOSwtNT
-k2OTk2ODEsMTQ1NjgyODQyNSwtODI0MjYzNTkwLC00OTA5OTE0
-NzYsLTI1NzM4NDA3OCwtOTU2MDI0NDIwLC01MDIyODU3OCwtOT
-U5ODk1MzMxLC0xMzcyMzI5MjE4LDIwNDI4NzEyNCwyMTYyNjg1
-MjIsLTE0NDA5NTg3ODAsLTQwMDQwNzk4MiwxMDY1MDc4OTk1XX
-0=
+eyJoaXN0b3J5IjpbODIxMDc5ODE4LC0xMTcyNzg3NTA5LC01OT
+Y5OTY4MSwxNDU2ODI4NDI1LC04MjQyNjM1OTAsLTQ5MDk5MTQ3
+NiwtMjU3Mzg0MDc4LC05NTYwMjQ0MjAsLTUwMjI4NTc4LC05NT
+k4OTUzMzEsLTEzNzIzMjkyMTgsMjA0Mjg3MTI0LDIxNjI2ODUy
+MiwtMTQ0MDk1ODc4MCwtNDAwNDA3OTgyLDEwNjUwNzg5OTVdfQ
+==
 -->
