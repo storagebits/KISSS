@@ -54,7 +54,7 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 	- I suggest this automated installer for installation : https://github.com/gonzalo/gphoto2-updater/  . This script allows to install last development and last stable releases of gphoto2 and libgphoto2 based on git repositories
 
 - **Python**
-	- Python was the best choice for many reasons... Ease of use, tons of libraries to manage
+	- Python was the best choice for many reasons... Ease of use, tons of libraries to manage the Rasp , the post processing stuffs and the cloud interaction.
 
 - **OpenCV library**
 
@@ -82,7 +82,7 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
 ##  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODkwMDM3MDQsMTMxNzE0NzE4NCw4Mj
+eyJoaXN0b3J5IjpbLTE5NjQxOTE2NjMsMTMxNzE0NzE4NCw4Mj
 EwNzk4MTgsLTExNzI3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0
 MjUsLTgyNDI2MzU5MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLT
 k1NjAyNDQyMCwtNTAyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMy
