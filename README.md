@@ -4,9 +4,9 @@
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/intro.jpg?raw=true)
 
 ## About this project
-K.I.S.S.S. Keep It Simple Slide Scanner is an other DIY slide scanner project. 
+K.I.S.S.S. Keep It Simple Slide Scanner is an other DIY slide scanner project. It uses a simple projector lens trick which allows a DSLR to capture a slide by photographing it directly frm 
 
-My dad was doing a lot (LOT) 
+My dad was doing a lot (LOT) of photographies
  
 
 ## Hardware components
@@ -53,7 +53,7 @@ real	4m30,877s
 user	2m13,308s
 sys	1m8,788s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MzM5NjQxLC0xMzcyMzI5MjE4LDIwND
-I4NzEyNCwyMTYyNjg1MjIsLTE0NDA5NTg3ODAsLTQwMDQwNzk4
-MiwxMDY1MDc4OTk1XX0=
+eyJoaXN0b3J5IjpbMTk0NTU1NzEyNSwtMTM3MjMyOTIxOCwyMD
+QyODcxMjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5
+ODIsMTA2NTA3ODk5NV19
 -->
