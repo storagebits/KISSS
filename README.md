@@ -7,7 +7,7 @@ It uses a simple projector lens trick which allows a DSLR to capture a slide by 
 
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/final.jpg?raw=true)
 
-It uses a Raspberry Pi which control the slide projector via a simple relay and a DSLR to capture the slides. Then it does some post processing operations and send it to the cloud ! 
+It uses a Raspberry Pi which control the slide projector via a simple relay and a DSLR camera to capture the slides. Then it does some post processing operations and send it to the cloud ! 
 
 My dad was doing a lot (LOT) of photographies, exclusively on slides. From the early 1960's up to 1990. Since 30 years, for many reasons, those slides and their memories are sleeping in the attic...  
 
@@ -17,6 +17,7 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 
 ## Hardware components
  - Slide projector with wired remote
+	 - Wired ha
  - DSLR photo camera with USB remote capabilities (see Gphoto2 below)
  - Raspberry Pi 
 	 - I use model 4 but all of them should work. Keep in mind that if you do some post processing operations, the more cpu/ram it has, faster it'll run.
@@ -49,8 +50,8 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 
 Happy scanning ! and have fun digging into your memories ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzkwMjUwMiwtNDkwOTkxNDc2LC0yNT
-czODQwNzgsLTk1NjAyNDQyMCwtNTAyMjg1NzgsLTk1OTg5NTMz
-MSwtMTM3MjMyOTIxOCwyMDQyODcxMjQsMjE2MjY4NTIyLC0xND
-QwOTU4NzgwLC00MDA0MDc5ODIsMTA2NTA3ODk5NV19
+eyJoaXN0b3J5IjpbOTU2NzQyNjY2LC00OTA5OTE0NzYsLTI1Nz
+M4NDA3OCwtOTU2MDI0NDIwLC01MDIyODU3OCwtOTU5ODk1MzMx
+LC0xMzcyMzI5MjE4LDIwNDI4NzEyNCwyMTYyNjg1MjIsLTE0ND
+A5NTg3ODAsLTQwMDQwNzk4MiwxMDY1MDc4OTk1XX0=
 -->
