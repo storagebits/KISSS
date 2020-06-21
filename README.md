@@ -19,7 +19,8 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 ## Hardware components
  - Slide projector with wired remote
  - DSLR photo camera
- - Raspberry Pi 4
+ - Raspberry Pi 
+	 - I use model 4 but all of them should work. Keep in mind that if you do some post processing operations the more cpu
  - Relay module
  - Few Dupont wires
  - Tripod
@@ -49,7 +50,7 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 
 Happy scanning ! and have fun digging into your memories ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODY0MzIxNSwtMTM3MjMyOTIxOCwyMD
+eyJoaXN0b3J5IjpbLTk2MTc4NjE3NSwtMTM3MjMyOTIxOCwyMD
 QyODcxMjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5
 ODIsMTA2NTA3ODk5NV19
 -->
