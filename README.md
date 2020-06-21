@@ -14,7 +14,7 @@ My dad was doing a lot (LOT) of photographies on slides from the early 1960's up
 
 IMAGE STOCK 
 
-My goal was to 
+My goal was to capture those 10'000 slides. First to keep those memories in a safe place and then to have an easy to watch them
 
 ## Hardware components
  - Slide projector with wired remote
@@ -41,7 +41,7 @@ My goal was to
 ## Samples
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5MjAwMzExLC0xMzcyMzI5MjE4LDIwND
-I4NzEyNCwyMTYyNjg1MjIsLTE0NDA5NTg3ODAsLTQwMDQwNzk4
-MiwxMDY1MDc4OTk1XX0=
+eyJoaXN0b3J5IjpbMTI3NjI0MjIyMCwtMTM3MjMyOTIxOCwyMD
+QyODcxMjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5
+ODIsMTA2NTA3ODk5NV19
 -->
