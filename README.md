@@ -13,8 +13,9 @@ My dad was doing a lot (LOT) of photographies, exclusively on slides. From the e
 
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/slidestock.jpg?raw=true)
 
-You understand now why I needed some automations to accomplish this task :-)   
-My goal was to capture those 10'000 slides. First to keep all those memories in a safe place and also to have an easy way to watch them. With this DIY scanner It takes about 3 minutes to scan a 50 slides's rack. With some optimisations (like working exclusively in RAM) it could even take a single minute. 
+You understand now why I needed some automations to accomplish this task :-)
+   
+My goal was to capture those 10'000 slides. First to keep all those memories in a safe place and also to have an easy and confortable way to watch them. With this DIY scanner It takes about 3 minutes to scan a 50 slides's rack. With some optimisations (like working exclusively in RAM) it could even take a single minute. 
 
 ## Hardware components
  - **Slide projector with wired remote**
@@ -46,13 +47,17 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 ## Software components
  - **Raspbian** (now called Raspberry Pi OS)
 	 - Raspbian is a [Debian](https://en.wikipedia.org/wiki/Debian "Debian")-based [operating system](https://en.wikipedia.org/wiki/Operating_system "Operating system") for [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi "Raspberry Pi"). [https://www.raspberrypi.org/downloads/raspberry-pi-os/]
+
 - **Gphoto 2**
 	- [**gPhoto2**](http://www.gphoto.org/proj/)  is a free, redistributable, ready to use set of digital camera software applications for Unix-like systems, written by a whole team of dedicated volunteers around the world. It supports more than  [2500 cameras](http://www.gphoto.org/proj/libgphoto2/support.php)
 	- Check if your DSLR is supported here : [http://www.gphoto.org/proj/libgphoto2/support.php](http://www.gphoto.org/proj/libgphoto2/support.php)
 	- I suggest this automated installer for installation : https://github.com/gonzalo/gphoto2-updater/  . This script allows to install last development and last stable releases of gphoto2 and libgphoto2 based on git repositories
+
 - **Python**
-	- Python was the best choice for many reasons. 
+	- Python was the best choice for many reasons... Ease of use, tons of libraries to manage
+
 - **OpenCV library**
+
 - **Nextcloud**
 
 ## Circuit
@@ -77,7 +82,7 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
 ##  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDIzMTU5MTgsMTMxNzE0NzE4NCw4Mj
+eyJoaXN0b3J5IjpbLTE5ODkwMDM3MDQsMTMxNzE0NzE4NCw4Mj
 EwNzk4MTgsLTExNzI3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0
 MjUsLTgyNDI2MzU5MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLT
 k1NjAyNDQyMCwtNTAyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMy
