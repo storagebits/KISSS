@@ -14,7 +14,7 @@ My dad was doing a lot (LOT) of photographies on slides from the early 1960's up
 
 IMAGE STOCK 
 
-My goal was to capture those 10'000 slides. First to keep those memories in a safe place and then to have an easy to watch them
+My goal was to capture those 10'000 slides. First to keep those memories in a safe place and then to have an easy way to watch them. 
 
 ## Hardware components
  - Slide projector with wired remote
@@ -25,14 +25,15 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
  - Tripod
  
 ## Software components
- - Raspbian (now called Raspberry Pi OS)
+ - **Raspbian** (now called Raspberry Pi OS)
 	 - Raspbian is a [Debian](https://en.wikipedia.org/wiki/Debian "Debian")-based [operating system](https://en.wikipedia.org/wiki/Operating_system "Operating system") for [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi "Raspberry Pi"). [https://www.raspberrypi.org/downloads/raspberry-pi-os/]
-- Gphoto 2
+- **Gphoto 2**
 	- [**gPhoto2**](http://www.gphoto.org/proj/)  is a free, redistributable, ready to use set of digital camera software applications for Unix-like systems, written by a whole team of dedicated volunteers around the world. It supports more than  [2500 cameras](http://www.gphoto.org/proj/libgphoto2/support.php)
 	- Check if your DSLR is supported here : [http://www.gphoto.org/proj/libgphoto2/support.php](http://www.gphoto.org/proj/libgphoto2/support.php)
 	- I suggest this automated installer for installation : https://github.com/gonzalo/gphoto2-updater/  . This script allows to install last development and last stable releases of gphoto2 and libgphoto2 based on git repositories
-- Python 3
-- OpenCV2 python library
+- **Python**
+- **OpenCV library**
+- **Nextcloud**
 
 ## Circuit
 
@@ -41,7 +42,7 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 ## Samples
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NjI0MjIyMCwtMTM3MjMyOTIxOCwyMD
-QyODcxMjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5
-ODIsMTA2NTA3ODk5NV19
+eyJoaXN0b3J5IjpbLTE4MTE1MTM5MDksLTEzNzIzMjkyMTgsMj
+A0Mjg3MTI0LDIxNjI2ODUyMiwtMTQ0MDk1ODc4MCwtNDAwNDA3
+OTgyLDEwNjUwNzg5OTVdfQ==
 -->
