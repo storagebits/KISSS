@@ -41,7 +41,7 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
  <br><br><br><br><br><br><br><br><br>
  
  - **Few Dupont wires**
-	 - Classics female to female Dupont wires to 
+	 - Classics female to female Dupont wires to plug the Raspberry Pi GPIOs to the relay module.
 	 - <p><a href="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" align="left" width="200" ></a>
  </p>
  <br><br><br><br><br>
@@ -87,7 +87,7 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjQyMTg1OCwtNjM4MTk3Mzc2LDEwMz
+eyJoaXN0b3J5IjpbMTk4MzM2NzEyNywtNjM4MTk3Mzc2LDEwMz
 k4OTYsMTMxNzE0NzE4NCw4MjEwNzk4MTgsLTExNzI3ODc1MDks
 LTU5Njk5NjgxLDE0NTY4Mjg0MjUsLTgyNDI2MzU5MCwtNDkwOT
 kxNDc2LC0yNTczODQwNzgsLTk1NjAyNDQyMCwtNTAyMjg1Nzgs
