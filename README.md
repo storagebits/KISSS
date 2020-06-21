@@ -67,19 +67,19 @@ TODO
 TODO
 
 # Circuit
-TODO
+	TODO
 
 # How it works
 K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py and the post processing script called post-processing.py
 
  1. Setup your hardware
-TODO
+	TODO
  2. Capture
-TODO
+	TODO
  3. Post processing
-TODO
+	TODO
  4. Enjoy your memories in the cloud
-TODO
+	TODO
 
 # Samples
 Here are some samples of my scans. More to come ...
@@ -92,11 +92,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDM2MjcwMywxOTgzMzY3MTI3LC02Mz
-gxOTczNzYsMTAzOTg5NiwxMzE3MTQ3MTg0LDgyMTA3OTgxOCwt
-MTE3Mjc4NzUwOSwtNTk2OTk2ODEsMTQ1NjgyODQyNSwtODI0Mj
-YzNTkwLC00OTA5OTE0NzYsLTI1NzM4NDA3OCwtOTU2MDI0NDIw
-LC01MDIyODU3OCwtOTU5ODk1MzMxLC0xMzcyMzI5MjE4LDIwND
-I4NzEyNCwyMTYyNjg1MjIsLTE0NDA5NTg3ODAsLTQwMDQwNzk4
-Ml19
+eyJoaXN0b3J5IjpbLTIwMTgwMDM5NDMsMTk4MzM2NzEyNywtNj
+M4MTk3Mzc2LDEwMzk4OTYsMTMxNzE0NzE4NCw4MjEwNzk4MTgs
+LTExNzI3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0MjUsLTgyND
+I2MzU5MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLTk1NjAyNDQy
+MCwtNTAyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMyOTIxOCwyMD
+QyODcxMjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5
+ODJdfQ==
 -->
