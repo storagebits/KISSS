@@ -46,12 +46,14 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 
 ## Samples
 
+<a href="https://github.com/storagebits/KISSS/blob/master/images/exe.jpg?raw=true"><img src="http://url.to/image.png" align="left" height="48" width="48" ></a>
 
-
-Happy scanning ! and have fun digging into your memories ...
+<br>
+Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDI2MzU5MCwtNDkwOTkxNDc2LC0yNT
-czODQwNzgsLTk1NjAyNDQyMCwtNTAyMjg1NzgsLTk1OTg5NTMz
-MSwtMTM3MjMyOTIxOCwyMDQyODcxMjQsMjE2MjY4NTIyLC0xND
-QwOTU4NzgwLC00MDA0MDc5ODIsMTA2NTA3ODk5NV19
+eyJoaXN0b3J5IjpbMTIzMjU1Mzk4OCwtODI0MjYzNTkwLC00OT
+A5OTE0NzYsLTI1NzM4NDA3OCwtOTU2MDI0NDIwLC01MDIyODU3
+OCwtOTU5ODk1MzMxLC0xMzcyMzI5MjE4LDIwNDI4NzEyNCwyMT
+YyNjg1MjIsLTE0NDA5NTg3ODAsLTQwMDQwNzk4MiwxMDY1MDc4
+OTk1XX0=
 -->
