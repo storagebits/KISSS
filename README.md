@@ -41,8 +41,11 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 
 ## Samples
 
+
+
+Happy scanning ! and have fun digging into your memories ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTE1MTM5MDksLTEzNzIzMjkyMTgsMj
-A0Mjg3MTI0LDIxNjI2ODUyMiwtMTQ0MDk1ODc4MCwtNDAwNDA3
-OTgyLDEwNjUwNzg5OTVdfQ==
+eyJoaXN0b3J5IjpbLTIyMjM1NDU3MCwtMTM3MjMyOTIxOCwyMD
+QyODcxMjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5
+ODIsMTA2NTA3ODk5NV19
 -->
