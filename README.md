@@ -17,8 +17,14 @@ K.I.S.S.S. Keep It Simple Slide Scanner is an other DIY slide scanner project.
  - Tripod
  
 ## Software components
- - Raspbian
+ - Raspbian (now called Raspberry Pi OS)
+	 - [https://www.raspberrypi.org/downloads/raspberry-pi-os/](https://www.raspberrypi.org/downloads/raspberry-pi-os/
+- Gphoto2
 
+
+## Alpha
+
+## 
 gphoto2 Install 
 
 https://github.com/gonzalo/gphoto2-updater/
@@ -38,6 +44,6 @@ real	4m30,877s
 user	2m13,308s
 sys	1m8,788s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTUyMzIxOCwyMTYyNjg1MjIsLTE0ND
+eyJoaXN0b3J5IjpbMTU1MzM5MjgyMiwyMTYyNjg1MjIsLTE0ND
 A5NTg3ODAsLTQwMDQwNzk4MiwxMDY1MDc4OTk1XX0=
 -->
