@@ -5,7 +5,7 @@
 
 K.I.S.S.S. Keep It Simple Slide Scanner is an other DIY slide scanner project. 
 
-
+d
 
 gphoto2 Install 
 
@@ -26,6 +26,6 @@ real	4m30,877s
 user	2m13,308s
 sys	1m8,788s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA5NTg3ODAsLTQwMDQwNzk4MiwxMD
-Y1MDc4OTk1XX0=
+eyJoaXN0b3J5IjpbMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC00MD
+A0MDc5ODIsMTA2NTA3ODk5NV19
 -->
