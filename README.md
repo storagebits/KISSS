@@ -4,7 +4,7 @@
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/intro.jpg?raw=true)
 
 ## About this project
-K.I.S.S.S. Keep It Simple Slide Scanner is an other DIY slide scanner project. Here you'll find informations about . It is provided "as is". You'll need to adapt it to your own installation.
+K.I.S.S.S. Keep It Simple Slide Scanner is an other DIY slide scanner project. Here you'll find informations about how I went into this scanning project . It is provided "as is". You'll need to adapt it to your own installation.
 
 It uses a simple projector lens trick which allows a DSLR to capture a slide by photographing it directly from the projector instead from the projected picture. 
 
@@ -32,6 +32,7 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 	- Check if your DSLR is supported here : [http://www.gphoto.org/proj/libgphoto2/support.php](http://www.gphoto.org/proj/libgphoto2/support.php)
 	- I suggest this automated installer for installation : https://github.com/gonzalo/gphoto2-updater/  . This script allows to install last development and last stable releases of gphoto2 and libgphoto2 based on git repositories
 - **Python**
+	- Python was the best choice for many reasons. 
 - **OpenCV library**
 - **Nextcloud**
 
@@ -45,7 +46,7 @@ My goal was to capture those 10'000 slides. First to keep those memories in a sa
 
 Happy scanning ! and have fun digging into your memories ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMjM1NDU3MCwtMTM3MjMyOTIxOCwyMD
-QyODcxMjQsMjE2MjY4NTIyLC0xNDQwOTU4NzgwLC00MDA0MDc5
-ODIsMTA2NTA3ODk5NV19
+eyJoaXN0b3J5IjpbLTE2MzM0ODc4MDAsLTEzNzIzMjkyMTgsMj
+A0Mjg3MTI0LDIxNjI2ODUyMiwtMTQ0MDk1ODc4MCwtNDAwNDA3
+OTgyLDEwNjUwNzg5OTVdfQ==
 -->
