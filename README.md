@@ -96,15 +96,15 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
 		 *relayPin* : Raspberry GPIO pin where you plugged the relay which manage projector remote<br>
 		 
  **3. Capture**<br>
-		 You're now ready for the capture. Just launch KISSS.py with a name as parameter. In my case I use the slide box number to then have correspondance between folder name and physical slide box number.<br>
+		 You're now ready for the capture. Just launch KISSS.py with a name as parameter. In my case I use the slide box number as name to have a correspondance between folder name and physical slide box number.<br>
     ./KISSS.py 001
     <br>
  **4. Post processing** <br>
-	 After your capture is done , you'll 
+	 After your capture is done , you'll have a folder full of pictures. Now it's time to post process them. In my case I needed to crop, mirror and rot
 	Cropping TODO
 	Mirroring TODO
 	Rotating TODO
-	Polishing TODO
+	Clouding TODO
 	
  **5. Enjoy your memories in the cloud** <br>
 	TODO
@@ -120,11 +120,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDM3OTIzMCwtMjg2NDAyNzEyLDkxOT
-I1MTExLC0xNjE5MjUwOTkwLDIwNTQ5MTQ3NTcsMjY2NjE1NTgz
-LDU2NzQ0Mzc5MywtNzA1NTAwNTA1LC0xMTIzNjk3MTEzLC04Mz
-U3MzA4NTQsMTg0NDgzOTk5NiwzODkzODgyNzYsMjExNTAxNTE0
-OCwtMTIwMDQ0MzM0NywtMTQ2NzY1Njk3MSwxODQyMzE4MTE4LD
-EyNTcxMTE3NzUsMTM3ODA5MTkwMywtMjAxODAwMzk0MywxOTgz
-MzY3MTI3XX0=
+eyJoaXN0b3J5IjpbLTEyMTcwOTA3NTgsLTI4NjQwMjcxMiw5MT
+kyNTExMSwtMTYxOTI1MDk5MCwyMDU0OTE0NzU3LDI2NjYxNTU4
+Myw1Njc0NDM3OTMsLTcwNTUwMDUwNSwtMTEyMzY5NzExMywtOD
+M1NzMwODU0LDE4NDQ4Mzk5OTYsMzg5Mzg4Mjc2LDIxMTUwMTUx
+NDgsLTEyMDA0NDMzNDcsLTE0Njc2NTY5NzEsMTg0MjMxODExOC
+wxMjU3MTExNzc1LDEzNzgwOTE5MDMsLTIwMTgwMDM5NDMsMTk4
+MzM2NzEyN119
 -->
