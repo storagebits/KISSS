@@ -88,7 +88,7 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
  **1. Setup your hardware**<br>
 		Install all your hardware on a table and wire everything. <br>
 		Put the projector ON with a sample slide.<br>
-		VERY IMPORTANT STEP : calibrate your camera with the sample slide. Be sure <br>
+		VERY IMPORTANT STEP : calibrate your camera with the sample slide. Be sure to have the right (manual) focus and t<br>
 		
  **2. Setup the KISSS.py script**<br>
 		 There are 2 variables to edit at the begining of the script :
@@ -118,11 +118,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTgxMzg5ODgsLTI4NjQwMjcxMiw5MT
-kyNTExMSwtMTYxOTI1MDk5MCwyMDU0OTE0NzU3LDI2NjYxNTU4
-Myw1Njc0NDM3OTMsLTcwNTUwMDUwNSwtMTEyMzY5NzExMywtOD
-M1NzMwODU0LDE4NDQ4Mzk5OTYsMzg5Mzg4Mjc2LDIxMTUwMTUx
-NDgsLTEyMDA0NDMzNDcsLTE0Njc2NTY5NzEsMTg0MjMxODExOC
-wxMjU3MTExNzc1LDEzNzgwOTE5MDMsLTIwMTgwMDM5NDMsMTk4
-MzM2NzEyN119
+eyJoaXN0b3J5IjpbNjc0NzczNDk2LC0yODY0MDI3MTIsOTE5Mj
+UxMTEsLTE2MTkyNTA5OTAsMjA1NDkxNDc1NywyNjY2MTU1ODMs
+NTY3NDQzNzkzLC03MDU1MDA1MDUsLTExMjM2OTcxMTMsLTgzNT
+czMDg1NCwxODQ0ODM5OTk2LDM4OTM4ODI3NiwyMTE1MDE1MTQ4
+LC0xMjAwNDQzMzQ3LC0xNDY3NjU2OTcxLDE4NDIzMTgxMTgsMT
+I1NzExMTc3NSwxMzc4MDkxOTAzLC0yMDE4MDAzOTQzLDE5ODMz
+NjcxMjddfQ==
 -->
