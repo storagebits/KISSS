@@ -93,8 +93,8 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
 		
  **2. Setup the KISSS.py script**<br>
 		 There are 2 variables to edit at the begining of the script :<br>
-		 *baseFolder* : Base folder where folders and pictures will be created<br>
-		 *relayPin* : Raspberry GPIO pin where you plugged the relay which manage projector remote<br>
+		 ***baseFolder*** : Base folder where folders and pictures will be created<br>
+		 ***relayPin*** : Raspberry GPIO pin where you plugged the relay which manage projector remote<br>
 		 
  **3. Capture**<br>
 		 You're now ready for the capture. Just launch KISSS.py with a name as parameter. In my case I use the slide box number as name to have a correspondance between folder name and physical slide box number.<br><br>
@@ -103,15 +103,16 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
     This command will launch a 50 slides scan in a row and put raw files into baseFolder/001 folder.
     
  **4. Post processing** <br>
-	 After your capture is done , you'll have a folder full of pictures. Now it's time to post process them. In my case I needed to crop, mirror and rotate them. All those step are configurable and optional. At the very final stage, and if you want to, the post process script can push your pictures to a Nextcloud instance of your choice for better visualisation (and backups).
-	There are few variables to edit at the begining of the post-processing.py script : 
-*baseFolder* : Base folder where folders and pictures will be created<br>
-cropping : 1 or 0 , enable or disable intelligent cropping (very useful if you're not able to have the whole frame when taking pictures)
+	 After your capture is done , you'll have a folder full of pictures. Now it's time to post process them. In my case I needed to crop, mirror and rotate them. All those step are configurable and optional. At the very final stage, and if you want to, the post process script can push your pictures to a Nextcloud instance of your choice for better visualisation (and backups).<br>
+	There are few variables to edit at the begining of the post-processing.py script : <br>
+***baseFolder*** : Base folder where folders and pictures will be created<br>
+*cropping* : 1 or 0 , enable or disable intelligent cropping (very useful if you're not able to have the whole frame when taking pictures)
 *treeshold* : value between 0 and 100 . Treeshold used by the intelligent cropping. 
 *mirroring* : 1 or 0 , enable or disable automatic mirroring of the picture
 *rotating* : 1 or 0 ,  enable or disable automatic rotation of the picture
 *degrees* : value between 0 and 360 . Degrees value to rotate the picture
-*clouding* = 1
+*clouding* : 1 or 0 ,  enable or disable automatic upload to a nextcloud instance (see below for nextcloud instance configuration)
+
  **5. Enjoy your memories in the cloud** <br>
 	TODO
 
@@ -126,11 +127,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTExODUwMSwxNzEwMjEwOTg5LDE3ND
-c4NDY2ODQsMTcwODA1MTU2MCw3MjQwNDMwNTAsLTI4NjQwMjcx
-Miw5MTkyNTExMSwtMTYxOTI1MDk5MCwyMDU0OTE0NzU3LDI2Nj
-YxNTU4Myw1Njc0NDM3OTMsLTcwNTUwMDUwNSwtMTEyMzY5NzEx
-MywtODM1NzMwODU0LDE4NDQ4Mzk5OTYsMzg5Mzg4Mjc2LDIxMT
-UwMTUxNDgsLTEyMDA0NDMzNDcsLTE0Njc2NTY5NzEsMTg0MjMx
-ODExOF19
+eyJoaXN0b3J5IjpbLTE4MDkyNDI3NjcsMTcxMDIxMDk4OSwxNz
+Q3ODQ2Njg0LDE3MDgwNTE1NjAsNzI0MDQzMDUwLC0yODY0MDI3
+MTIsOTE5MjUxMTEsLTE2MTkyNTA5OTAsMjA1NDkxNDc1NywyNj
+Y2MTU1ODMsNTY3NDQzNzkzLC03MDU1MDA1MDUsLTExMjM2OTcx
+MTMsLTgzNTczMDg1NCwxODQ0ODM5OTk2LDM4OTM4ODI3NiwyMT
+E1MDE1MTQ4LC0xMjAwNDQzMzQ3LC0xNDY3NjU2OTcxLDE4NDIz
+MTgxMThdfQ==
 -->
