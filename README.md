@@ -96,16 +96,12 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
 		 *relayPin* : Raspberry GPIO pin where you plugged the relay which manage projector remote<br>
 		 
  **3. Capture**<br>
-		 You're now ready for the capture. Just launch KISSS.py with a name as parameter. In my case I use the slide box number as name to have a correspondance between folder name and physical slide box number.<br>
+		 You're now ready for the capture. Just launch KISSS.py with a name as parameter. In my case I use the slide box number as name to have a correspondance between folder name and physical slide box number.<br><br>
     ./KISSS.py 001
     <br><br>
  **4. Post processing** <br>
 	 After your capture is done , you'll have a folder full of pictures. Now it's time to post process them. In my case I needed to crop, mirror and rotate them. All those step are configurable and optional. At the very final stage, and if you want to, the post process script can push your pictures to a Nextcloud instance of your choice for better visualisation (and backups).
-	 
-	Cropping TODO
-	Mirroring TODO
-	Rotating TODO
-	Clouding TODO
+	There are 2 variables to edit at the begining of the script : 
 	
  **5. Enjoy your memories in the cloud** <br>
 	TODO
@@ -121,11 +117,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0MDQzMDUwLC0yODY0MDI3MTIsOTE5Mj
-UxMTEsLTE2MTkyNTA5OTAsMjA1NDkxNDc1NywyNjY2MTU1ODMs
-NTY3NDQzNzkzLC03MDU1MDA1MDUsLTExMjM2OTcxMTMsLTgzNT
-czMDg1NCwxODQ0ODM5OTk2LDM4OTM4ODI3NiwyMTE1MDE1MTQ4
-LC0xMjAwNDQzMzQ3LC0xNDY3NjU2OTcxLDE4NDIzMTgxMTgsMT
-I1NzExMTc3NSwxMzc4MDkxOTAzLC0yMDE4MDAzOTQzLDE5ODMz
-NjcxMjddfQ==
+eyJoaXN0b3J5IjpbMTcwODA1MTU2MCw3MjQwNDMwNTAsLTI4Nj
+QwMjcxMiw5MTkyNTExMSwtMTYxOTI1MDk5MCwyMDU0OTE0NzU3
+LDI2NjYxNTU4Myw1Njc0NDM3OTMsLTcwNTUwMDUwNSwtMTEyMz
+Y5NzExMywtODM1NzMwODU0LDE4NDQ4Mzk5OTYsMzg5Mzg4Mjc2
+LDIxMTUwMTUxNDgsLTEyMDA0NDMzNDcsLTE0Njc2NTY5NzEsMT
+g0MjMxODExOCwxMjU3MTExNzc1LDEzNzgwOTE5MDMsLTIwMTgw
+MDM5NDNdfQ==
 -->
