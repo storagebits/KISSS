@@ -70,7 +70,7 @@ TODO
 TODO
 
 # The "magic" trick
-TODO
+	TODO
 # Circuit
 	TODO
 
@@ -84,10 +84,10 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 	TODO
 	
  4. Post processing
-	Cropping
-	Mirroring
-	Rotating
-	Polishing
+	Cropping TODO
+	Mirroring TODO
+	Rotating TODO
+	Polishing TODO
 	
  5. Enjoy your memories in the cloud
 	TODO
@@ -103,7 +103,7 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MjMyODYwLC0xMjAwNDQzMzQ3LC0xND
+eyJoaXN0b3J5IjpbODU4MjU5NzQ0LC0xMjAwNDQzMzQ3LC0xND
 Y3NjU2OTcxLDE4NDIzMTgxMTgsMTI1NzExMTc3NSwxMzc4MDkx
 OTAzLC0yMDE4MDAzOTQzLDE5ODMzNjcxMjcsLTYzODE5NzM3Ni
 wxMDM5ODk2LDEzMTcxNDcxODQsODIxMDc5ODE4LC0xMTcyNzg3
