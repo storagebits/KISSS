@@ -36,7 +36,7 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 
  - **Relay module**
 	 - A simple relay module which is used to control the slide projector from the Raspberry Pi's GPIO.
-	 - <p><a href="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" align="left" width="200" ></a>
+	 <p><a href="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" align="left" width="200" ></a>
  </p>
  <br><br><br><br><br><br><br><br><br>
  
@@ -98,7 +98,7 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODM3NzgyMSwxODQyMzE4MTE4LDEyNT
+eyJoaXN0b3J5IjpbLTQ2Mzk3MzA0MCwxODQyMzE4MTE4LDEyNT
 cxMTE3NzUsMTM3ODA5MTkwMywtMjAxODAwMzk0MywxOTgzMzY3
 MTI3LC02MzgxOTczNzYsMTAzOTg5NiwxMzE3MTQ3MTg0LDgyMT
 A3OTgxOCwtMTE3Mjc4NzUwOSwtNTk2OTk2ODEsMTQ1NjgyODQy
