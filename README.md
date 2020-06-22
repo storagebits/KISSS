@@ -33,6 +33,9 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 	 <p><a href="https://github.com/storagebits/KISSS/blob/master/images/canon700d.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/canon700d.jpg?raw=true" align="left" width="200" ></a>
  </p>
  <br><br><br><br><br><br><br><br><br>
+ <p><a href="https://github.com/storagebits/KISSS/blob/master/images/tamron.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/tamron.jpg?raw=true" align="left" width="200" ></a>
+ </p>
+ <br><br><br><br><br><br><br><br><br>
 	 
  - **Raspberry Pi** 
 	 - I use a Raspberry 4 but all of them should work. Keep in mind that if you do some post processing operations, the more cpu/ram it has, faster it'll run !
@@ -109,11 +112,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTczMDg1NCwxODQ0ODM5OTk2LDM4OT
-M4ODI3NiwyMTE1MDE1MTQ4LC0xMjAwNDQzMzQ3LC0xNDY3NjU2
-OTcxLDE4NDIzMTgxMTgsMTI1NzExMTc3NSwxMzc4MDkxOTAzLC
-0yMDE4MDAzOTQzLDE5ODMzNjcxMjcsLTYzODE5NzM3NiwxMDM5
-ODk2LDEzMTcxNDcxODQsODIxMDc5ODE4LC0xMTcyNzg3NTA5LC
-01OTY5OTY4MSwxNDU2ODI4NDI1LC04MjQyNjM1OTAsLTQ5MDk5
-MTQ3Nl19
+eyJoaXN0b3J5IjpbLTExMjM2OTcxMTMsLTgzNTczMDg1NCwxOD
+Q0ODM5OTk2LDM4OTM4ODI3NiwyMTE1MDE1MTQ4LC0xMjAwNDQz
+MzQ3LC0xNDY3NjU2OTcxLDE4NDIzMTgxMTgsMTI1NzExMTc3NS
+wxMzc4MDkxOTAzLC0yMDE4MDAzOTQzLDE5ODMzNjcxMjcsLTYz
+ODE5NzM3NiwxMDM5ODk2LDEzMTcxNDcxODQsODIxMDc5ODE4LC
+0xMTcyNzg3NTA5LC01OTY5OTY4MSwxNDU2ODI4NDI1LC04MjQy
+NjM1OTBdfQ==
 -->
