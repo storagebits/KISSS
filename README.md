@@ -76,8 +76,10 @@ TODO
 - **Nextcloud**
 TODO
 
-# The "magic" trick
-	TODO
+# Circuit
+<a href="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true">
+
+
 
 # How it works
 K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py and the post processing script called post-processing.py
@@ -108,7 +110,7 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzMxODYzNDEsMjA1NDkxNDc1NywyNj
+eyJoaXN0b3J5IjpbLTEzMDg2NDkyMzcsMjA1NDkxNDc1NywyNj
 Y2MTU1ODMsNTY3NDQzNzkzLC03MDU1MDA1MDUsLTExMjM2OTcx
 MTMsLTgzNTczMDg1NCwxODQ0ODM5OTk2LDM4OTM4ODI3NiwyMT
 E1MDE1MTQ4LC0xMjAwNDQzMzQ3LC0xNDY3NjU2OTcxLDE4NDIz
