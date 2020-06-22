@@ -72,7 +72,7 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 	- I suggest this automated installer to have the lastest bits of this wonderful software : https://github.com/gonzalo/gphoto2-updater/  . This script allows to install last development and last stable releases of gphoto2 and libgphoto2 based on git repositories
 
 - **OpenCV library**
-TODO
+	- OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. I use it in the post processing stage for multiple purposes : intelligent cropping (thx mec!) , 
 - **Nextcloud**
 TODO
 
@@ -106,11 +106,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTEzODE1MSwyMDU0OTE0NzU3LDI2Nj
-YxNTU4Myw1Njc0NDM3OTMsLTcwNTUwMDUwNSwtMTEyMzY5NzEx
-MywtODM1NzMwODU0LDE4NDQ4Mzk5OTYsMzg5Mzg4Mjc2LDIxMT
-UwMTUxNDgsLTEyMDA0NDMzNDcsLTE0Njc2NTY5NzEsMTg0MjMx
-ODExOCwxMjU3MTExNzc1LDEzNzgwOTE5MDMsLTIwMTgwMDM5ND
-MsMTk4MzM2NzEyNywtNjM4MTk3Mzc2LDEwMzk4OTYsMTMxNzE0
-NzE4NF19
+eyJoaXN0b3J5IjpbLTExNDU4OTQ2MDYsMjA1NDkxNDc1NywyNj
+Y2MTU1ODMsNTY3NDQzNzkzLC03MDU1MDA1MDUsLTExMjM2OTcx
+MTMsLTgzNTczMDg1NCwxODQ0ODM5OTk2LDM4OTM4ODI3NiwyMT
+E1MDE1MTQ4LC0xMjAwNDQzMzQ3LC0xNDY3NjU2OTcxLDE4NDIz
+MTgxMTgsMTI1NzExMTc3NSwxMzc4MDkxOTAzLC0yMDE4MDAzOT
+QzLDE5ODMzNjcxMjcsLTYzODE5NzM3NiwxMDM5ODk2LDEzMTcx
+NDcxODRdfQ==
 -->
