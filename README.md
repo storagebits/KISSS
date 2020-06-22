@@ -76,7 +76,7 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 
 - **Nextcloud**
 	- Nextcloud offers the industry-leading, on-premises content collaboration platform. Since I use this software since many years to store all my files and especially pictures, it was a natural choice to use it at final stage to push all my scans into it. I love the way I can browse my content, from my computer , my phone , my TV using Kodi through the webdav access , or whatever ... it has it all !
-	- To push picture to a Nextcloud instance I use Tavinus Cloud Manager (https://github.com/tavinus/cloudmanager) . 
+	- To push pictures to a Nextcloud instance I use Tavinus Cloud Manager (https://github.com/tavinus/cloudmanager) . This is Nextcloud / Owncloud CLI Webdav Client which uses `curl`  to access the Nextcloud webdav service.
 
 # Circuit
 <a href="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true">
@@ -89,7 +89,7 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
  **1. Setup your hardware**<br>
 		Install all your hardware on a table and wire everything. <br>
 		Put the projector ON with a sample slide.<br>
-		VERY IMPORTANT STEP : calibrate your camera with the sample slide. Be sure to have the right (manual) focus and that the picture takes the whole frame.<br>
+		VERY IMPORTANT STEP : calibrate your camera with the sample slide. Be sure to have the right (manual) focus and that the picture takes the whole frame in the camera target. <br>
 		
  **2. Setup the KISSS.py script**<br>
 		 There are 2 variables to edit at the begining of the script :<br>
@@ -120,7 +120,7 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODc3MzU1NSwxNzQ3ODQ2Njg0LDE3MD
+eyJoaXN0b3J5IjpbMTgxMzE2MTM4NywxNzQ3ODQ2Njg0LDE3MD
 gwNTE1NjAsNzI0MDQzMDUwLC0yODY0MDI3MTIsOTE5MjUxMTEs
 LTE2MTkyNTA5OTAsMjA1NDkxNDc1NywyNjY2MTU1ODMsNTY3ND
 QzNzkzLC03MDU1MDA1MDUsLTExMjM2OTcxMTMsLTgzNTczMDg1
