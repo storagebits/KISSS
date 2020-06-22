@@ -13,7 +13,7 @@ My dad was doing a lot (LOT) of photographies, exclusively on slides. From the e
 
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/slidestock.jpg?raw=true)
 
-You now understand why I needed some automations to accomplish this task :-)
+Now you understand why I needed some automations to accomplish this task :-)
    
 My goal was to capture those 10'000 slides. First to keep all those memories in a safe place and also to have an easy and confortable way to watch them. With this DIY scanner It takes about 3 minutes to scan a 50 slides's rack. With some optimizations (like working exclusively in RAM) it could even take a single minute. 
 
@@ -112,11 +112,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM2OTcxMTMsLTgzNTczMDg1NCwxOD
-Q0ODM5OTk2LDM4OTM4ODI3NiwyMTE1MDE1MTQ4LC0xMjAwNDQz
-MzQ3LC0xNDY3NjU2OTcxLDE4NDIzMTgxMTgsMTI1NzExMTc3NS
-wxMzc4MDkxOTAzLC0yMDE4MDAzOTQzLDE5ODMzNjcxMjcsLTYz
-ODE5NzM3NiwxMDM5ODk2LDEzMTcxNDcxODQsODIxMDc5ODE4LC
-0xMTcyNzg3NTA5LC01OTY5OTY4MSwxNDU2ODI4NDI1LC04MjQy
-NjM1OTBdfQ==
+eyJoaXN0b3J5IjpbLTcwNTUwMDUwNSwtMTEyMzY5NzExMywtOD
+M1NzMwODU0LDE4NDQ4Mzk5OTYsMzg5Mzg4Mjc2LDIxMTUwMTUx
+NDgsLTEyMDA0NDMzNDcsLTE0Njc2NTY5NzEsMTg0MjMxODExOC
+wxMjU3MTExNzc1LDEzNzgwOTE5MDMsLTIwMTgwMDM5NDMsMTk4
+MzM2NzEyNywtNjM4MTk3Mzc2LDEwMzk4OTYsMTMxNzE0NzE4NC
+w4MjEwNzk4MTgsLTExNzI3ODc1MDksLTU5Njk5NjgxLDE0NTY4
+Mjg0MjVdfQ==
 -->
