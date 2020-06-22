@@ -114,8 +114,9 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
 ***clouding*** : 1 or 0 ,  enable or disable automatic upload to a nextcloud instance (see below for nextcloud instance configuration).<br><br>
     ./post-processing.py 001
     <br><br>
-    This command will launch a 50 slides scan in a row and put raw files into baseFolder/001 folder.
+    This command will post process all files found in baseFolder/001 folder and put resulting files into baseFolder/001/processed/ and to your Nextcloud instance (if configured) .
 
+# Configuring 
 # Samples
 Here are some samples of my scans. More to come ...
 
@@ -127,11 +128,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1MTM0NTAsLTEyODcwODA1NzMsNjM2Nz
-Q3NDQxLDE3MTAyMTA5ODksMTc0Nzg0NjY4NCwxNzA4MDUxNTYw
-LDcyNDA0MzA1MCwtMjg2NDAyNzEyLDkxOTI1MTExLC0xNjE5Mj
-UwOTkwLDIwNTQ5MTQ3NTcsMjY2NjE1NTgzLDU2NzQ0Mzc5Mywt
-NzA1NTAwNTA1LC0xMTIzNjk3MTEzLC04MzU3MzA4NTQsMTg0ND
-gzOTk5NiwzODkzODgyNzYsMjExNTAxNTE0OCwtMTIwMDQ0MzM0
-N119
+eyJoaXN0b3J5IjpbLTQwOTYzMjc1NCwtMTI4NzA4MDU3Myw2Mz
+Y3NDc0NDEsMTcxMDIxMDk4OSwxNzQ3ODQ2Njg0LDE3MDgwNTE1
+NjAsNzI0MDQzMDUwLC0yODY0MDI3MTIsOTE5MjUxMTEsLTE2MT
+kyNTA5OTAsMjA1NDkxNDc1NywyNjY2MTU1ODMsNTY3NDQzNzkz
+LC03MDU1MDA1MDUsLTExMjM2OTcxMTMsLTgzNTczMDg1NCwxOD
+Q0ODM5OTk2LDM4OTM4ODI3NiwyMTE1MDE1MTQ4LC0xMjAwNDQz
+MzQ3XX0=
 -->
