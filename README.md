@@ -93,14 +93,15 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
 		 There are 2 variables to edit at the begining of the script :
 		 *baseFolder* : Base folder where folders and pictures will be created
 		 *relayPin* : Raspberry GPIO pin where you plugged the relay which manage projector remote
- **4. Capture**<br>
+ **3. Capture**<br>
 		 You're now ready for the capture. Just launch KISSS.py 
- 5. Post processing
+ **4. Post processing** <br>
 	Cropping TODO
 	Mirroring TODO
 	Rotating TODO
 	Polishing TODO
- 6. Enjoy your memories in the cloud
+	
+ **5. Enjoy your memories in the cloud** <br>
 	TODO
 
 # Samples
@@ -114,7 +115,7 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTE2MDE4MSw5MTkyNTExMSwtMTYxOT
+eyJoaXN0b3J5IjpbLTI4NjQwMjcxMiw5MTkyNTExMSwtMTYxOT
 I1MDk5MCwyMDU0OTE0NzU3LDI2NjYxNTU4Myw1Njc0NDM3OTMs
 LTcwNTUwMDUwNSwtMTEyMzY5NzExMywtODM1NzMwODU0LDE4ND
 Q4Mzk5OTYsMzg5Mzg4Mjc2LDIxMTUwMTUxNDgsLTEyMDA0NDMz
