@@ -15,7 +15,7 @@ My dad was doing a lot (LOT) of photographies, exclusively on slides. From the e
 
 You now understand why I needed some automations to accomplish this task :-)
    
-My goal was to capture those 10'000 slides. First to keep all those memories in a safe place and also to have an easy and confortable way to watch them. With this DIY scanner It takes about 3 minutes to scan a 50 slides's rack. With some optimisations (like working exclusively in RAM) it could even take a single minute. 
+My goal was to capture those 10'000 slides. First to keep all those memories in a safe place and also to have an easy and confortable way to watch them. With this DIY scanner It takes about 3 minutes to scan a 50 slides's rack. With some optimizations (like working exclusively in RAM) it could even take a single minute. 
 
 # Hardware components
  - **Slide projector with wired remote**
@@ -98,11 +98,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQ3OTM2MDYsMTg0MjMxODExOCwxMj
-U3MTExNzc1LDEzNzgwOTE5MDMsLTIwMTgwMDM5NDMsMTk4MzM2
-NzEyNywtNjM4MTk3Mzc2LDEwMzk4OTYsMTMxNzE0NzE4NCw4Mj
-EwNzk4MTgsLTExNzI3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0
-MjUsLTgyNDI2MzU5MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLT
-k1NjAyNDQyMCwtNTAyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMy
-OTIxOF19
+eyJoaXN0b3J5IjpbLTc4NDczMjAxMywxODQyMzE4MTE4LDEyNT
+cxMTE3NzUsMTM3ODA5MTkwMywtMjAxODAwMzk0MywxOTgzMzY3
+MTI3LC02MzgxOTczNzYsMTAzOTg5NiwxMzE3MTQ3MTg0LDgyMT
+A3OTgxOCwtMTE3Mjc4NzUwOSwtNTk2OTk2ODEsMTQ1NjgyODQy
+NSwtODI0MjYzNTkwLC00OTA5OTE0NzYsLTI1NzM4NDA3OCwtOT
+U2MDI0NDIwLC01MDIyODU3OCwtOTU5ODk1MzMxLC0xMzcyMzI5
+MjE4XX0=
 -->
