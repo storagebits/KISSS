@@ -116,7 +116,9 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
     <br><br>
     This command will post process all files found in baseFolder/001 folder and put resulting files into baseFolder/001/processed/ and to your Nextcloud instance (if configured) .
 
-# Configuring 
+# Configuring your Nextcloud instance
+TODO
+
 # Samples
 Here are some samples of my scans. More to come ...
 
@@ -128,7 +130,7 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTYzMjc1NCwtMTI4NzA4MDU3Myw2Mz
+eyJoaXN0b3J5IjpbMTEzMDU1NzE3MCwtMTI4NzA4MDU3Myw2Mz
 Y3NDc0NDEsMTcxMDIxMDk4OSwxNzQ3ODQ2Njg0LDE3MDgwNTE1
 NjAsNzI0MDQzMDUwLC0yODY0MDI3MTIsOTE5MjUxMTEsLTE2MT
 kyNTA5OTAsMjA1NDkxNDc1NywyNjY2MTU1ODMsNTY3NDQzNzkz
