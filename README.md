@@ -110,13 +110,8 @@ cropping : 1 or 0 , enable or disable intelligent cropping (very useful if you'r
 *treeshold* : value between 0 and 100 . Treeshold used by the intelligent cropping. 
 *mirroring* : 1 or 0 , enable or disable automatic mirroring of the picture
 *rotating* : 1 or 0 ,  enable or disable automatic rotation of the picture
-degrees = 90
-
-# Polishing
-polishing = 0
-
-# Push to nextcloud
-clouding = 1
+*degrees* : value between 0 and 360 . Degrees value to rotate the picture
+*clouding* = 1
  **5. Enjoy your memories in the cloud** <br>
 	TODO
 
@@ -131,11 +126,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzY2NjM3OTksMTcxMDIxMDk4OSwxNz
-Q3ODQ2Njg0LDE3MDgwNTE1NjAsNzI0MDQzMDUwLC0yODY0MDI3
-MTIsOTE5MjUxMTEsLTE2MTkyNTA5OTAsMjA1NDkxNDc1NywyNj
-Y2MTU1ODMsNTY3NDQzNzkzLC03MDU1MDA1MDUsLTExMjM2OTcx
-MTMsLTgzNTczMDg1NCwxODQ0ODM5OTk2LDM4OTM4ODI3NiwyMT
-E1MDE1MTQ4LC0xMjAwNDQzMzQ3LC0xNDY3NjU2OTcxLDE4NDIz
-MTgxMThdfQ==
+eyJoaXN0b3J5IjpbMTY3OTExODUwMSwxNzEwMjEwOTg5LDE3ND
+c4NDY2ODQsMTcwODA1MTU2MCw3MjQwNDMwNTAsLTI4NjQwMjcx
+Miw5MTkyNTExMSwtMTYxOTI1MDk5MCwyMDU0OTE0NzU3LDI2Nj
+YxNTU4Myw1Njc0NDM3OTMsLTcwNTUwMDUwNSwtMTEyMzY5NzEx
+MywtODM1NzMwODU0LDE4NDQ4Mzk5OTYsMzg5Mzg4Mjc2LDIxMT
+UwMTUxNDgsLTEyMDA0NDMzNDcsLTE0Njc2NTY5NzEsMTg0MjMx
+ODExOF19
 -->
