@@ -9,7 +9,7 @@ It uses a simple projector lens trick by adding a simple white XXX between the l
 
 It uses a Raspberry Pi which control the slide projector via a simple relay and a DSLR camera to capture the slides. Then it does some post processing operations and send it straight to the cloud ! oh yeah
 
-My dad was doing a lot (LOT) of photographies, exclusively on slides. From the early 1960's up to 1990. During this time he did more than 10'000 photos. Not a bad score at a time where you had to go to corner shop to develop them! Since 30 years, for many reasons, those slides and their memories are sleeping in a attic...  
+My dad was doing a lot (LOT) of photographies, exclusively on slides. From the early 1960's up to 1990. During this time he did more than 10'000 photos. Not a bad score at a time where you had to go to corner shop to develop them!  Since 30 years, for many reasons, those slides and their memories are sleeping in a attic...  
 
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/slidestock.jpg?raw=true)
 
@@ -29,7 +29,7 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 
  
  - **DSLR photo camera with USB remote capabilities** (see Gphoto2 below)
-	 - I use a Canon 700d with a 70-300mm lens in macro mode. I put every settings in manual mode except ISO.
+	 - I use a Canon 700d with a 70-300mm lens in macro mode. I put every settings in manual mode except ISO. TODO
 	 
  - **Raspberry Pi** 
 	 - I use a Raspberry 4 but all of them should work. Keep in mind that if you do some post processing operations, the more cpu/ram it has, faster it'll run !
@@ -98,11 +98,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5ODYwNDQ2LDEyNTcxMTE3NzUsMTM3OD
-A5MTkwMywtMjAxODAwMzk0MywxOTgzMzY3MTI3LC02MzgxOTcz
-NzYsMTAzOTg5NiwxMzE3MTQ3MTg0LDgyMTA3OTgxOCwtMTE3Mj
-c4NzUwOSwtNTk2OTk2ODEsMTQ1NjgyODQyNSwtODI0MjYzNTkw
-LC00OTA5OTE0NzYsLTI1NzM4NDA3OCwtOTU2MDI0NDIwLC01MD
-IyODU3OCwtOTU5ODk1MzMxLC0xMzcyMzI5MjE4LDIwNDI4NzEy
-NF19
+eyJoaXN0b3J5IjpbMTg0MjMxODExOCwxMjU3MTExNzc1LDEzNz
+gwOTE5MDMsLTIwMTgwMDM5NDMsMTk4MzM2NzEyNywtNjM4MTk3
+Mzc2LDEwMzk4OTYsMTMxNzE0NzE4NCw4MjEwNzk4MTgsLTExNz
+I3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0MjUsLTgyNDI2MzU5
+MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLTk1NjAyNDQyMCwtNT
+AyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMyOTIxOCwyMDQyODcx
+MjRdfQ==
 -->
