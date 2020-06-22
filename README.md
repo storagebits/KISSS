@@ -86,15 +86,18 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.py** and the post processing script called **post-processing.py**.
 
  **1. Setup your hardware**<br>
-		Install all your hardware on a table and wire everything. 
-		Put the projector ON with a sample slide.
-		VERY IMPORTANT STEP : calibrate your camera with the sample slide. Be sure 
+		Install all your hardware on a table and wire everything. <br>
+		Put the projector ON with a sample slide.<br>
+		VERY IMPORTANT STEP : calibrate your camera with the sample slide. Be sure <br>
+		
  **2. Setup the KISSS.py script**<br>
 		 There are 2 variables to edit at the begining of the script :
 		 *baseFolder* : Base folder where folders and pictures will be created
 		 *relayPin* : Raspberry GPIO pin where you plugged the relay which manage projector remote
+		 
  **3. Capture**<br>
 		 You're now ready for the capture. Just launch KISSS.py 
+		 
  **4. Post processing** <br>
 	Cropping TODO
 	Mirroring TODO
@@ -115,11 +118,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NjQwMjcxMiw5MTkyNTExMSwtMTYxOT
-I1MDk5MCwyMDU0OTE0NzU3LDI2NjYxNTU4Myw1Njc0NDM3OTMs
-LTcwNTUwMDUwNSwtMTEyMzY5NzExMywtODM1NzMwODU0LDE4ND
-Q4Mzk5OTYsMzg5Mzg4Mjc2LDIxMTUwMTUxNDgsLTEyMDA0NDMz
-NDcsLTE0Njc2NTY5NzEsMTg0MjMxODExOCwxMjU3MTExNzc1LD
-EzNzgwOTE5MDMsLTIwMTgwMDM5NDMsMTk4MzM2NzEyNywtNjM4
-MTk3Mzc2XX0=
+eyJoaXN0b3J5IjpbLTExOTgxMzg5ODgsLTI4NjQwMjcxMiw5MT
+kyNTExMSwtMTYxOTI1MDk5MCwyMDU0OTE0NzU3LDI2NjYxNTU4
+Myw1Njc0NDM3OTMsLTcwNTUwMDUwNSwtMTEyMzY5NzExMywtOD
+M1NzMwODU0LDE4NDQ4Mzk5OTYsMzg5Mzg4Mjc2LDIxMTUwMTUx
+NDgsLTEyMDA0NDMzNDcsLTE0Njc2NTY5NzEsMTg0MjMxODExOC
+wxMjU3MTExNzc1LDEzNzgwOTE5MDMsLTIwMTgwMDM5NDMsMTk4
+MzM2NzEyN119
 -->
