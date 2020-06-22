@@ -75,7 +75,7 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 	- OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. I use it in the post processing stage for multiple purposes : intelligent cropping (thx mec!) , mirroring , rotating.
 
 - **Nextcloud**
-TODO
+	- 
 
 # Circuit
 <a href="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true">
@@ -107,7 +107,7 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzQ4ODE5OSwyMDU0OTE0NzU3LDI2Nj
+eyJoaXN0b3J5IjpbMTExNjM3MDExNCwyMDU0OTE0NzU3LDI2Nj
 YxNTU4Myw1Njc0NDM3OTMsLTcwNTUwMDUwNSwtMTEyMzY5NzEx
 MywtODM1NzMwODU0LDE4NDQ4Mzk5OTYsMzg5Mzg4Mjc2LDIxMT
 UwMTUxNDgsLTEyMDA0NDMzNDcsLTE0Njc2NTY5NzEsMTg0MjMx
