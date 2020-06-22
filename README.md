@@ -76,7 +76,7 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 
 - **Nextcloud**
 	- Nextcloud offers the industry-leading, on-premises content collaboration platform. Since I use this software since many years to store all my files and especially pictures, it was a natural choice to use it at final stage to push all my scans into it. I love the way I can browse my content, from my computer , my phone , my TV using Kodi through the webdav access , or whatever ... it has it all !
-	- To push picture to a Nextcloud instance I use 
+	- To push picture to a Nextcloud instance I use Tavinus Cloud Manager (https://github.com/tavinus/cloudmanager) . 
 
 # Circuit
 <a href="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true">
@@ -120,11 +120,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5ODM1OTg5LDE3NDc4NDY2ODQsMTcwOD
-A1MTU2MCw3MjQwNDMwNTAsLTI4NjQwMjcxMiw5MTkyNTExMSwt
-MTYxOTI1MDk5MCwyMDU0OTE0NzU3LDI2NjYxNTU4Myw1Njc0ND
-M3OTMsLTcwNTUwMDUwNSwtMTEyMzY5NzExMywtODM1NzMwODU0
-LDE4NDQ4Mzk5OTYsMzg5Mzg4Mjc2LDIxMTUwMTUxNDgsLTEyMD
-A0NDMzNDcsLTE0Njc2NTY5NzEsMTg0MjMxODExOCwxMjU3MTEx
-Nzc1XX0=
+eyJoaXN0b3J5IjpbLTczODc3MzU1NSwxNzQ3ODQ2Njg0LDE3MD
+gwNTE1NjAsNzI0MDQzMDUwLC0yODY0MDI3MTIsOTE5MjUxMTEs
+LTE2MTkyNTA5OTAsMjA1NDkxNDc1NywyNjY2MTU1ODMsNTY3ND
+QzNzkzLC03MDU1MDA1MDUsLTExMjM2OTcxMTMsLTgzNTczMDg1
+NCwxODQ0ODM5OTk2LDM4OTM4ODI3NiwyMTE1MDE1MTQ4LC0xMj
+AwNDQzMzQ3LC0xNDY3NjU2OTcxLDE4NDIzMTgxMTgsMTI1NzEx
+MTc3NV19
 -->
