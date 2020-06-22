@@ -107,14 +107,9 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
 	There are few variables to edit at the begining of the post-processing.py script : 
 *baseFolder* : Base folder where folders and pictures will be created<br>
 cropping : 1 or 0 , enable or disable intelligent cropping (very useful if you're not able to have the whole frame when taking pictures)
-treeshold: value between 0 and 100 . Treeshold used by the intelligent cropping. 
-
-# Mirroring
-mirroring = 1
-HorizOrVert = "H"  # can be H or V
-
-# Rotating
-rotating = 1
+*treeshold* : value between 0 and 100 . Treeshold used by the intelligent cropping. 
+*mirroring* : 1 or 0 , enable or disable mirroring of the picture
+*rotating* : 1 or 0 ,  enable or disable rotation of
 degrees = 90
 
 # Polishing
@@ -136,7 +131,7 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTE3NDgxNjUsMTcxMDIxMDk4OSwxNz
+eyJoaXN0b3J5IjpbLTE1MjQyMTI2ODAsMTcxMDIxMDk4OSwxNz
 Q3ODQ2Njg0LDE3MDgwNTE1NjAsNzI0MDQzMDUwLC0yODY0MDI3
 MTIsOTE5MjUxMTEsLTE2MTkyNTA5OTAsMjA1NDkxNDc1NywyNj
 Y2MTU1ODMsNTY3NDQzNzkzLC03MDU1MDA1MDUsLTExMjM2OTcx
