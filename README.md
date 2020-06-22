@@ -7,7 +7,7 @@ It uses a simple projector lens trick by adding a white midsole between  lenses 
 
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/final.jpg?raw=true)
 
-It uses a Raspberry Pi which control the slide projector via a simple relay and a DSLR camera to capture the slides. Then it does some post processing operations and send it straight to the cloud ! oh yeah
+It uses a Raspberry Pi which control the slide projector via a simple relay module and a DSLR camera to capture the slides. Then it does some post processing operations and send it straight to the cloud ! oh yeah
 
 My dad was doing a lot (LOT) of photographies, exclusively on slides. From the early 1960's up to the 1990's. During this time he did more than 10'000 photos. Not a bad score at a time where you had to go to corner shop to develop them!  Since 30 years, for many reasons, those slides and their memories are sleeping in a attic...  
 
@@ -110,11 +110,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY3NDQzNzkzLC03MDU1MDA1MDUsLTExMj
-M2OTcxMTMsLTgzNTczMDg1NCwxODQ0ODM5OTk2LDM4OTM4ODI3
-NiwyMTE1MDE1MTQ4LC0xMjAwNDQzMzQ3LC0xNDY3NjU2OTcxLD
-E4NDIzMTgxMTgsMTI1NzExMTc3NSwxMzc4MDkxOTAzLC0yMDE4
-MDAzOTQzLDE5ODMzNjcxMjcsLTYzODE5NzM3NiwxMDM5ODk2LD
-EzMTcxNDcxODQsODIxMDc5ODE4LC0xMTcyNzg3NTA5LC01OTY5
-OTY4MV19
+eyJoaXN0b3J5IjpbMjY2NjE1NTgzLDU2NzQ0Mzc5MywtNzA1NT
+AwNTA1LC0xMTIzNjk3MTEzLC04MzU3MzA4NTQsMTg0NDgzOTk5
+NiwzODkzODgyNzYsMjExNTAxNTE0OCwtMTIwMDQ0MzM0NywtMT
+Q2NzY1Njk3MSwxODQyMzE4MTE4LDEyNTcxMTE3NzUsMTM3ODA5
+MTkwMywtMjAxODAwMzk0MywxOTgzMzY3MTI3LC02MzgxOTczNz
+YsMTAzOTg5NiwxMzE3MTQ3MTg0LDgyMTA3OTgxOCwtMTE3Mjc4
+NzUwOV19
 -->
