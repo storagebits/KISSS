@@ -85,17 +85,13 @@ TODO
 K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py and the post processing script called post-processing.py
 
  1. Setup your hardware
-	TODO
-	
+ 2. Setup the scripts
  3. Capture
-	TODO
-	
  4. Post processing
 	Cropping TODO
 	Mirroring TODO
 	Rotating TODO
 	Polishing TODO
-	
  5. Enjoy your memories in the cloud
 	TODO
 
@@ -110,11 +106,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDg2NDkyMzcsMjA1NDkxNDc1NywyNj
-Y2MTU1ODMsNTY3NDQzNzkzLC03MDU1MDA1MDUsLTExMjM2OTcx
-MTMsLTgzNTczMDg1NCwxODQ0ODM5OTk2LDM4OTM4ODI3NiwyMT
-E1MDE1MTQ4LC0xMjAwNDQzMzQ3LC0xNDY3NjU2OTcxLDE4NDIz
-MTgxMTgsMTI1NzExMTc3NSwxMzc4MDkxOTAzLC0yMDE4MDAzOT
-QzLDE5ODMzNjcxMjcsLTYzODE5NzM3NiwxMDM5ODk2LDEzMTcx
-NDcxODRdfQ==
+eyJoaXN0b3J5IjpbMTA3OTEzODE1MSwyMDU0OTE0NzU3LDI2Nj
+YxNTU4Myw1Njc0NDM3OTMsLTcwNTUwMDUwNSwtMTEyMzY5NzEx
+MywtODM1NzMwODU0LDE4NDQ4Mzk5OTYsMzg5Mzg4Mjc2LDIxMT
+UwMTUxNDgsLTEyMDA0NDMzNDcsLTE0Njc2NTY5NzEsMTg0MjMx
+ODExOCwxMjU3MTExNzc1LDEzNzgwOTE5MDMsLTIwMTgwMDM5ND
+MsMTk4MzM2NzEyNywtNjM4MTk3Mzc2LDEwMzk4OTYsMTMxNzE0
+NzE4NF19
 -->
