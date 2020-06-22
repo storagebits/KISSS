@@ -72,7 +72,7 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 	- I suggest this automated installer to have the lastest bits of this wonderful software : https://github.com/gonzalo/gphoto2-updater/  . This script allows to install last development and last stable releases of gphoto2 and libgphoto2 based on git repositories
 
 - **OpenCV library**
-	- OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. I use it in the post processing stage for multiple purposes : intelligent cropping (thx mec!) , mirroring , rotating.
+	- OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. I use it in the post processing stage for multiple purposes : intelligent cropping (thx mec!) , mirroring , rotating, "final polish" , etc...
 
 - **Nextcloud**
 	- Nextcloud offers the industry-leading, on-premises content collaboration platform. Since I use this software since many years to store all my files and especially pictures, it was a natural choice to use it at final stage to push all my scans into it. I love the way I can browse my content, from my computer , my phone , my TV using Kodi through the webdav access , or whatever ... it has it all !
@@ -107,11 +107,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTkyNTA5OTAsMjA1NDkxNDc1NywyNj
-Y2MTU1ODMsNTY3NDQzNzkzLC03MDU1MDA1MDUsLTExMjM2OTcx
-MTMsLTgzNTczMDg1NCwxODQ0ODM5OTk2LDM4OTM4ODI3NiwyMT
-E1MDE1MTQ4LC0xMjAwNDQzMzQ3LC0xNDY3NjU2OTcxLDE4NDIz
-MTgxMTgsMTI1NzExMTc3NSwxMzc4MDkxOTAzLC0yMDE4MDAzOT
-QzLDE5ODMzNjcxMjcsLTYzODE5NzM3NiwxMDM5ODk2LDEzMTcx
-NDcxODRdfQ==
+eyJoaXN0b3J5IjpbOTE5MjUxMTEsLTE2MTkyNTA5OTAsMjA1ND
+kxNDc1NywyNjY2MTU1ODMsNTY3NDQzNzkzLC03MDU1MDA1MDUs
+LTExMjM2OTcxMTMsLTgzNTczMDg1NCwxODQ0ODM5OTk2LDM4OT
+M4ODI3NiwyMTE1MDE1MTQ4LC0xMjAwNDQzMzQ3LC0xNDY3NjU2
+OTcxLDE4NDIzMTgxMTgsMTI1NzExMTc3NSwxMzc4MDkxOTAzLC
+0yMDE4MDAzOTQzLDE5ODMzNjcxMjcsLTYzODE5NzM3NiwxMDM5
+ODk2XX0=
 -->
