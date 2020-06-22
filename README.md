@@ -3,7 +3,7 @@
 # About this project
 K.I.S.S.S. Keep It Simple Slide Scanner is an other DIY slide scanner project. Here you'll find informations about how I went into this scanning project. It is provided "as is". For sure you'll need to adapt it to match your own installation.
 
-It uses a simple projector lens trick by adding a simple white midsole between  lenses which will illuminate the slides. It then allows a DSLR to capture a slide by photographing it directly from the projector instead from the projected picture. 
+It uses a simple projector lens trick by adding a white midsole between  lenses which will illuminate the slides. It then allows a DSLR to capture a slide by photographing it directly from the projector instead from the projected picture. 
 
 ![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/final.jpg?raw=true)
 
@@ -103,11 +103,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4MjU5NzQ0LC0xMjAwNDQzMzQ3LC0xND
-Y3NjU2OTcxLDE4NDIzMTgxMTgsMTI1NzExMTc3NSwxMzc4MDkx
-OTAzLC0yMDE4MDAzOTQzLDE5ODMzNjcxMjcsLTYzODE5NzM3Ni
-wxMDM5ODk2LDEzMTcxNDcxODQsODIxMDc5ODE4LC0xMTcyNzg3
-NTA5LC01OTY5OTY4MSwxNDU2ODI4NDI1LC04MjQyNjM1OTAsLT
-Q5MDk5MTQ3NiwtMjU3Mzg0MDc4LC05NTYwMjQ0MjAsLTUwMjI4
-NTc4XX0=
+eyJoaXN0b3J5IjpbMjExNTAxNTE0OCwtMTIwMDQ0MzM0NywtMT
+Q2NzY1Njk3MSwxODQyMzE4MTE4LDEyNTcxMTE3NzUsMTM3ODA5
+MTkwMywtMjAxODAwMzk0MywxOTgzMzY3MTI3LC02MzgxOTczNz
+YsMTAzOTg5NiwxMzE3MTQ3MTg0LDgyMTA3OTgxOCwtMTE3Mjc4
+NzUwOSwtNTk2OTk2ODEsMTQ1NjgyODQyNSwtODI0MjYzNTkwLC
+00OTA5OTE0NzYsLTI1NzM4NDA3OCwtOTU2MDI0NDIwLC01MDIy
+ODU3OF19
 -->
