@@ -58,9 +58,6 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
  	 <p><a href="https://github.com/storagebits/KISSS/blob/master/images/tripod.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/tripod.jpg?raw=true" align="left" width="200" ></a> 
  </p>
  <br><br><br><br><br><br><br><br><br>
-
-# Circuit
-<a href="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true">
  
 # Software components
  - **Raspbian** (now called Raspberry Pi OS)
@@ -111,11 +108,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyMTYzNDk3LDIwNTQ5MTQ3NTcsMjY2Nj
-E1NTgzLDU2NzQ0Mzc5MywtNzA1NTAwNTA1LC0xMTIzNjk3MTEz
-LC04MzU3MzA4NTQsMTg0NDgzOTk5NiwzODkzODgyNzYsMjExNT
-AxNTE0OCwtMTIwMDQ0MzM0NywtMTQ2NzY1Njk3MSwxODQyMzE4
-MTE4LDEyNTcxMTE3NzUsMTM3ODA5MTkwMywtMjAxODAwMzk0My
-wxOTgzMzY3MTI3LC02MzgxOTczNzYsMTAzOTg5NiwxMzE3MTQ3
-MTg0XX0=
+eyJoaXN0b3J5IjpbLTE4MzMxODYzNDEsMjA1NDkxNDc1NywyNj
+Y2MTU1ODMsNTY3NDQzNzkzLC03MDU1MDA1MDUsLTExMjM2OTcx
+MTMsLTgzNTczMDg1NCwxODQ0ODM5OTk2LDM4OTM4ODI3NiwyMT
+E1MDE1MTQ4LC0xMjAwNDQzMzQ3LC0xNDY3NjU2OTcxLDE4NDIz
+MTgxMTgsMTI1NzExMTc3NSwxMzc4MDkxOTAzLC0yMDE4MDAzOT
+QzLDE5ODMzNjcxMjcsLTYzODE5NzM3NiwxMDM5ODk2LDEzMTcx
+NDcxODRdfQ==
 -->
