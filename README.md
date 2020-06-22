@@ -58,6 +58,9 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
  	 <p><a href="https://github.com/storagebits/KISSS/blob/master/images/tripod.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/tripod.jpg?raw=true" align="left" width="200" ></a> 
  </p>
  <br><br><br><br><br><br><br><br><br>
+
+# Circuit
+<a href="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true">
  
 # Software components
  - **Raspbian** (now called Raspberry Pi OS)
@@ -78,8 +81,7 @@ TODO
 
 # The "magic" trick
 	TODO
-# Circuit
-<a href="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true">
+
 # How it works
 K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py and the post processing script called post-processing.py
 
@@ -109,11 +111,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDkxNDc1NywyNjY2MTU1ODMsNTY3ND
-QzNzkzLC03MDU1MDA1MDUsLTExMjM2OTcxMTMsLTgzNTczMDg1
-NCwxODQ0ODM5OTk2LDM4OTM4ODI3NiwyMTE1MDE1MTQ4LC0xMj
-AwNDQzMzQ3LC0xNDY3NjU2OTcxLDE4NDIzMTgxMTgsMTI1NzEx
-MTc3NSwxMzc4MDkxOTAzLC0yMDE4MDAzOTQzLDE5ODMzNjcxMj
-csLTYzODE5NzM3NiwxMDM5ODk2LDEzMTcxNDcxODQsODIxMDc5
-ODE4XX0=
+eyJoaXN0b3J5IjpbNDIyMTYzNDk3LDIwNTQ5MTQ3NTcsMjY2Nj
+E1NTgzLDU2NzQ0Mzc5MywtNzA1NTAwNTA1LC0xMTIzNjk3MTEz
+LC04MzU3MzA4NTQsMTg0NDgzOTk5NiwzODkzODgyNzYsMjExNT
+AxNTE0OCwtMTIwMDQ0MzM0NywtMTQ2NzY1Njk3MSwxODQyMzE4
+MTE4LDEyNTcxMTE3NzUsMTM3ODA5MTkwMywtMjAxODAwMzk0My
+wxOTgzMzY3MTI3LC02MzgxOTczNzYsMTAzOTg5NiwxMzE3MTQ3
+MTg0XX0=
 -->
