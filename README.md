@@ -48,7 +48,7 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 
  - **A tripod**
 	 - Optional but very useful depending on your setup. 
- 	 <p><a href="https://github.com/storagebits/KISSS/blob/master/images/tripod.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/tripod.jpg?raw=true" align="left" width="200" ></a>
+ 	 <p><a href="https://github.com/storagebits/KISSS/blob/master/images/tripod.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/tripod.jpg?raw=true" align="left" width="200" ></a> 
  </p>
  <br><br><br><br><br><br><br><br><br>
  
@@ -103,11 +103,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5Mzg4Mjc2LDIxMTUwMTUxNDgsLTEyMD
-A0NDMzNDcsLTE0Njc2NTY5NzEsMTg0MjMxODExOCwxMjU3MTEx
-Nzc1LDEzNzgwOTE5MDMsLTIwMTgwMDM5NDMsMTk4MzM2NzEyNy
-wtNjM4MTk3Mzc2LDEwMzk4OTYsMTMxNzE0NzE4NCw4MjEwNzk4
-MTgsLTExNzI3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0MjUsLT
-gyNDI2MzU5MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLTk1NjAy
-NDQyMF19
+eyJoaXN0b3J5IjpbMTg0NDgzOTk5NiwzODkzODgyNzYsMjExNT
+AxNTE0OCwtMTIwMDQ0MzM0NywtMTQ2NzY1Njk3MSwxODQyMzE4
+MTE4LDEyNTcxMTE3NzUsMTM3ODA5MTkwMywtMjAxODAwMzk0My
+wxOTgzMzY3MTI3LC02MzgxOTczNzYsMTAzOTg5NiwxMzE3MTQ3
+MTg0LDgyMTA3OTgxOCwtMTE3Mjc4NzUwOSwtNTk2OTk2ODEsMT
+Q1NjgyODQyNSwtODI0MjYzNTkwLC00OTA5OTE0NzYsLTI1NzM4
+NDA3OF19
 -->
