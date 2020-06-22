@@ -79,7 +79,7 @@ TODO
 # The "magic" trick
 	TODO
 # Circuit
-<a href="https://github.com/storagebits/KISSS/blob/master/images/tamron.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true">
+<a href="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true">
 # How it works
 K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py and the post processing script called post-processing.py
 
@@ -109,11 +109,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDkyNzI1ODcsMjY2NjE1NTgzLDU2Nz
-Q0Mzc5MywtNzA1NTAwNTA1LC0xMTIzNjk3MTEzLC04MzU3MzA4
-NTQsMTg0NDgzOTk5NiwzODkzODgyNzYsMjExNTAxNTE0OCwtMT
-IwMDQ0MzM0NywtMTQ2NzY1Njk3MSwxODQyMzE4MTE4LDEyNTcx
-MTE3NzUsMTM3ODA5MTkwMywtMjAxODAwMzk0MywxOTgzMzY3MT
-I3LC02MzgxOTczNzYsMTAzOTg5NiwxMzE3MTQ3MTg0LDgyMTA3
-OTgxOF19
+eyJoaXN0b3J5IjpbMjA1NDkxNDc1NywyNjY2MTU1ODMsNTY3ND
+QzNzkzLC03MDU1MDA1MDUsLTExMjM2OTcxMTMsLTgzNTczMDg1
+NCwxODQ0ODM5OTk2LDM4OTM4ODI3NiwyMTE1MDE1MTQ4LC0xMj
+AwNDQzMzQ3LC0xNDY3NjU2OTcxLDE4NDIzMTgxMTgsMTI1NzEx
+MTc3NSwxMzc4MDkxOTAzLC0yMDE4MDAzOTQzLDE5ODMzNjcxMj
+csLTYzODE5NzM3NiwxMDM5ODk2LDEzMTcxNDcxODQsODIxMDc5
+ODE4XX0=
 -->
