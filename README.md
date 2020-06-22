@@ -82,7 +82,10 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py 
 	TODO
 	
  4. Post processing
-	TODO
+	Cropping
+	Mirroring
+	Rotating
+	Polishing
 	
  5. Enjoy your memories in the cloud
 	TODO
@@ -98,11 +101,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njc2NTY5NzEsMTg0MjMxODExOCwxMj
-U3MTExNzc1LDEzNzgwOTE5MDMsLTIwMTgwMDM5NDMsMTk4MzM2
-NzEyNywtNjM4MTk3Mzc2LDEwMzk4OTYsMTMxNzE0NzE4NCw4Mj
-EwNzk4MTgsLTExNzI3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0
-MjUsLTgyNDI2MzU5MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLT
-k1NjAyNDQyMCwtNTAyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMy
-OTIxOF19
+eyJoaXN0b3J5IjpbLTEyMDA0NDMzNDcsLTE0Njc2NTY5NzEsMT
+g0MjMxODExOCwxMjU3MTExNzc1LDEzNzgwOTE5MDMsLTIwMTgw
+MDM5NDMsMTk4MzM2NzEyNywtNjM4MTk3Mzc2LDEwMzk4OTYsMT
+MxNzE0NzE4NCw4MjEwNzk4MTgsLTExNzI3ODc1MDksLTU5Njk5
+NjgxLDE0NTY4Mjg0MjUsLTgyNDI2MzU5MCwtNDkwOTkxNDc2LC
+0yNTczODQwNzgsLTk1NjAyNDQyMCwtNTAyMjg1NzgsLTk1OTg5
+NTMzMV19
 -->
