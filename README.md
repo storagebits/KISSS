@@ -15,7 +15,7 @@ My dad was doing a lot (LOT) of photographies, exclusively on slides. From the e
 
 Now you understand why I needed some automations to accomplish this task :-)
    
-My goal was to capture those 10'000 slides. First to keep all those memories in a safe place and also to have an easy and confortable way to watch them. Resulting scan quality is beyond my expectations.  With this DIY scanner It takes about 3 minutes to scan a 50 slides's rack. With some optimizations (like working exclusively in RAM) it could even take a single minute. 
+My goal was to capture those 10'000 slides. First to keep all those memories in a safe place and also to have an easy and confortable way to watch them. Resulting scan quality is beyond my expectations. Far more than acceptable for display, maybe not enough for print. It depends of many factors. With this DIY scanner It takes about 3 minutes to scan a 50 slides's rack. With some optimizations (like working exclusively in RAM) it could even take a single minute. 
 
 # Hardware components
  - **Slide projector with wired remote**
@@ -79,7 +79,7 @@ TODO
 # The "magic" trick
 	TODO
 # Circuit
-	TODO
+	<a href="https://github.com/storagebits/KISSS/blob/master/images/tamron.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true" align="left" width="200" >
 
 # How it works
 K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py and the post processing script called post-processing.py
@@ -110,7 +110,7 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5Nzk2MDk4NiwyNjY2MTU1ODMsNTY3ND
+eyJoaXN0b3J5IjpbLTgzMDIwNzUzMSwyNjY2MTU1ODMsNTY3ND
 QzNzkzLC03MDU1MDA1MDUsLTExMjM2OTcxMTMsLTgzNTczMDg1
 NCwxODQ0ODM5OTk2LDM4OTM4ODI3NiwyMTE1MDE1MTQ4LC0xMj
 AwNDQzMzQ3LC0xNDY3NjU2OTcxLDE4NDIzMTgxMTgsMTI1NzEx
