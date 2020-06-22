@@ -42,13 +42,13 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
  
  - **Few Dupont wires**
 	 - Classics female to female Dupont wires to plug the Raspberry Pi GPIOs to the relay module.
-	 - <p><a href="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/relay-module.jpg?raw=true" align="left" width="200" ></a>
+	 <p><a href="https://github.com/storagebits/KISSS/blob/master/images/dupont-female.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/dupont-female.jpg?raw=true" align="left" width="200" ></a>
  </p>
  <br><br><br><br><br>
 
  - **A tripod**
 	 - Optional but very useful depending of your setup. 
- 	 - <p><a href="https://github.com/storagebits/KISSS/blob/master/images/tripod.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/tripod.jpg?raw=true" align="left" width="200" ></a>
+ 	 <p><a href="https://github.com/storagebits/KISSS/blob/master/images/tripod.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/tripod.jpg?raw=true" align="left" width="200" ></a>
  </p>
  <br><br><br><br><br>
  
@@ -98,11 +98,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjMxODExOCwxMjU3MTExNzc1LDEzNz
-gwOTE5MDMsLTIwMTgwMDM5NDMsMTk4MzM2NzEyNywtNjM4MTk3
-Mzc2LDEwMzk4OTYsMTMxNzE0NzE4NCw4MjEwNzk4MTgsLTExNz
-I3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0MjUsLTgyNDI2MzU5
-MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLTk1NjAyNDQyMCwtNT
-AyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMyOTIxOCwyMDQyODcx
-MjRdfQ==
+eyJoaXN0b3J5IjpbLTE0NTQ3OTM2MDYsMTg0MjMxODExOCwxMj
+U3MTExNzc1LDEzNzgwOTE5MDMsLTIwMTgwMDM5NDMsMTk4MzM2
+NzEyNywtNjM4MTk3Mzc2LDEwMzk4OTYsMTMxNzE0NzE4NCw4Mj
+EwNzk4MTgsLTExNzI3ODc1MDksLTU5Njk5NjgxLDE0NTY4Mjg0
+MjUsLTgyNDI2MzU5MCwtNDkwOTkxNDc2LC0yNTczODQwNzgsLT
+k1NjAyNDQyMCwtNTAyMjg1NzgsLTk1OTg5NTMzMSwtMTM3MjMy
+OTIxOF19
 -->
