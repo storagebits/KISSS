@@ -83,7 +83,7 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 
 
 # Getting started
-K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.py** and the post processing script called post-processing.py
+K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.py** and the post processing script called **post-processing.py**.
 
  **1. Setup your hardware**
 		Install all your hardware on a table and wire everything. 
@@ -114,7 +114,7 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjcxNzMwNyw5MTkyNTExMSwtMTYxOT
+eyJoaXN0b3J5IjpbLTgwODY2NTMxOSw5MTkyNTExMSwtMTYxOT
 I1MDk5MCwyMDU0OTE0NzU3LDI2NjYxNTU4Myw1Njc0NDM3OTMs
 LTcwNTUwMDUwNSwtMTEyMzY5NzExMywtODM1NzMwODU0LDE4ND
 Q4Mzk5OTYsMzg5Mzg4Mjc2LDIxMTUwMTUxNDgsLTEyMDA0NDMz
