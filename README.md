@@ -86,14 +86,15 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 K.I.S.S.S. is just made of 2 main scripts. The "capture script" called KISSS.py and the post processing script called post-processing.py
 
  1. Setup your hardware
- 2. Setup the scripts
- 3. Capture
- 4. Post processing
+	 Install all your hardware on a table and wire everything, put the projector ON with a sample slide 
+ 3. Setup the scripts
+ 4. Capture
+ 5. Post processing
 	Cropping TODO
 	Mirroring TODO
 	Rotating TODO
 	Polishing TODO
- 5. Enjoy your memories in the cloud
+ 6. Enjoy your memories in the cloud
 	TODO
 
 # Samples
@@ -107,11 +108,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5MjUxMTEsLTE2MTkyNTA5OTAsMjA1ND
-kxNDc1NywyNjY2MTU1ODMsNTY3NDQzNzkzLC03MDU1MDA1MDUs
-LTExMjM2OTcxMTMsLTgzNTczMDg1NCwxODQ0ODM5OTk2LDM4OT
-M4ODI3NiwyMTE1MDE1MTQ4LC0xMjAwNDQzMzQ3LC0xNDY3NjU2
-OTcxLDE4NDIzMTgxMTgsMTI1NzExMTc3NSwxMzc4MDkxOTAzLC
-0yMDE4MDAzOTQzLDE5ODMzNjcxMjcsLTYzODE5NzM3NiwxMDM5
-ODk2XX0=
+eyJoaXN0b3J5IjpbMTE0Mjk1OTE1Niw5MTkyNTExMSwtMTYxOT
+I1MDk5MCwyMDU0OTE0NzU3LDI2NjYxNTU4Myw1Njc0NDM3OTMs
+LTcwNTUwMDUwNSwtMTEyMzY5NzExMywtODM1NzMwODU0LDE4ND
+Q4Mzk5OTYsMzg5Mzg4Mjc2LDIxMTUwMTUxNDgsLTEyMDA0NDMz
+NDcsLTE0Njc2NTY5NzEsMTg0MjMxODExOCwxMjU3MTExNzc1LD
+EzNzgwOTE5MDMsLTIwMTgwMDM5NDMsMTk4MzM2NzEyNywtNjM4
+MTk3Mzc2XX0=
 -->
