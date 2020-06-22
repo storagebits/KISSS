@@ -25,7 +25,7 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 
 <a href="https://github.com/storagebits/KISSS/blob/master/images/remote2.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/remote2.jpg?raw=true" align="left" width="200" ></a>
  </center>
- <br><br><br><br><br><br><br><br><br><br><br><br>
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
  
  - **DSLR photo camera with USB remote capabilities** (see Gphoto2 below)
@@ -110,11 +110,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM3MjU1NDc3LC03MDU1MDA1MDUsLTExMj
-M2OTcxMTMsLTgzNTczMDg1NCwxODQ0ODM5OTk2LDM4OTM4ODI3
-NiwyMTE1MDE1MTQ4LC0xMjAwNDQzMzQ3LC0xNDY3NjU2OTcxLD
-E4NDIzMTgxMTgsMTI1NzExMTc3NSwxMzc4MDkxOTAzLC0yMDE4
-MDAzOTQzLDE5ODMzNjcxMjcsLTYzODE5NzM3NiwxMDM5ODk2LD
-EzMTcxNDcxODQsODIxMDc5ODE4LC0xMTcyNzg3NTA5LC01OTY5
-OTY4MV19
+eyJoaXN0b3J5IjpbLTIxMDQwMjg5NjEsLTcwNTUwMDUwNSwtMT
+EyMzY5NzExMywtODM1NzMwODU0LDE4NDQ4Mzk5OTYsMzg5Mzg4
+Mjc2LDIxMTUwMTUxNDgsLTEyMDA0NDMzNDcsLTE0Njc2NTY5Nz
+EsMTg0MjMxODExOCwxMjU3MTExNzc1LDEzNzgwOTE5MDMsLTIw
+MTgwMDM5NDMsMTk4MzM2NzEyNywtNjM4MTk3Mzc2LDEwMzk4OT
+YsMTMxNzE0NzE4NCw4MjEwNzk4MTgsLTExNzI3ODc1MDksLTU5
+Njk5NjgxXX0=
 -->
