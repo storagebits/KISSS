@@ -105,16 +105,16 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
  **4. Post processing** <br>
 	 After your capture is done , you'll have a folder full of pictures. Now it's time to post process them. In my case I needed to crop, mirror and rotate them. All those step are configurable and optional. At the very final stage, and if you want to, the post process script can push your pictures to a Nextcloud instance of your choice for better visualisation (and backups).<br>
 	There are few variables to edit at the begining of the post-processing.py script : <br><br>
-***baseFolder*** : Base folder where folders and pictures will be created<br>
+***baseFolder*** : Base folder where folders and pictures will be processed<br>
 ***cropping*** : 1 or 0 , enable or disable intelligent cropping (very useful if you're not able to have the whole frame when taking pictures)<br>
 ***treeshold*** : value between 0 and 100 . Treeshold used by the intelligent cropping. <br>
 ***mirroring*** : 1 or 0 , enable or disable automatic mirroring of the picture.<br>
 ***rotating*** : 1 or 0 ,  enable or disable automatic rotation of the picture.<br>
 ***degrees*** : value between 0 and 360 . Degrees value to rotate the picture.<br>
-***clouding*** : 1 or 0 ,  enable or disable automatic upload to a nextcloud instance (see below for nextcloud instance configuration).<br>
-
- **5. Enjoy your memories in the cloud** <br>
-	TODO
+***clouding*** : 1 or 0 ,  enable or disable automatic upload to a nextcloud instance (see below for nextcloud instance configuration).<br><br>
+    ./post-processing.py 001
+    <br><br>
+    This command will launch a 50 slides scan in a row and put raw files into baseFolder/001 folder.
 
 # Samples
 Here are some samples of my scans. More to come ...
@@ -127,11 +127,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODcwODA1NzMsNjM2NzQ3NDQxLDE3MT
-AyMTA5ODksMTc0Nzg0NjY4NCwxNzA4MDUxNTYwLDcyNDA0MzA1
-MCwtMjg2NDAyNzEyLDkxOTI1MTExLC0xNjE5MjUwOTkwLDIwNT
-Q5MTQ3NTcsMjY2NjE1NTgzLDU2NzQ0Mzc5MywtNzA1NTAwNTA1
-LC0xMTIzNjk3MTEzLC04MzU3MzA4NTQsMTg0NDgzOTk5NiwzOD
-kzODgyNzYsMjExNTAxNTE0OCwtMTIwMDQ0MzM0NywtMTQ2NzY1
-Njk3MV19
+eyJoaXN0b3J5IjpbOTM1MTM0NTAsLTEyODcwODA1NzMsNjM2Nz
+Q3NDQxLDE3MTAyMTA5ODksMTc0Nzg0NjY4NCwxNzA4MDUxNTYw
+LDcyNDA0MzA1MCwtMjg2NDAyNzEyLDkxOTI1MTExLC0xNjE5Mj
+UwOTkwLDIwNTQ5MTQ3NTcsMjY2NjE1NTgzLDU2NzQ0Mzc5Mywt
+NzA1NTAwNTA1LC0xMTIzNjk3MTEzLC04MzU3MzA4NTQsMTg0ND
+gzOTk5NiwzODkzODgyNzYsMjExNTAxNTE0OCwtMTIwMDQ0MzM0
+N119
 -->
