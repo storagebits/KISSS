@@ -33,6 +33,9 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 	 
  - **Raspberry Pi** 
 	 - I use a Raspberry 4 but all of them should work. Keep in mind that if you do some post processing operations, the more cpu/ram it has, faster it'll run !
+	 - 	 <p><a href="https://github.com/storagebits/KISSS/blob/master/images/raspberry4.jpg.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/raspberry4.jpg?raw=true" align="left" width="200" ></a>
+ </p>
+ <br><br><br><br><br><br><br><br><br>
 
  - **Relay module**
 	 - A simple relay module which is used to control the slide projector from the Raspberry Pi's GPIO.
@@ -103,11 +106,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDgzOTk5NiwzODkzODgyNzYsMjExNT
-AxNTE0OCwtMTIwMDQ0MzM0NywtMTQ2NzY1Njk3MSwxODQyMzE4
-MTE4LDEyNTcxMTE3NzUsMTM3ODA5MTkwMywtMjAxODAwMzk0My
-wxOTgzMzY3MTI3LC02MzgxOTczNzYsMTAzOTg5NiwxMzE3MTQ3
-MTg0LDgyMTA3OTgxOCwtMTE3Mjc4NzUwOSwtNTk2OTk2ODEsMT
-Q1NjgyODQyNSwtODI0MjYzNTkwLC00OTA5OTE0NzYsLTI1NzM4
-NDA3OF19
+eyJoaXN0b3J5IjpbLTQ1MjI5NjU4MSwxODQ0ODM5OTk2LDM4OT
+M4ODI3NiwyMTE1MDE1MTQ4LC0xMjAwNDQzMzQ3LC0xNDY3NjU2
+OTcxLDE4NDIzMTgxMTgsMTI1NzExMTc3NSwxMzc4MDkxOTAzLC
+0yMDE4MDAzOTQzLDE5ODMzNjcxMjcsLTYzODE5NzM3NiwxMDM5
+ODk2LDEzMTcxNDcxODQsODIxMDc5ODE4LC0xMTcyNzg3NTA5LC
+01OTY5OTY4MSwxNDU2ODI4NDI1LC04MjQyNjM1OTAsLTQ5MDk5
+MTQ3Nl19
 -->
