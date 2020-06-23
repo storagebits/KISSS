@@ -117,7 +117,34 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
     This command will post process all files found in baseFolder/001 folder and put resulting files into baseFolder/001/processed/ and to your Nextcloud instance (if configured) .
 
 # Configuring your Nextcloud instance
-TODO
+
+There are two configuration files that need to be edited 
+
+#### [](https://github.com/tavinus/cloudmanager#cloudmanagerserver)`cloudmanager.server`
+
+Defines the target server domain, protocol and port
+
+```
+# Edit the shell variables below
+CLOUDSERVERDOMAIN='cloud.domain.tld'
+CLOUDSERVERPROTOCOL='https://'
+CLOUDSERVERPORT=443
+
+```
+
+#### [](https://github.com/tavinus/cloudmanager#cloudmanageraccounts)`cloudmanager.accounts`
+
+Defines the usernames/passwords to be used  
+_The first user is used as default_
+
+```
+---- Add accounts one per line, as in USERNAME:PASSWORD
+---- You can use an "App Password" to access your account (instead of your regular password)
+---- Settings > Personal > Security > Enter App Name > Create new app password
+---- The first user is the default user, the rest can be used with -u <usernamme>
+---- Lines starting with four dashes will be ignored
+myUsername:myPassword
+```
 
 # Samples
 Here are some samples of my scans. More to come ...
@@ -130,11 +157,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NjM5NDUyMywxMTMwNTU3MTcwLC0xMj
-g3MDgwNTczLDYzNjc0NzQ0MSwxNzEwMjEwOTg5LDE3NDc4NDY2
-ODQsMTcwODA1MTU2MCw3MjQwNDMwNTAsLTI4NjQwMjcxMiw5MT
-kyNTExMSwtMTYxOTI1MDk5MCwyMDU0OTE0NzU3LDI2NjYxNTU4
-Myw1Njc0NDM3OTMsLTcwNTUwMDUwNSwtMTEyMzY5NzExMywtOD
-M1NzMwODU0LDE4NDQ4Mzk5OTYsMzg5Mzg4Mjc2LDIxMTUwMTUx
-NDhdfQ==
+eyJoaXN0b3J5IjpbMTE1ODI2NTU5LC01NjYzOTQ1MjMsMTEzMD
+U1NzE3MCwtMTI4NzA4MDU3Myw2MzY3NDc0NDEsMTcxMDIxMDk4
+OSwxNzQ3ODQ2Njg0LDE3MDgwNTE1NjAsNzI0MDQzMDUwLC0yOD
+Y0MDI3MTIsOTE5MjUxMTEsLTE2MTkyNTA5OTAsMjA1NDkxNDc1
+NywyNjY2MTU1ODMsNTY3NDQzNzkzLC03MDU1MDA1MDUsLTExMj
+M2OTcxMTMsLTgzNTczMDg1NCwxODQ0ODM5OTk2LDM4OTM4ODI3
+Nl19
 -->
