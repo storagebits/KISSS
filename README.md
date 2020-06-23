@@ -112,11 +112,11 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
 ***degrees*** : value between 0 and 360 . Degrees value to rotate the picture.<br>
 ***clouding*** : 1 or 0 ,  enable or disable automatic upload to a nextcloud instance (see below for nextcloud instance configuration).<br>
 ***remote_path*** : remote folder on your Nextcloud instance.<br><br>
-    ./post-processing.py 001
+       
+     ./post-processing.py 001
+<br><br>
     
-    <br><br>
-    
-  This command will post process all files found in baseFolder/001 folder and put resulting files into baseFolder/001/processed/ and to your Nextcloud instance (if configured).
+ This command will post process all files found in baseFolder/001 folder and put resulting files into baseFolder/001/processed/ and to your Nextcloud instance (if configured).
 
 # Configuring upload to your Nextcloud instance (optional)
 
@@ -159,7 +159,7 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMzg0OTM0NCwtMTQxMTU1NDI2LC01Nj
+eyJoaXN0b3J5IjpbLTQ1NzM3MjY5NCwtMTQxMTU1NDI2LC01Nj
 YzOTQ1MjMsMTEzMDU1NzE3MCwtMTI4NzA4MDU3Myw2MzY3NDc0
 NDEsMTcxMDIxMDk4OSwxNzQ3ODQ2Njg0LDE3MDgwNTE1NjAsNz
 I0MDQzMDUwLC0yODY0MDI3MTIsOTE5MjUxMTEsLTE2MTkyNTA5
