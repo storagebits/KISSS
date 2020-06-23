@@ -154,16 +154,19 @@ Here are some samples of my scans. More to come ...
 <a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-italy-old.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-italy-old.jpg?raw=true" align="left" width="200" ></a>
 <a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-lille.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-lille.jpg?raw=true" align="left" width="200" ></a>
 <a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-calais.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-calais.jpg?raw=true" align="left" width="200" ></a>
+<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-biere.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-biere.jpg?raw=true" align="left" width="200" ></a>
+<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-venise.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-venise.jpg?raw=true" align="left" width="200" ></a>
+<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-biere.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-biere.jpg?raw=true" align="left" width="200" ></a>
 
 <br><br><br><br><br><br><br><br><br><br>
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTg5MjgyMCwtNDU3MzcyNjk0LC0xND
-ExNTU0MjYsLTU2NjM5NDUyMywxMTMwNTU3MTcwLC0xMjg3MDgw
-NTczLDYzNjc0NzQ0MSwxNzEwMjEwOTg5LDE3NDc4NDY2ODQsMT
-cwODA1MTU2MCw3MjQwNDMwNTAsLTI4NjQwMjcxMiw5MTkyNTEx
-MSwtMTYxOTI1MDk5MCwyMDU0OTE0NzU3LDI2NjYxNTU4Myw1Nj
-c0NDM3OTMsLTcwNTUwMDUwNSwtMTEyMzY5NzExMywtODM1NzMw
-ODU0XX0=
+eyJoaXN0b3J5IjpbMTE0MDQwNDg0OSwxODk1ODkyODIwLC00NT
+czNzI2OTQsLTE0MTE1NTQyNiwtNTY2Mzk0NTIzLDExMzA1NTcx
+NzAsLTEyODcwODA1NzMsNjM2NzQ3NDQxLDE3MTAyMTA5ODksMT
+c0Nzg0NjY4NCwxNzA4MDUxNTYwLDcyNDA0MzA1MCwtMjg2NDAy
+NzEyLDkxOTI1MTExLC0xNjE5MjUwOTkwLDIwNTQ5MTQ3NTcsMj
+Y2NjE1NTgzLDU2NzQ0Mzc5MywtNzA1NTAwNTA1LC0xMTIzNjk3
+MTEzXX0=
 -->
