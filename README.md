@@ -111,9 +111,8 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
 ***rotating*** : 1 or 0 ,  enable or disable automatic rotation of the picture.<br>
 ***degrees*** : value between 0 and 360 . Degrees value to rotate the picture.<br>
 ***clouding*** : 1 or 0 ,  enable or disable automatic upload to a nextcloud instance (see below for nextcloud instance configuration).<br>
-***remote_path*** : remote folder on your Nextcloud instance 
+***remote_path*** : remote folder on your Nextcloud instance <br><br>
 
-<br><br>
     ./post-processing.py 001
     <br><br>
     This command will post process all files found in baseFolder/001 folder and put resulting files into baseFolder/001/processed/ and to your Nextcloud instance (if configured) .
@@ -159,11 +158,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5MDE4NTEwLC0xNDExNTU0MjYsLTU2Nj
-M5NDUyMywxMTMwNTU3MTcwLC0xMjg3MDgwNTczLDYzNjc0NzQ0
-MSwxNzEwMjEwOTg5LDE3NDc4NDY2ODQsMTcwODA1MTU2MCw3Mj
-QwNDMwNTAsLTI4NjQwMjcxMiw5MTkyNTExMSwtMTYxOTI1MDk5
-MCwyMDU0OTE0NzU3LDI2NjYxNTU4Myw1Njc0NDM3OTMsLTcwNT
-UwMDUwNSwtMTEyMzY5NzExMywtODM1NzMwODU0LDE4NDQ4Mzk5
-OTZdfQ==
+eyJoaXN0b3J5IjpbLTEyMzM4MzIyMjQsLTE0MTE1NTQyNiwtNT
+Y2Mzk0NTIzLDExMzA1NTcxNzAsLTEyODcwODA1NzMsNjM2NzQ3
+NDQxLDE3MTAyMTA5ODksMTc0Nzg0NjY4NCwxNzA4MDUxNTYwLD
+cyNDA0MzA1MCwtMjg2NDAyNzEyLDkxOTI1MTExLC0xNjE5MjUw
+OTkwLDIwNTQ5MTQ3NTcsMjY2NjE1NTgzLDU2NzQ0Mzc5MywtNz
+A1NTAwNTA1LC0xMTIzNjk3MTEzLC04MzU3MzA4NTQsMTg0NDgz
+OTk5Nl19
 -->
