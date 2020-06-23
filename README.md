@@ -105,7 +105,7 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
  **4. Post processing** <br>
 	 After your capture is done , you'll have a folder full of pictures. Now it's time to post process them. In my case I needed to crop, mirror and rotate them. All those step are configurable and optional. At the very final stage, and if you want to, the post process script can push your pictures to a Nextcloud instance of your choice for better visualisation (and backups).<br>
 	There are few variables to edit at the begining of the post-processing.py script : <br><br>
-	.
+	
 ***baseFolder*** : Base folder where folders and pictures will be processed<br>
 ***cropping*** : 1 or 0 , enable or disable intelligent cropping (very useful if you're not able to have the whole frame when taking pictures)<br>
 ***treeshold*** : value between 0 and 100 . Treeshold used by the intelligent cropping. <br>
@@ -158,11 +158,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NzE5MTYzMSwtNTY2Mzk0NTIzLDExMz
-A1NTcxNzAsLTEyODcwODA1NzMsNjM2NzQ3NDQxLDE3MTAyMTA5
-ODksMTc0Nzg0NjY4NCwxNzA4MDUxNTYwLDcyNDA0MzA1MCwtMj
-g2NDAyNzEyLDkxOTI1MTExLC0xNjE5MjUwOTkwLDIwNTQ5MTQ3
-NTcsMjY2NjE1NTgzLDU2NzQ0Mzc5MywtNzA1NTAwNTA1LC0xMT
-IzNjk3MTEzLC04MzU3MzA4NTQsMTg0NDgzOTk5NiwzODkzODgy
-NzZdfQ==
+eyJoaXN0b3J5IjpbLTE1OTcwMTA0MTEsLTU2NjM5NDUyMywxMT
+MwNTU3MTcwLC0xMjg3MDgwNTczLDYzNjc0NzQ0MSwxNzEwMjEw
+OTg5LDE3NDc4NDY2ODQsMTcwODA1MTU2MCw3MjQwNDMwNTAsLT
+I4NjQwMjcxMiw5MTkyNTExMSwtMTYxOTI1MDk5MCwyMDU0OTE0
+NzU3LDI2NjYxNTU4Myw1Njc0NDM3OTMsLTcwNTUwMDUwNSwtMT
+EyMzY5NzExMywtODM1NzMwODU0LDE4NDQ4Mzk5OTYsMzg5Mzg4
+Mjc2XX0=
 -->
