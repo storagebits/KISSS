@@ -117,7 +117,7 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
     <br><br>
     This command will post process all files found in baseFolder/001 folder and put resulting files into baseFolder/001/processed/ and to your Nextcloud instance (if configured) .
 
-# Configuring your Nextcloud instance
+# Configuring upload your Nextcloud instance
 
 There are two configuration files that need to be edited 
 
@@ -158,11 +158,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTcwMTA0MTEsLTU2NjM5NDUyMywxMT
-MwNTU3MTcwLC0xMjg3MDgwNTczLDYzNjc0NzQ0MSwxNzEwMjEw
-OTg5LDE3NDc4NDY2ODQsMTcwODA1MTU2MCw3MjQwNDMwNTAsLT
-I4NjQwMjcxMiw5MTkyNTExMSwtMTYxOTI1MDk5MCwyMDU0OTE0
-NzU3LDI2NjYxNTU4Myw1Njc0NDM3OTMsLTcwNTUwMDUwNSwtMT
-EyMzY5NzExMywtODM1NzMwODU0LDE4NDQ4Mzk5OTYsMzg5Mzg4
-Mjc2XX0=
+eyJoaXN0b3J5IjpbLTE0MTE1NTQyNiwtNTY2Mzk0NTIzLDExMz
+A1NTcxNzAsLTEyODcwODA1NzMsNjM2NzQ3NDQxLDE3MTAyMTA5
+ODksMTc0Nzg0NjY4NCwxNzA4MDUxNTYwLDcyNDA0MzA1MCwtMj
+g2NDAyNzEyLDkxOTI1MTExLC0xNjE5MjUwOTkwLDIwNTQ5MTQ3
+NTcsMjY2NjE1NTgzLDU2NzQ0Mzc5MywtNzA1NTAwNTA1LC0xMT
+IzNjk3MTEzLC04MzU3MzA4NTQsMTg0NDgzOTk5NiwzODkzODgy
+NzZdfQ==
 -->
