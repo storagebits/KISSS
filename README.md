@@ -98,8 +98,9 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
 		 
  **3. Capture**<br>
 		 You're now ready for the capture. Just launch KISSS.py with a name as parameter. In my case I use the slide box number as name to have a correspondance between folder name and physical slide box number.<br><br>
-    ./KISSS.py 001
-    <br><br>
+		 
+    ./post-processing.py 001    
+<br><br>
     This command will launch a 50 slides scan in a row and put raw files into baseFolder/001 folder.
     
  **4. Post processing** <br>
@@ -115,7 +116,6 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
        
      ./post-processing.py 001
 <br><br>
-    
  This command will post process all files found in baseFolder/001 folder and put resulting files into baseFolder/001/processed/ and to your Nextcloud instance (if configured).
 
 # Configuring upload to your Nextcloud instance (optional)
@@ -159,11 +159,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzM3MjY5NCwtMTQxMTU1NDI2LC01Nj
-YzOTQ1MjMsMTEzMDU1NzE3MCwtMTI4NzA4MDU3Myw2MzY3NDc0
-NDEsMTcxMDIxMDk4OSwxNzQ3ODQ2Njg0LDE3MDgwNTE1NjAsNz
-I0MDQzMDUwLC0yODY0MDI3MTIsOTE5MjUxMTEsLTE2MTkyNTA5
-OTAsMjA1NDkxNDc1NywyNjY2MTU1ODMsNTY3NDQzNzkzLC03MD
-U1MDA1MDUsLTExMjM2OTcxMTMsLTgzNTczMDg1NCwxODQ0ODM5
-OTk2XX0=
+eyJoaXN0b3J5IjpbLTQwOTA2NDgwMSwtNDU3MzcyNjk0LC0xND
+ExNTU0MjYsLTU2NjM5NDUyMywxMTMwNTU3MTcwLC0xMjg3MDgw
+NTczLDYzNjc0NzQ0MSwxNzEwMjEwOTg5LDE3NDc4NDY2ODQsMT
+cwODA1MTU2MCw3MjQwNDMwNTAsLTI4NjQwMjcxMiw5MTkyNTEx
+MSwtMTYxOTI1MDk5MCwyMDU0OTE0NzU3LDI2NjYxNTU4Myw1Nj
+c0NDM3OTMsLTcwNTUwMDUwNSwtMTEyMzY5NzExMywtODM1NzMw
+ODU0XX0=
 -->
