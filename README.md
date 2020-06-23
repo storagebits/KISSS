@@ -99,7 +99,7 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
  **3. Capture**<br>
 		 You're now ready for the capture. Just launch KISSS.py with a name as parameter. In my case I use the slide box number as name to have a correspondance between folder name and physical slide box number.<br><br>
 		 
-    ./post-processing.py 001    
+    ./KISSS.py 001    
 <br><br>
     This command will launch a 50 slides scan in a row and put raw files into baseFolder/001 folder.
     
@@ -159,7 +159,7 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTA2NDgwMSwtNDU3MzcyNjk0LC0xND
+eyJoaXN0b3J5IjpbMTg5NTg5MjgyMCwtNDU3MzcyNjk0LC0xND
 ExNTU0MjYsLTU2NjM5NDUyMywxMTMwNTU3MTcwLC0xMjg3MDgw
 NTczLDYzNjc0NzQ0MSwxNzEwMjEwOTg5LDE3NDc4NDY2ODQsMT
 cwODA1MTU2MCw3MjQwNDMwNTAsLTI4NjQwMjcxMiw5MTkyNTEx
