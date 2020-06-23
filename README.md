@@ -156,17 +156,19 @@ Here are some samples of my scans. More to come ...
 <a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-calais.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-calais.jpg?raw=true" align="left" width="200" ></a>
 <a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-biere.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-biere.jpg?raw=true" align="left" width="200" ></a>
 <a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-venise.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-venise.jpg?raw=true" align="left" width="200" ></a>
-<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-biere.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-biere.jpg?raw=true" align="left" width="200" ></a>
+<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-fleur2.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-fleur2.jpg?raw=true" align="left" width="200" ></a>
+<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-train.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-train.jpg?raw=true" align="left" width="200" ></a>
+<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-fleur.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-fleur.jpg?raw=true" align="left" width="200" ></a>
 
 <br><br><br><br><br><br><br><br><br><br>
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDQwNDg0OSwxODk1ODkyODIwLC00NT
-czNzI2OTQsLTE0MTE1NTQyNiwtNTY2Mzk0NTIzLDExMzA1NTcx
-NzAsLTEyODcwODA1NzMsNjM2NzQ3NDQxLDE3MTAyMTA5ODksMT
-c0Nzg0NjY4NCwxNzA4MDUxNTYwLDcyNDA0MzA1MCwtMjg2NDAy
-NzEyLDkxOTI1MTExLC0xNjE5MjUwOTkwLDIwNTQ5MTQ3NTcsMj
-Y2NjE1NTgzLDU2NzQ0Mzc5MywtNzA1NTAwNTA1LC0xMTIzNjk3
-MTEzXX0=
+eyJoaXN0b3J5IjpbNDg4NTU4OTE5LDE4OTU4OTI4MjAsLTQ1Nz
+M3MjY5NCwtMTQxMTU1NDI2LC01NjYzOTQ1MjMsMTEzMDU1NzE3
+MCwtMTI4NzA4MDU3Myw2MzY3NDc0NDEsMTcxMDIxMDk4OSwxNz
+Q3ODQ2Njg0LDE3MDgwNTE1NjAsNzI0MDQzMDUwLC0yODY0MDI3
+MTIsOTE5MjUxMTEsLTE2MTkyNTA5OTAsMjA1NDkxNDc1NywyNj
+Y2MTU1ODMsNTY3NDQzNzkzLC03MDU1MDA1MDUsLTExMjM2OTcx
+MTNdfQ==
 -->
