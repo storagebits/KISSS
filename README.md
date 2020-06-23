@@ -106,18 +106,19 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
 	 After your capture is done , you'll have a folder full of pictures. Now it's time to post process them. In my case I needed to crop, mirror and rotate them. <br>All those step are configurable and optional. <br>At the very final stage, and if you want to, the post process script can push your pictures to a Nextcloud instance of your choice for better visualisation (and backups).<br><br>
 	There are few variables to edit at the begining of the post-processing.py script : <br><br>
 	
-***baseFolder*** : Base folder where folders and pictures will be processed<br>
+***baseFolder*** : Base folder where folders and pictures will be processed.<br>
 ***mirroring*** : 1 or 0 , enable or disable automatic mirroring of the picture.<br>
 ***rotating*** : 1 or 0 ,  enable or disable automatic rotation of the picture.<br>
 ***degrees*** : value between 0 and 360 . Degrees value to rotate the picture.<br>
 ***clouding*** : 1 or 0 ,  enable or disable automatic upload to a nextcloud instance (see below for nextcloud instance configuration).<br>
-***remote_path*** : remote folder on your Nextcloud instance <br><br>
-
+***remote_path*** : remote folder on your Nextcloud instance.<br><br>
     ./post-processing.py 001
+    
     <br><br>
-    This command will post process all files found in baseFolder/001 folder and put resulting files into baseFolder/001/processed/ and to your Nextcloud instance (if configured) .
+    
+  This command will post process all files found in baseFolder/001 folder and put resulting files into baseFolder/001/processed/ and to your Nextcloud instance (if configured).
 
-# Configuring upload your Nextcloud instance
+# Configuring upload to your Nextcloud instance (optional)
 
 There are two configuration files that need to be edited 
 
@@ -158,11 +159,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDgwODUwMDIsLTE0MTE1NTQyNiwtNT
-Y2Mzk0NTIzLDExMzA1NTcxNzAsLTEyODcwODA1NzMsNjM2NzQ3
-NDQxLDE3MTAyMTA5ODksMTc0Nzg0NjY4NCwxNzA4MDUxNTYwLD
-cyNDA0MzA1MCwtMjg2NDAyNzEyLDkxOTI1MTExLC0xNjE5MjUw
-OTkwLDIwNTQ5MTQ3NTcsMjY2NjE1NTgzLDU2NzQ0Mzc5MywtNz
-A1NTAwNTA1LC0xMTIzNjk3MTEzLC04MzU3MzA4NTQsMTg0NDgz
-OTk5Nl19
+eyJoaXN0b3J5IjpbLTUwMzg0OTM0NCwtMTQxMTU1NDI2LC01Nj
+YzOTQ1MjMsMTEzMDU1NzE3MCwtMTI4NzA4MDU3Myw2MzY3NDc0
+NDEsMTcxMDIxMDk4OSwxNzQ3ODQ2Njg0LDE3MDgwNTE1NjAsNz
+I0MDQzMDUwLC0yODY0MDI3MTIsOTE5MjUxMTEsLTE2MTkyNTA5
+OTAsMjA1NDkxNDc1NywyNjY2MTU1ODMsNTY3NDQzNzkzLC03MD
+U1MDA1MDUsLTExMjM2OTcxMTMsLTgzNTczMDg1NCwxODQ0ODM5
+OTk2XX0=
 -->
