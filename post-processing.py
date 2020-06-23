@@ -11,18 +11,18 @@ import sys
 # Folder where folders and pictures will be created
 baseFolder = "/home/pi/Desktop/KISSS_Capture/"
 
-# Mirroring
+# Mirroring (1:enable 0:disable)
 mirroring = 1
-HorizOrVert = "H"  # can be H or V 
 
-# Rotating
+# Rotating (1:enable 0:disable)
 rotating = 1
 degrees = 90
 
-# Push to nextcloud
+# Nextcloud (1:enable 0:disable)
 clouding = 1
 remote_path = "Photos/DIAPOS/"
 
+# Counter
 j = 0
 
 ################################################ FUNCTIONS ################################################
