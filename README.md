@@ -107,12 +107,13 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
 	There are few variables to edit at the begining of the post-processing.py script : <br><br>
 	
 ***baseFolder*** : Base folder where folders and pictures will be processed<br>
-***cropping*** : 1 or 0 , enable or disable intelligent cropping (very useful if you're not able to have the whole frame when taking pictures)<br>
-***treeshold*** : value between 0 and 100 . Treeshold used by the intelligent cropping. <br>
 ***mirroring*** : 1 or 0 , enable or disable automatic mirroring of the picture.<br>
 ***rotating*** : 1 or 0 ,  enable or disable automatic rotation of the picture.<br>
 ***degrees*** : value between 0 and 360 . Degrees value to rotate the picture.<br>
-***clouding*** : 1 or 0 ,  enable or disable automatic upload to a nextcloud instance (see below for nextcloud instance configuration).<br><br>
+***clouding*** : 1 or 0 ,  enable or disable automatic upload to a nextcloud instance (see below for nextcloud instance configuration).<br>
+***remote_path*** : remote folder on your Nextcloud instance 
+
+<br><br>
     ./post-processing.py 001
     <br><br>
     This command will post process all files found in baseFolder/001 folder and put resulting files into baseFolder/001/processed/ and to your Nextcloud instance (if configured) .
@@ -158,11 +159,11 @@ Here are some samples of my scans. More to come ...
 
 #  Happy scanning ! and have fun digging into your memories !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTE1NTQyNiwtNTY2Mzk0NTIzLDExMz
-A1NTcxNzAsLTEyODcwODA1NzMsNjM2NzQ3NDQxLDE3MTAyMTA5
-ODksMTc0Nzg0NjY4NCwxNzA4MDUxNTYwLDcyNDA0MzA1MCwtMj
-g2NDAyNzEyLDkxOTI1MTExLC0xNjE5MjUwOTkwLDIwNTQ5MTQ3
-NTcsMjY2NjE1NTgzLDU2NzQ0Mzc5MywtNzA1NTAwNTA1LC0xMT
-IzNjk3MTEzLC04MzU3MzA4NTQsMTg0NDgzOTk5NiwzODkzODgy
-NzZdfQ==
+eyJoaXN0b3J5IjpbOTI5MDE4NTEwLC0xNDExNTU0MjYsLTU2Nj
+M5NDUyMywxMTMwNTU3MTcwLC0xMjg3MDgwNTczLDYzNjc0NzQ0
+MSwxNzEwMjEwOTg5LDE3NDc4NDY2ODQsMTcwODA1MTU2MCw3Mj
+QwNDMwNTAsLTI4NjQwMjcxMiw5MTkyNTExMSwtMTYxOTI1MDk5
+MCwyMDU0OTE0NzU3LDI2NjYxNTU4Myw1Njc0NDM3OTMsLTcwNT
+UwMDUwNSwtMTEyMzY5NzExMywtODM1NzMwODU0LDE4NDQ4Mzk5
+OTZdfQ==
 -->
