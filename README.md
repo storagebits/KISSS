@@ -141,10 +141,6 @@ _The first user is used as default_
 
 ```
 ---- Add accounts one per line, as in USERNAME:PASSWORD
----- You can use an "App Password" to access your account (instead of your regular password)
----- Settings > Personal > Security > Enter App Name > Create new app password
----- The first user is the default user, the rest can be used with -u <usernamme>
----- Lines starting with four dashes will be ignored
 myUsername:myPassword
 ```
 
@@ -163,12 +159,3 @@ Here are some samples of my scans. More to come ...
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #  Happy scanning ! and have fun digging into your memories !
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzM0NzMzLDQ4ODU1ODkxOSwxODk1OD
-kyODIwLC00NTczNzI2OTQsLTE0MTE1NTQyNiwtNTY2Mzk0NTIz
-LDExMzA1NTcxNzAsLTEyODcwODA1NzMsNjM2NzQ3NDQxLDE3MT
-AyMTA5ODksMTc0Nzg0NjY4NCwxNzA4MDUxNTYwLDcyNDA0MzA1
-MCwtMjg2NDAyNzEyLDkxOTI1MTExLC0xNjE5MjUwOTkwLDIwNT
-Q5MTQ3NTcsMjY2NjE1NTgzLDU2NzQ0Mzc5MywtNzA1NTAwNTA1
-XX0=
--->
