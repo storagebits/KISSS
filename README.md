@@ -19,6 +19,20 @@ Now you understand why I needed some automations to accomplish this task :-)
    
 My goal was to capture those 10'000 slides. First to keep all those memories in a safe place and also to have an easy and confortable way to watch them. Resulting scan quality is beyond my expectations. Far more than acceptable for display, maybe not enough for print. It depends of many factors. With this DIY scanner It takes about 3 minutes to scan a 50 slides's rack. With some optimizations (like working exclusively in RAM) it could even take a single minute. 
 
+### Samples
+Here are some samples of my scans. More to come ...
+
+<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-italy-old.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-italy-old.jpg?raw=true" align="left" width="200" ></a>
+<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-lille.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-lille.jpg?raw=true" align="left" width="200" ></a>
+<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-calais.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-calais.jpg?raw=true" align="left" width="200" ></a>
+<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-biere.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-biere.jpg?raw=true" align="left" width="200" ></a>
+<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-venise.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-venise.jpg?raw=true" align="left" width="200" ></a>
+<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-fleur2.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-fleur2.jpg?raw=true" align="left" width="200" ></a>
+<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-train.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-train.jpg?raw=true" align="left" width="200" ></a>
+<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-fleur.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-fleur.jpg?raw=true" align="left" width="200" ></a>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 ## Status
 
 Stable for its purpose, no longer developed (last change in 2020). It was built for one setup, a Canon 700D and a projector with a wired remote, and scanned a 50-slide rack in about 3 minutes. Provided as is: expect to adapt the pins, folders and post-processing to your own hardware.
@@ -118,7 +132,7 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
 ***baseFolder*** : Base folder where folders and pictures will be processed.<br>
 ***mirroring*** : 1 or 0 , enable or disable automatic mirroring of the picture.<br>
 ***rotating*** : 1 or 0 ,  enable or disable automatic rotation of the picture.<br>
-***degrees*** : value between 0 and 360 . Degrees value to rotate the picture.<br>
+***degrees*** : value between 0 and 360 . Degrees value to rotate the picture (currently ignored: the script always rotates by 180°).<br>
 ***clouding*** : 1 or 0 ,  enable or disable automatic upload to a nextcloud instance (see below for nextcloud instance configuration).<br>
 ***remote_path*** : remote folder on your Nextcloud instance.<br><br>
        
@@ -128,7 +142,7 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
 
 ## Configuration
 
-Everything is set in variables at the top of the two scripts (see steps 2 and 4 above): `baseFolder` and `relayPin` in `KISSS.py`, plus the optional character LCD pins and the `lcd` switch; `baseFolder`, `mirroring`, `rotating`, `degrees`, `clouding` and `remote_path` in `post-processing.py`.
+Everything is set in variables at the top of the two scripts (see steps 2 and 4 above): `baseFolder` and `relayPin` in `KISSS.py`, plus the optional character LCD pins and the `lcd` switch; `baseFolder`, `mirroring`, `rotating`, `degrees` (ignored for now: rotation is fixed at 180°), `clouding` and `remote_path` in `post-processing.py`.
 
 ### Upload to your Nextcloud instance (optional)
 
@@ -167,25 +181,11 @@ cloudmanager.sh      Nextcloud WebDAV client by Tavinus (third-party, see below)
 images/              photos of the build, the circuit and sample scans
 ```
 
-## Samples
-Here are some samples of my scans. More to come ...
-
-<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-italy-old.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-italy-old.jpg?raw=true" align="left" width="200" ></a>
-<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-lille.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-lille.jpg?raw=true" align="left" width="200" ></a>
-<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-calais.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-calais.jpg?raw=true" align="left" width="200" ></a>
-<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-biere.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-biere.jpg?raw=true" align="left" width="200" ></a>
-<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-venise.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-venise.jpg?raw=true" align="left" width="200" ></a>
-<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-fleur2.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-fleur2.jpg?raw=true" align="left" width="200" ></a>
-<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-train.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-train.jpg?raw=true" align="left" width="200" ></a>
-<a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-fleur.jpg?raw=true"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-fleur.jpg?raw=true" align="left" width="200" ></a>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
 **Happy scanning, and have fun digging into your memories!**
 
 ## Licence and credits
 
 KISSS is released under the [MIT licence](LICENSE), except `cloudmanager.sh`.
 
-- `cloudmanager.sh` is an unmodified copy of [Tavinus Cloud Manager](https://github.com/tavinus/cloudmanager) by Gustavo Arnosti Neves, released under the [GNU AGPL v3](https://github.com/tavinus/cloudmanager/blob/master/LICENSE); it keeps that licence.
+- `cloudmanager.sh` is an unmodified copy of version 0.1.9 of [Tavinus Cloud Manager](https://github.com/tavinus/cloudmanager) by Gustavo Arnosti Neves, released under the [GNU AGPL v3](https://github.com/tavinus/cloudmanager/blob/master/LICENSE); it keeps that licence.
 - Uses [gPhoto2](http://www.gphoto.org/) (GPL and LGPL), [OpenCV](https://opencv.org/) (Apache 2.0) and the Adafruit CircuitPython character LCD library (MIT), installed separately.
