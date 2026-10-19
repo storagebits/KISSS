@@ -45,7 +45,7 @@ Stable for its purpose, no longer developed (last change in 2020). It was built 
 	 
  - **Raspberry Pi** 
 	 - I use a Raspberry 4 but all of them should work. Keep in mind that if you do some post processing operations, the more cpu/ram it has, faster it'll run !
-	 <p><a href="https://github.com/storagebits/KISSS/blob/master/images/raspberry4.jpg.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/raspberry4.jpg?raw=true" align="left" width="200" ></a>
+	 <p><a href="https://github.com/storagebits/KISSS/blob/master/images/raspberry4.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/raspberry4.jpg?raw=true" align="left" width="200" ></a>
  </p>
  <br><br><br><br><br><br><br><br><br>
 
