@@ -1,11 +1,13 @@
 # K.I.S.S.S. - Keep It Simple Slide Scanner
 
-# About this project
+A DIY slide scanner: a Raspberry Pi advances an old slide projector through a relay and fires a DSLR through gPhoto2, then a Python script crops, mirrors and rotates the scans and can upload them to Nextcloud.
+
+![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/final.jpg?raw=true)
+
+## What it does
 K.I.S.S.S. Keep It Simple Slide Scanner is an other DIY slide scanner project. Here you'll find informations about how I went into this scanning project. It is provided "as is". For sure you'll need to adapt it to match your own installation.
 
 It uses a simple projector lens trick by adding a white midsole between  lenses which will illuminate the slides. It then allows a DSLR to capture a slide by photographing it directly from the projector instead of the projected picture. 
-
-![KISSS - Keep It Simple Slide Scanner](https://github.com/storagebits/KISSS/blob/master/images/final.jpg?raw=true)
 
 It uses a Raspberry Pi which control the slide projector via a simple relay module and a DSLR camera to capture the slides. Then it does some post processing operations and send it straight to the cloud ! oh yeah
 
@@ -17,7 +19,13 @@ Now you understand why I needed some automations to accomplish this task :-)
    
 My goal was to capture those 10'000 slides. First to keep all those memories in a safe place and also to have an easy and confortable way to watch them. Resulting scan quality is beyond my expectations. Far more than acceptable for display, maybe not enough for print. It depends of many factors. With this DIY scanner It takes about 3 minutes to scan a 50 slides's rack. With some optimizations (like working exclusively in RAM) it could even take a single minute. 
 
-# Hardware components
+## Status
+
+Stable for its purpose, no longer developed (last change in 2020). It was built for one setup, a Canon 700D and a projector with a wired remote, and scanned a 50-slide rack in about 3 minutes. Provided as is: expect to adapt the pins, folders and post-processing to your own hardware.
+
+## Getting started
+
+### Hardware components
  - **Slide projector with wired remote**
 	 - Wired remote from those times are easily "hackable". They're just made of electrical contacts. I kept the original 6 DIN connector which go to the projector and plugged the other side to a relay instead of the remote.
 	
@@ -59,7 +67,7 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
  </p>
  <br><br><br><br><br><br><br><br><br>
  
-# Software components
+### Software components
  - **Raspbian** (now called Raspberry Pi OS)
 	 - Raspbian is a [Debian](https://en.wikipedia.org/wiki/Debian "Debian")-based [operating system](https://en.wikipedia.org/wiki/Operating_system "Operating system") for [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi "Raspberry Pi"). [https://www.raspberrypi.org/downloads/raspberry-pi-os/]
 
@@ -72,18 +80,18 @@ My goal was to capture those 10'000 slides. First to keep all those memories in 
 	- I suggest this automated installer to have the lastest bits of this wonderful software : https://github.com/gonzalo/gphoto2-updater/  . This script allows to install last development and last stable releases of gphoto2 and libgphoto2 based on git repositories
 
 - **OpenCV library**
-	- OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. I use it in the post processing stage for multiple purposes : intelligent cropping (thx mec!) , mirroring , rotating, "final polish" , etc...
+	- OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. I use it in the post processing stage for multiple purposes : intelligent cropping (thanks, mate!) , mirroring , rotating, "final polish" , etc...
 
 - **Nextcloud**
 	- Nextcloud offers the industry-leading, on-premises content collaboration platform. Since I use this software since many years to store all my files and especially pictures, it was a natural choice to use it at final stage to push all my scans into it. I love the way I can browse my content, from my computer , my phone , my TV using Kodi through the webdav access , or whatever ... it has it all !
 	- To push pictures to a Nextcloud instance I use Tavinus Cloud Manager (https://github.com/tavinus/cloudmanager) . This is Nextcloud / Owncloud CLI Webdav Client which uses `curl`  to access the Nextcloud webdav service.
 
-# Circuit
+### Circuit
 <a href="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/KISSS-schema.png?raw=true">
 
 
 
-# Getting started
+### Scanning
 K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.py** and the post processing script called **post-processing.py**.
 
  **1. Setup your hardware**<br>
@@ -118,11 +126,15 @@ K.I.S.S.S. is just made of 2 main scripts. The "capture script" called **KISSS.p
 <br><br>
  This command will post process all files found in baseFolder/001 folder and put resulting files into baseFolder/001/processed/ and to your Nextcloud instance (if configured).
 
-# Configuring upload to your Nextcloud instance (optional)
+## Configuration
+
+Everything is set in variables at the top of the two scripts (see steps 2 and 4 above): `baseFolder` and `relayPin` in `KISSS.py`, plus the optional character LCD pins and the `lcd` switch; `baseFolder`, `mirroring`, `rotating`, `degrees`, `clouding` and `remote_path` in `post-processing.py`.
+
+### Upload to your Nextcloud instance (optional)
 
 There are two configuration files that need to be edited 
 
-#### [](https://github.com/tavinus/cloudmanager#cloudmanagerserver)`cloudmanager.server`
+#### `cloudmanager.server`
 
 Defines the target server domain, protocol and port
 
@@ -134,7 +146,7 @@ CLOUDSERVERPORT=443
 
 ```
 
-#### [](https://github.com/tavinus/cloudmanager#cloudmanageraccounts)`cloudmanager.accounts`
+#### `cloudmanager.accounts`
 
 Defines the usernames/passwords to be used  
 _The first user is used as default_
@@ -144,7 +156,18 @@ _The first user is used as default_
 myUsername:myPassword
 ```
 
-# Samples
+These two files hold your server address and password: they are listed in `.gitignore`, keep them out of git.
+
+## Project layout
+
+```
+KISSS.py             capture: advances the projector through the relay and shoots each slide with gPhoto2
+post-processing.py   crop, mirror, rotate (OpenCV), then optional upload to Nextcloud
+cloudmanager.sh      Nextcloud WebDAV client by Tavinus (third-party, see below)
+images/              photos of the build, the circuit and sample scans
+```
+
+## Samples
 Here are some samples of my scans. More to come ...
 
 <a href="https://github.com/storagebits/KISSS/blob/master/images/exemple-italy-old.jpg?raw=true" target="_blank"><img src="https://github.com/storagebits/KISSS/blob/master/images/exemple-italy-old.jpg?raw=true" align="left" width="200" ></a>
@@ -158,4 +181,11 @@ Here are some samples of my scans. More to come ...
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-#  Happy scanning ! and have fun digging into your memories !
+**Happy scanning, and have fun digging into your memories!**
+
+## Licence and credits
+
+KISSS is released under the [MIT licence](LICENSE), except `cloudmanager.sh`.
+
+- `cloudmanager.sh` is an unmodified copy of [Tavinus Cloud Manager](https://github.com/tavinus/cloudmanager) by Gustavo Arnosti Neves, released under the [GNU AGPL v3](https://github.com/tavinus/cloudmanager/blob/master/LICENSE); it keeps that licence.
+- Uses [gPhoto2](http://www.gphoto.org/) (GPL and LGPL), [OpenCV](https://opencv.org/) (Apache 2.0) and the Adafruit CircuitPython character LCD library (MIT), installed separately.
